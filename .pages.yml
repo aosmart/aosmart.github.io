@@ -325,9 +325,8 @@ content:
     view:
       fields: [title, author, date]
     fields:
-      - name: title
-        type: string
-        required: true
+      - name: titre
+        component: titre
       - name: author
         type: string
         required: true
@@ -337,8 +336,6 @@ content:
         list: true
         blockKey: type
         blocks:
-          - name: titre
-            component: titre
           - name: sous-titre
             component: sous-titre
           - name: sous-titre-avec-lien
