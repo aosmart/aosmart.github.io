@@ -1,0 +1,318 @@
+media:
+  input: public
+  output: /
+
+components:
+  titre:
+    label: Titre
+    type: object
+    fields:
+      - name: titre
+        label: Titre
+        type: string
+      - name: sous-texte
+        label: Sous-texte
+        type: string
+
+  sous-titre:
+    label: Sous-titre
+    type: object
+    fields:
+      - name: sous-titre
+        label: Sous-titre
+        type: string
+
+  sous-titre-avec-lien:
+    label: Sous-titre avec lien
+    type: object
+    fields:
+      - name: sous-titre
+        label: Sous-titre
+        type: string
+      - name: lien
+        label: Lien
+        type: string
+
+  paragraphe:
+    label: Paragraphe
+    type: object
+    fields:
+      - name: paragraphe
+        label: Paragraphe
+        type: rich-text
+
+  imageLegende:
+    label: Image + Légende
+    type: object
+    fields:
+      - name: image
+        label: Image
+        type: image
+      - name: legende
+        label: Légende
+        type: string
+      - name: alt
+        label: Texte alternatif
+        type: string
+
+  doubleImageLegende:
+    label: Double image + double légende
+    type: object
+    fields:
+      - name: image1
+        label: Image 1
+        type: image
+      - name: alt1
+        label: Texte alternatif image 1
+        type: string
+      - name: legende1
+        label: Légende image 1
+        type: string
+
+      - name: image2
+        label: Image 2
+        type: image
+      - name: alt2
+        label: Texte alternatif image 2
+        type: string
+      - name: legende2
+        label: Légende image 2
+        type: string
+
+  tableauLegende:
+    label: Tableau + légende
+    type: object
+    fields:
+      - name: titre
+        label: Titre du tableau
+        type: string
+
+      - name: legende
+        label: Légende
+        type: text
+
+      - name: fichier
+        label: Fichier CSV du tableau
+        type: file
+        description: Selectionnez un fichier .csv contenant les données du tableau.
+
+  graphiqueTempsReel:
+    label: Graphique en temps réel
+    type: object
+    fields:
+      - name: titre
+        label: Titre du graphique
+        type: string
+
+      - name: legende
+        label: Légende
+        type: string
+      - name: fichier
+        type: file
+
+  doubleGraphiqueTempsReel:
+    label: Double graphique en temps réel
+    type: object
+    fields:
+      - name: titre1
+        label: Titre du graphique 1
+        type: string
+
+      - name: legende1
+        label: Légende du graphique 1
+        type: string
+
+      - name: fichier1
+        label: Fichier du graphique 1
+        type: file
+
+      - name: titre2
+        label: Titre du graphique 2
+        type: string
+
+      - name: legende2
+        label: Légende du graphique 2
+        type: string
+
+      - name: fichier2
+        label: Fichier du graphique 2
+        type: file
+
+  membreEquipe:
+    label: Membre d'équipe
+    type: object
+    fields:
+      - name: nom
+        label: Nom
+        type: string
+
+      - name: sous-texte
+        label: Sous-texte
+        type: string
+
+      - name: description
+        label: Description
+        type: text
+
+      - name: photo
+        label: Photo
+        type: image
+
+content:
+  - name: Accueil
+    label: Accueil
+    type: file
+    path: src/pagesMarkdown/index.md
+
+    fields:
+      - name: Sections
+        label: Sections
+        type: block
+        list: true
+        blockKey: type
+        blocks:
+          - name: titre
+            component: titre
+          - name: sous-titre
+            component: sous-titre
+          - name: sous-titre-avec-lien
+            component: sous-titre-avec-lien
+          - name: paragraphe
+            component: paragraphe
+          - name: imageLegende
+            component: imageLegende
+          - name: doubleImageLegende
+            component: doubleImageLegende
+          - name: tableauLegende
+            component: tableauLegende
+          - name: graphiqueTempsReel
+            component: graphiqueTempsReel
+          - name: doubleGraphiqueTempsReel
+            component: doubleGraphiqueTempsReel
+
+  - name: pluie
+    label: Exclusion de pluie
+    type: file
+    path: src/pagesMarkdown/pluie.md
+
+    fields:
+      - name: Sections
+        label: Sections
+        type: block
+        list: true
+        blockKey: type
+        blocks:
+          - name: titre
+            component: titre
+          - name: sous-titre
+            component: sous-titre
+          - name: sous-titre-avec-lien
+            component: sous-titre-avec-lien
+          - name: paragraphe
+            component: paragraphe
+          - name: imageLegende
+            component: imageLegende
+          - name: doubleImageLegende
+            component: doubleImageLegende
+          - name: tableauLegende
+            component: tableauLegende
+          - name: graphiqueTempsReel
+            component: graphiqueTempsReel
+          - name: doubleGraphiqueTempsReel
+            component: doubleGraphiqueTempsReel
+
+  - name: meteo
+    label: Météorologie
+    type: file
+    path: src/pagesMarkdown/meteo.md
+
+    fields:
+      - name: Sections
+        label: Sections
+        type: block
+        list: true
+        blockKey: type
+        blocks:
+          - name: titre
+            component: titre
+          - name: sous-titre
+            component: sous-titre
+          - name: sous-titre-avec-lien
+            component: sous-titre-avec-lien
+          - name: paragraphe
+            component: paragraphe
+          - name: imageLegende
+            component: imageLegende
+          - name: doubleImageLegende
+            component: doubleImageLegende
+          - name: tableauLegende
+            component: tableauLegende
+          - name: graphiqueTempsReel
+            component: graphiqueTempsReel
+          - name: doubleGraphiqueTempsReel
+            component: doubleGraphiqueTempsReel
+
+  - name: carbone
+    label: Flux de carbone
+    type: file
+    path: src/pagesMarkdown/flux.md
+
+    fields:
+      - name: Sections
+        label: Sections
+        type: block
+        list: true
+        blockKey: type
+        blocks:
+          - name: titre
+            component: titre
+          - name: sous-titre
+            component: sous-titre
+          - name: sous-titre-avec-lien
+            component: sous-titre-avec-lien
+          - name: paragraphe
+            component: paragraphe
+          - name: imageLegende
+            component: imageLegende
+          - name: doubleImageLegende
+            component: doubleImageLegende
+          - name: tableauLegende
+            component: tableauLegende
+          - name: graphiqueTempsReel
+            component: graphiqueTempsReel
+          - name: doubleGraphiqueTempsReel
+            component: doubleGraphiqueTempsReel
+
+  - name: equipe
+    label: Équipe
+    type: file
+    path: src/pagesMarkdown/equipe.md
+
+    fields:
+      - name: Sections
+        label: Sections
+        type: block
+        list: true
+        blockKey: type
+        blocks:
+          - name: titre
+            component: titre
+          - name: sous-titre
+            component: sous-titre
+          - name: paragraphe
+            component: paragraphe
+          - name: membreEquipe
+            component: membreEquipe
+          - name: imageLegende
+            component: imageLegende
+          - name: doubleImageLegende
+            component: doubleImageLegende
+  - name: blogPosts
+    label: Blog
+    type: collection
+    path: src/blogposts
+    fields:
+      - name: title
+        type: string
+      - name: body
+        type: rich-text
