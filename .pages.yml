@@ -10,9 +10,11 @@ components:
       - name: titre
         label: Titre
         type: string
+        required: true
       - name: sous-texte
         label: Sous-texte
         type: string
+        required: true
 
   sous-titre:
     label: Sous-titre
@@ -21,6 +23,7 @@ components:
       - name: sous-titre
         label: Sous-titre
         type: string
+        required: true
 
   sous-titre-avec-lien:
     label: Sous-titre avec lien
@@ -28,10 +31,12 @@ components:
     fields:
       - name: sous-titre
         label: Sous-titre
-        type: string
+        type: 
+        required: true
       - name: lien
         label: Lien
         type: string
+        required: true
 
   paragraphe:
     label: Paragraphe
@@ -40,6 +45,7 @@ components:
       - name: paragraphe
         label: Paragraphe
         type: rich-text
+        required: true
 
   imageLegende:
     label: Image + Légende
@@ -48,12 +54,15 @@ components:
       - name: image
         label: Image
         type: image
+        required: true
       - name: legende
         label: Légende
         type: string
+        required: true
       - name: alt
         label: Texte alternatif
         type: string
+        required: true
 
   doubleImageLegende:
     label: Double image + double légende
@@ -62,81 +71,80 @@ components:
       - name: image1
         label: Image 1
         type: image
+        required: true
       - name: alt1
         label: Texte alternatif image 1
         type: string
+        required: true
       - name: legende1
         label: Légende image 1
         type: string
+        required: true
 
       - name: image2
         label: Image 2
         type: image
+        required: true
       - name: alt2
         label: Texte alternatif image 2
         type: string
+        required: true
       - name: legende2
         label: Légende image 2
         type: string
+        required: true
 
   tableauLegende:
     label: Tableau + légende
     type: object
     fields:
-      - name: titre
-        label: Titre du tableau
-        type: string
-
       - name: legende
         label: Légende
         type: text
+        required: true
 
       - name: fichier
         label: Fichier CSV du tableau
         type: file
         description: Selectionnez un fichier .csv contenant les données du tableau.
+        required: true
 
   graphiqueTempsReel:
     label: Graphique en temps réel
     type: object
     fields:
-      - name: titre
-        label: Titre du graphique
-        type: string
-
       - name: legende
         label: Légende
         type: string
+        required: true
       - name: fichier
         type: file
+        required: true
 
   doubleGraphiqueTempsReel:
     label: Double graphique en temps réel
     type: object
     fields:
-      - name: titre1
-        label: Titre du graphique 1
-        type: string
 
       - name: legende1
         label: Légende du graphique 1
         type: string
+        required: true
 
       - name: fichier1
         label: Fichier du graphique 1
         type: file
-
-      - name: titre2
-        label: Titre du graphique 2
-        type: string
+        required: true
 
       - name: legende2
         label: Légende du graphique 2
         type: string
+        required: true
 
       - name: fichier2
         label: Fichier du graphique 2
         type: file
+        required: true
 
   membreEquipe:
     label: Membre d'équipe
@@ -145,14 +153,17 @@ components:
       - name: nom
         label: Nom
         type: string
+        required: true
 
       - name: sous-texte
         label: Sous-texte
         type: string
+        required: true
 
       - name: description
         label: Description
         type: text
+        required: true
 
       - name: photo
         label: Photo
