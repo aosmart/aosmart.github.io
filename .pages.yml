@@ -322,6 +322,8 @@ content:
     label: Blog
     type: collection
     path: src/blogposts
+    view:
+      fields: [title, author, date]
     fields:
       - name: title
         type: string
