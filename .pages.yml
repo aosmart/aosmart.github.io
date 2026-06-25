@@ -334,7 +334,12 @@ content:
         type: string
         required: true
       - name: author
+        label: Auteur
         type: string
+        required: true
+      - name: date
+        label: Date
+        type: date
         required: true
       - name: Sections
         label: Sections
@@ -358,4 +363,3 @@ content:
             component: graphiqueTempsReel
           - name: doubleGraphiqueTempsReel
             component: doubleGraphiqueTempsReel
-        
