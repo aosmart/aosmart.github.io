@@ -40,7 +40,7 @@ Sections:
       ces changements.
   - type: sous-titre-avec-lien
     sous-titre: Simuler une sécheresse
-    lien: https://www.google.com/
+    lien: /pluie
   - type: paragraphe
     paragraphe: Pour comprendre les impacts des changements climatiques sur la forêt
       boréale, les chercheurs étudieront les effets de la sécheresse sur une
@@ -60,7 +60,7 @@ Sections:
       parcelle de forêt qui sera observée.
   - type: sous-titre-avec-lien
     sous-titre: Suivre la météo en temps réeel
-    lien: https://www.youtube.com/results?search_query=pages+cms
+    lien: /meteo
   - type: paragraphe
     paragraphe: Le professionnel de recherche Marc-André Lemay et Elena Barocci, une
       stagiaire italienne qui étudie à la maîtrise, s’affairent donc à installer
@@ -73,7 +73,7 @@ Sections:
       Gennaretti.
   - type: sous-titre-avec-lien
     sous-titre: Mesurer des flux ecosystémiques
-    lien: https://pagescms.org/docs/configuration/media/
+    lien: /flux
   - type: imageLegende
     image: /images/tour/20250613110406.jpg
     legende: It is a long established fact that a reader will be distracted by the
