@@ -1,0 +1,21 @@
+<div class="row">
+  <slot />
+</div>
+
+<style>
+  .row {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .row > * {
+    flex: 1;
+    min-width: 0;
+  }
+
+  @media (max-width: 768px) {
+    .row {
+      flex-direction: column;
+    }
+  }
+</style>

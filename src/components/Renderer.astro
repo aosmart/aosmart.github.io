@@ -3,6 +3,7 @@
 import { marked } from "marked";
 import HeaderAndLink from "../components/mise-en-page/HeaderAndLink.astro";
 import ImageAndCaption from "../components/mise-en-page/ImageAndCaption.astro";
+import Row from "../components/mise-en-page/Row.astro";
 const { sections } = Astro.props;
 ---
 
@@ -34,6 +35,17 @@ const { sections } = Astro.props;
           <ImageAndCaption description={section["legende"]}>
             <img src={section["image"]} alt={section["alt"]} />
           </ImageAndCaption>
+        );
+      case "doubleImageLegende":
+        return (
+          <Row>
+            <ImageAndCaption description={section["legende1"]}>
+              <img src={section["image1"]} alt={section["alt1"]} />
+            </ImageAndCaption>
+            <ImageAndCaption description={section["legende2"]}>
+              <img src={section["image2"]} alt={section["alt2"]} />
+            </ImageAndCaption>
+          </Row>
         );
       default:
         return <p>{section.type}</p>;
