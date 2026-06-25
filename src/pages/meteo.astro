@@ -1,0 +1,21 @@
+---
+import Base from "../layouts/Base.astro";
+import { site } from "../content/site";
+
+const title = "Météorologie";
+import Renderer from "../components/Renderer.astro";
+
+import { frontmatter } from "../pagesMarkdown/meteo.md";
+
+const { Sections } = frontmatter;
+---
+
+<Base
+  title={title}
+  description={`Météorologie ${site.name}`}
+  canonicalPath="/meteo"
+>
+  <article class="prose">
+    <Renderer sections={Sections} />
+  </article>
+</Base>

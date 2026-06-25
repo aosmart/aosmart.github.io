@@ -1,0 +1,21 @@
+---
+import Base from "../layouts/Base.astro";
+import { site } from "../content/site";
+
+const title = "Exclusion de pluie";
+import Renderer from "../components/Renderer.astro";
+
+import { frontmatter } from "../pagesMarkdown/pluie.md";
+
+const { Sections } = frontmatter;
+---
+
+<Base
+  title={title}
+  description={`Exclusion de pluie ${site.name}`}
+  canonicalPath="/pluie"
+>
+  <article class="prose">
+    <Renderer sections={Sections} />
+  </article>
+</Base>

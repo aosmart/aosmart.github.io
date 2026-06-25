@@ -1,0 +1,42 @@
+---
+// src/components/Renderer.astro
+import { marked } from "marked";
+import HeaderAndLink from "../components/mise-en-page/HeaderAndLink.astro";
+import ImageAndCaption from "../components/mise-en-page/ImageAndCaption.astro";
+const { sections } = Astro.props;
+---
+
+{
+  sections?.map((section) => {
+    switch (section.type) {
+      case "titre":
+        return (
+          <>
+            <h1>{section["titre"]}</h1>
+            <p class="lead">{section["sous-texte"]}</p>
+          </>
+        );
+      case "sous-titre":
+        return <h2>{section["sous-titre"]}</h2>;
+
+      case "sous-titre-avec-lien":
+        return (
+          <HeaderAndLink href={section["lien"]}>
+            {section["sous-titre"]}
+          </HeaderAndLink>
+        );
+
+      case "paragraphe":
+        return <div set:html={marked.parse(section.paragraphe)} />;
+
+      case "imageLegende":
+        return (
+          <ImageAndCaption description={section["legende"]}>
+            <img src={section["image"]} alt={section["alt"]} />
+          </ImageAndCaption>
+        );
+      default:
+        return <p>{section.type}</p>;
+    }
+  })
+}

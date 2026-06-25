@@ -1,0 +1,17 @@
+---
+import Base from "../layouts/Base.astro";
+import { site } from "../content/site";
+
+const title = "Équipe";
+import Renderer from "../components/Renderer.astro";
+
+import { frontmatter } from "../pagesMarkdown/equipe.md";
+
+const { Sections } = frontmatter;
+---
+
+<Base title={title} description={`Équipe ${site.name}`} canonicalPath="/equipe">
+  <article class="prose">
+    <Renderer sections={Sections} />
+  </article>
+</Base>

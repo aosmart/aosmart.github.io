@@ -1,0 +1,38 @@
+---
+interface Props {
+  description: string;
+}
+
+const { description } = Astro.props;
+---
+
+<div class="image-card">
+  <div class="image-card__content">
+    <slot />
+  </div>
+
+  <p class="image-card__caption">{description}</p>
+</div>
+
+<style>
+  .image-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .image-card__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+  }
+
+  .image-card__content :global(img) {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  .image-card__caption {
+    color: var(--muted);
+  }
+</style>

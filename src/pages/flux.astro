@@ -1,0 +1,21 @@
+---
+import Base from "../layouts/Base.astro";
+import { site } from "../content/site";
+
+const title = "Flux de carbone";
+import Renderer from "../components/Renderer.astro";
+
+import { frontmatter } from "../pagesMarkdown/flux.md";
+
+const { Sections } = frontmatter;
+---
+
+<Base
+  title={title}
+  description={`Flux de carbone ${site.name}`}
+  canonicalPath="/flux"
+>
+  <article class="prose">
+    <Renderer sections={Sections} />
+  </article>
+</Base>
