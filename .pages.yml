@@ -325,5 +325,32 @@ content:
     fields:
       - name: title
         type: string
-      - name: body
-        type: rich-text
+        required: true
+      - name: author
+        type: string
+        required: true
+      - name: Sections
+        label: Sections
+        type: block
+        list: true
+        blockKey: type
+        blocks:
+          - name: titre
+            component: titre
+          - name: sous-titre
+            component: sous-titre
+          - name: sous-titre-avec-lien
+            component: sous-titre-avec-lien
+          - name: paragraphe
+            component: paragraphe
+          - name: imageLegende
+            component: imageLegende
+          - name: doubleImageLegende
+            component: doubleImageLegende
+          - name: tableauLegende
+            component: tableauLegende
+          - name: graphiqueTempsReel
+            component: graphiqueTempsReel
+          - name: doubleGraphiqueTempsReel
+            component: doubleGraphiqueTempsReel
+        
