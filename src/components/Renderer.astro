@@ -4,6 +4,8 @@ import { marked } from "marked";
 import HeaderAndLink from "../components/mise-en-page/HeaderAndLink.astro";
 import ImageAndCaption from "../components/mise-en-page/ImageAndCaption.astro";
 import Row from "../components/mise-en-page/Row.astro";
+import FakeChart from "../components/graphiques/FakeChart.astro";
+import TextAndSideImage from "../components/mise-en-page/TextAndSideImage.astro";
 const { sections } = Astro.props;
 ---
 
@@ -46,6 +48,31 @@ const { sections } = Astro.props;
               <img src={section["image2"]} alt={section["alt2"]} />
             </ImageAndCaption>
           </Row>
+        );
+      case "graphiqueTempsReel":
+        return (
+          <ImageAndCaption description={section["legende"]}>
+            <FakeChart />
+          </ImageAndCaption>
+        );
+      case "doubleGraphiqueTempsReel":
+        return (
+          <Row>
+            <ImageAndCaption description={section["legende1"]}>
+              <FakeChart />
+            </ImageAndCaption>
+            <ImageAndCaption description={section["legende2"]}>
+              <FakeChart />
+            </ImageAndCaption>
+          </Row>
+        );
+      case "membreEquipe":
+        return (
+          <TextAndSideImage src={section["photo"]} alt={section["nom"]}>
+            <h2>{section["nom"]}</h2>
+            <p class="lead">{section["sous-texte"]}</p>
+            <p>{section["description"]}</p>
+          </TextAndSideImage>
         );
       default:
         return <p>{section.type}</p>;

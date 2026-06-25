@@ -1,0 +1,191 @@
+---
+const sensors = [
+  { height: 40, temp: 18.2, humidity: 71, wind: 4.8, color: "#d95f02" },
+  { height: 30, temp: 17.9, humidity: 73, wind: 4.1, color: "#e6ab02" },
+  { height: 20, temp: 17.1, humidity: 76, wind: 3.2, color: "#66a61e" },
+  { height: 10, temp: 15.8, humidity: 82, wind: 2.1, color: "#1b9e77" },
+  { height: 2, temp: 14.6, humidity: 89, wind: 0.8, color: "#7570b3" },
+];
+
+const minHeight = Math.min(...sensors.map((s) => s.height));
+const maxHeight = Math.max(...sensors.map((s) => s.height));
+---
+
+<section class="tower-card">
+  <h2>Tour à flux</h2>
+  <p>
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    Lorem Ipsum has been the industry's standard dummy text ever since 1966.
+  </p>
+
+  <div class="tower-layout">
+    <div class="height-labels">
+      {sensors.map((sensor) => <span>{sensor.height} m</span>)}
+    </div>
+
+    <div class="tower">
+      <div class="tower-line"></div>
+      <div class="tower-base"></div>
+
+      {
+        sensors.map((sensor) => {
+          const position =
+            100 - ((sensor.height - minHeight) / (maxHeight - minHeight)) * 100;
+
+          return (
+            <button
+              class="sensor"
+              style={`top: ${position}%; --color: ${sensor.color};`}
+              data-height={sensor.height}
+              data-temp={sensor.temp}
+              data-humidity={sensor.humidity}
+              data-wind={sensor.wind}
+            >
+              <span class="sensor-dot" />
+              <span class="sensor-value">{sensor.temp} °C</span>
+            </button>
+          );
+        })
+      }
+    </div>
+
+    <div class="info-panel" id="tower-info-panel">
+      <h3>{sensors[0].height} m</h3>
+      <p><strong>Variable 1:</strong> {sensors[0].temp} °C</p>
+      <p><strong>Variable 2:</strong> {sensors[0].humidity}%</p>
+      <p><strong>Variable 3:</strong> {sensors[0].wind} m/s</p>
+    </div>
+  </div>
+</section>
+
+<script>
+  const sensors = document.querySelectorAll(".sensor");
+  const infoPanel = document.querySelector("#tower-info-panel");
+
+  sensors.forEach((sensor) => {
+    sensor.addEventListener("click", () => {
+      infoPanel.innerHTML = `
+        <h3>${sensor.dataset.height} m</h3>
+        <p><strong>Variable 1:</strong> ${sensor.dataset.temp} °C</p>
+        <p><strong>Variable 2:</strong> ${sensor.dataset.humidity}%</p>
+        <p><strong>Variable 3:</strong> ${sensor.dataset.wind} m/s</p>
+      `;
+    });
+  });
+</script>
+
+<style>
+  .tower-card {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 32px;
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  }
+
+  .tower-card h2 {
+    margin-top: 0;
+  }
+
+  .tower-layout {
+    display: grid;
+    grid-template-columns: 120px 1fr 220px;
+    gap: 24px;
+    align-items: center;
+    margin-top: 42px;
+    margin-bottom: 42px;
+  }
+
+  .height-labels {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: right;
+    font-size: 0.9rem;
+    color: #5b6b5b;
+  }
+
+  .tower {
+    position: relative;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tower-line {
+    position: absolute;
+    width: 8px;
+    height: 100%;
+    background: linear-gradient(#8a9a8a, #4f5f4f);
+    border-radius: 999px;
+  }
+
+  .tower-base {
+    position: absolute;
+    bottom: -10px;
+    width: 110px;
+    height: 12px;
+    background: #4f5f4f;
+    border-radius: 999px;
+  }
+
+  .sensor {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    background: none;
+    border: 0;
+    font: inherit;
+    color: inherit;
+  }
+
+  .sensor-dot {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: var(--color);
+    border: 4px solid white;
+    box-shadow:
+      0 0 0 2px var(--color),
+      0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .sensor-value {
+    background: #f1f5ef;
+    padding: 8px 12px;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    white-space: nowrap;
+  }
+
+  .info-panel {
+    background: #f1f5ef;
+    padding: 20px;
+    border-radius: 14px;
+  }
+
+  .info-panel h3 {
+    margin-top: 0;
+  }
+
+  @media (max-width: 700px) {
+    .tower-layout {
+      grid-template-columns: 70px 1fr;
+    }
+
+    .info-panel {
+      grid-column: 1 / -1;
+    }
+
+    .sensor-value {
+      font-size: 0.8rem;
+    }
+  }
+</style>

@@ -1,0 +1,43 @@
+---
+interface Props {
+  src: string;
+  alt: string;
+}
+
+const { src, alt } = Astro.props;
+---
+
+<div class="image-text">
+  <div class="image-text__text">
+    <slot />
+  </div>
+
+  <div class="image-text__image">
+    <img src={src} alt={alt} />
+  </div>
+</div>
+
+<style>
+  .image-text {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: var(--space-3);
+  }
+  .image-text__text {
+    flex: 3;
+  }
+
+  .image-text__image img {
+    height: 200px;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+  }
+
+  @media (max-width: 768px) {
+    .image-text {
+      flex-direction: column;
+    }
+  }
+</style>
