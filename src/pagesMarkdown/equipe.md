@@ -34,5 +34,4 @@ Sections:
       is also the holder of the Canada Research Chair in Dendroecology and
       Dendroclimatology, which aims to enhance knowledge about climate
       variability and tree functioning in the boreal region.
-    photo: /images/equipe/marc.jpg
 ---
