@@ -68,7 +68,10 @@ const { sections } = Astro.props;
         );
       case "membreEquipe":
         return (
-          <TextAndSideImage src={section["photo"]} alt={section["nom"]}>
+          <TextAndSideImage
+            src={section["photo"] || "/equipe/null.jpeg"}
+            alt={section["nom"]}
+          >
             <h2>{section["nom"]}</h2>
             <p class="lead">{section["sous-texte"]}</p>
             <p>{section["description"]}</p>
