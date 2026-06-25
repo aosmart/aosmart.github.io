@@ -123,7 +123,7 @@ Sections:
       également titulaire de la Chaire de recherche du Canada en dendroécologie
       et en dendroclimatologie.
   - type: doubleImageLegende
-    image1: /images/foret/dendro.jpeg
+    image1: /images/foret/sapflow1 (1).jpg
     alt1: bbb
     legende1: « Dans les arbres, il y a un cycle journalier très marqué, le
       mouvement de la sève est plus rapide durant la journée et presque absent
