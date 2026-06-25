@@ -1,11 +1,10 @@
 ---
-titre:
-  titre: My first Blog post
-  sous-texte: "Lorem Ipsum is simply dummy text of the printing and typesetting
-    industry. Lorem Ipsum has been the industry's standard dummy text ever since
-    1966, when designers at Letraset and James Mosley, the librarian at St Bride
-    Printing Library in London, took a 1914 Cicero translation and scrambled it
-    to make dummy text for Letraset's Body Type sheets. "
+titre: My first Blog post
+sous-texte: "Lorem Ipsum is simply dummy text of the printing and typesetting
+  industry. Lorem Ipsum has been the industry's standard dummy text ever since
+  1966, when designers at Letraset and James Mosley, the librarian at St Bride
+  Printing Library in London, took a 1914 Cicero translation and scrambled it
+  to make dummy text for Letraset's Body Type sheets. "
 author: Marc-André Lemay
 Sections:
   - type: paragraphe
@@ -34,14 +33,16 @@ Sections:
       non-characteristic words etc.
   - type: imageLegende
     image: /images/graphiques/humidite_sol_bouleaux.png
-    legende: It is a long established fact that a reader will be distracted by the
+    legende:
+      It is a long established fact that a reader will be distracted by the
       readable content of a page when looking at its layout. The point of using
       Lorem Ipsum is that it has a more-or-less normal distribution of letters,
       as opposed to using 'Content here, content here', making it look like
       readable English.
     alt: abc
   - type: paragraphe
-    paragraphe: There are many variations of passages of Lorem Ipsum available, but
+    paragraphe:
+      There are many variations of passages of Lorem Ipsum available, but
       the majority have suffered alteration in some form, by injected humour, or
       randomised words which don't look even slightly believable. If you are
       going to use a passage of Lorem Ipsum, you need to be sure there isn't
