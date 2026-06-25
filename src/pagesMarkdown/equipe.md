@@ -14,7 +14,7 @@ Sections:
       is also the holder of the Canada Research Chair in Dendroecology and
       Dendroclimatology, which aims to enhance knowledge about climate
       variability and tree functioning in the boreal region.
-    photo: /src/media/images/equipe/fabio.jpg
+    photo: /images/equipe/fabio.jpg
   - type: membreEquipe
     nom: Xavier Cavard
     sous-texte: This starter intentionally avoids UI kits, heavy abstractions, and
@@ -24,7 +24,7 @@ Sections:
       is also the holder of the Canada Research Chair in Dendroecology and
       Dendroclimatology, which aims to enhance knowledge about climate
       variability and tree functioning in the boreal region.
-    photo: /src/media/images/equipe/xavier.jpg
+    photo: /images/equipe/xavier.jpg
   - type: membreEquipe
     nom: Marc-André Lemay
     sous-texte: This starter intentionally avoids UI kits, heavy abstractions, and
@@ -34,5 +34,5 @@ Sections:
       is also the holder of the Canada Research Chair in Dendroecology and
       Dendroclimatology, which aims to enhance knowledge about climate
       variability and tree functioning in the boreal region.
-    photo: /src/media/images/equipe/marc.jpg
+    photo: /images/equipe/marc.jpg
 ---
