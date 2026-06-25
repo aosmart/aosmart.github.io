@@ -1,0 +1,42 @@
+---
+import Base from "../../layouts/Base.astro";
+import Renderer from "../../components/Renderer.astro";
+export async function getStaticPaths() {
+  const posts = Object.entries(
+    import.meta.glob("../../blogposts/*.md", { eager: true }),
+  );
+
+  return posts.map(([path, post]: [string, any]) => {
+    const slug = path.split("/").pop()?.replace(".md", "");
+
+    return {
+      params: { slug },
+      props: { post },
+    };
+  });
+}
+
+const { post } = Astro.props;
+const Content = post.default;
+
+const {
+  titre,
+  author,
+  date,
+  "sous-texte": sousTexte,
+  Sections,
+} = post.frontmatter;
+---
+
+<Base title={titre}>
+  <article class="prose">
+    <h1>{titre}</h1>
+    <p class="lead">
+      {author} - {new Date(date).toLocaleDateString("fr-CA")}
+    </p>
+    <p class="lead">{sousTexte}</p>
+    <Renderer sections={Sections} />
+    <a class="back-link" href="/blog">← Retour au blog</a>
+  </article>
+  <Content />
+</Base>

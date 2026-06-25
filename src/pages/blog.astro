@@ -3,17 +3,21 @@ import Base from "../layouts/Base.astro";
 import { site } from "../content/site";
 import HeaderAndLink from "../components/mise-en-page/HeaderAndLink.astro";
 const title = "Blog";
-const posts = Object.values(
-  import.meta.glob("../blogposts/*.md", { eager: true }),
+const posts = Object.entries(
+  import.meta.glob("../blogposts/*.md", { eager: true })
 );
 
 const blogs = posts
-  .map((post: any) => ({
-    titre: post.frontmatter.titre,
-    author: post.frontmatter.author,
-    date: post.frontmatter.date,
-    url: post.url,
-  }))
+  .map(([path, post]: [string, any]) => {
+    const slug = path.split("/").pop()?.replace(".md", "");
+
+    return {
+      titre: post.frontmatter.titre,
+      author: post.frontmatter.author,
+      date: post.frontmatter.date,
+      url: `/blog/${slug}`,
+    };
+  })
   .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 ---
 
