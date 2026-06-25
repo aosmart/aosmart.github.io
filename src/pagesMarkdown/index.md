@@ -48,7 +48,7 @@ Sections:
       bouleau blanc. Ils ont choisi une plantation d’épinettes noires d’environ
       35 ans pour l’étude.
   - type: imageLegende
-    image: /src/media/images/foret/forest2.jpg
+    image: /images/foret/forest2.jpg
     legende: It is a long established fact that a reader will be distracted by the
       readable content of a page when looking at its layout.
     alt: A forest
@@ -75,7 +75,7 @@ Sections:
     sous-titre: Mesurer des flux ecosystémiques
     lien: https://pagescms.org/docs/configuration/media/
   - type: imageLegende
-    image: /src/media/images/tour/20250613110406.jpg
+    image: /images/tour/20250613110406.jpg
     legende: It is a long established fact that a reader will be distracted by the
       readable content of a page when looking at its layout.
     alt: A tower
