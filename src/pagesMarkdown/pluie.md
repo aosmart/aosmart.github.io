@@ -33,14 +33,14 @@ Sections:
   - type: sous-titre
     sous-titre: Design expérimental
   - type: doubleImageLegende
-    image1: /src/media/images/foret/epinettes.jpg
+    image1: /images/foret/bouleaux.jpg
     alt1: aaa
     legende1: Des images thermiques permettront par ailleurs à l’équipe de glaner
       des indices sur la vulnérabilité des arbres durant des périodes de
       sécheresse. Un système spécifique sera mis en place sur certains arbres
       sélectionnés, privés d’eau de pluie par un toit, pour les mettre en
       situation de stress hydrique simulé.
-    image2: /src/media/images/foret/bouleaux.jpg
+    image2: /images/foret/epinettes.jpg
     alt2: bbbb
     legende2: Parmi les données analysées dans cette forêt connectée, une attention
       particulière sera portée au flux de sève. « Dans les arbres, il y a un
@@ -71,7 +71,7 @@ Sections:
       pour dégager des éléments de réponse sur la résistance et la résilience
       des écosystèmes forestiers face au plus grand défi de notre siècle.
   - type: imageLegende
-    image: /src/media/images/foret/dendro.jpeg
+    image: /images/foret/dendro.jpeg
     legende: Le flux de carbone sera, lui aussi, analysé. « Cette mesure
       écosystémique n’est pas associée à un arbre spécifique, mais représente un
       bilan de notre forêt, soit l’équilibre entre tous les atomes de carbone
@@ -123,11 +123,12 @@ Sections:
       également titulaire de la Chaire de recherche du Canada en dendroécologie
       et en dendroclimatologie.
   - type: doubleImageLegende
+    image1: /images/foret/dendro.jpeg
     alt1: bbb
     legende1: « Dans les arbres, il y a un cycle journalier très marqué, le
       mouvement de la sève est plus rapide durant la journée et presque absent
       durant la nuit », explique Fabio Gennaretti.
-    image2: /src/media/images/foret/sapflow2.jpg
+    image2: /images/foret/sapflow2.jpg
     alt2: aaaa
     legende2: Parmi les données analysées dans cette forêt connectée, une attention
       particulière sera portée au flux de sève. « Dans les arbres, il y a un
