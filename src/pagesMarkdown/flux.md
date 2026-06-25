@@ -33,14 +33,14 @@ Sections:
   - type: sous-titre
     sous-titre: Une tour à flux
   - type: doubleImageLegende
-    image1: /src/media/images/tour/20250613110406.jpg
+    image1: /images/tour/20250613110406.jpg
     alt1: aaa
     legende1: Des images thermiques permettront par ailleurs à l’équipe de glaner
       des indices sur la vulnérabilité des arbres durant des périodes de
       sécheresse. Un système spécifique sera mis en place sur certains arbres
       sélectionnés, privés d’eau de pluie par un toit, pour les mettre en
       situation de stress hydrique simulé.
-    image2: /src/media/images/tour/178215248803362581225476964258.jpg
+    image2: /images/tour/178215248803362581225476964258.jpg
     alt2: bbb
     legende2: « Dans les arbres, il y a un cycle journalier très marqué, le
       mouvement de la sève est plus rapide durant la journée et presque absent
@@ -77,7 +77,7 @@ Sections:
   - type: sous-titre
     sous-titre: L'IRGASON
   - type: imageLegende
-    image: /src/media/images/tour/irgason.webp
+    image: /images/tour/irgason.webp
     legende: Le flux de carbone l’habilité de la forêt à séquestrer du carbone en
       fonction des variabilités environnementales. » Des images thermiques
       permettront par ailleurs à l’équipe de glaner des indices sur la
