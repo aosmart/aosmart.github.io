@@ -40,7 +40,7 @@ Sections:
       ces changements.
   - type: sous-titre-avec-lien
     sous-titre: Simuler une sécheresse
-    lien: https://www.google.com/
+    lien: /pluie
   - type: paragraphe
     paragraphe: Pour comprendre les impacts des changements climatiques sur la forêt
       boréale, les chercheurs étudieront les effets de la sécheresse sur une
