@@ -326,7 +326,13 @@ content:
       fields: [titre, author, date]
     fields:
       - name: titre
-        component: titre
+        label: Titre
+        type: string
+        required: true
+      - name: sous-texte
+        label: Sous-texte
+        type: string
+        required: true
       - name: author
         type: string
         required: true
