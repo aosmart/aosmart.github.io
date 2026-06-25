@@ -323,7 +323,7 @@ content:
     type: collection
     path: src/blogposts
     view:
-      fields: [title, author, date]
+      fields: [titre, author, date]
     fields:
       - name: titre
         component: titre
