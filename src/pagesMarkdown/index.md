@@ -1,7 +1,7 @@
 ---
 Sections:
   - type: titre
-    titre: Une « forêt connectée » pour le climat.
+    titre: Une forêt connectée pour le climat.
     sous-texte: Nos forêts jouent un rôle clé dans la réduction des gaz à effet de
       serre. Mais comment réagissent-elles aux événements météorologiques
       extrêmes et aux changements climatiques ? Un projet de forêt connectée à
