@@ -57,8 +57,11 @@ Sections:
       traditionnel tel qu'un ruban à mesurer forestier.
   - type: imageLegende
     image: /images/foret/dendro.jpeg
-    legende: "Les dendromètres sont fixés aux arbres à l'aide de vis, mais le piston "
-    alt: aa
+    legende: Les dendromètres sont fixés aux arbres à l'aide de vis, mais le piston
+      gainé de caoutchouc est libre de bouger en fonction du diamètre de
+      l'arbre. L'instrument envoie un signal électrique variable selon la
+      longueur du piston à un enregistreur de données qui consigne les valeurs.
+    alt: Un exemple de dendromètre
   - type: paragraphe
     paragraphe: Le flux de carbone sera, lui aussi, analysé. « Cette mesure
       écosystémique n’est pas associée à un arbre spécifique, mais représente un
