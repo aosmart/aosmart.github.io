@@ -112,27 +112,39 @@ Sections:
   - type: sous-titre
     sous-titre: Mesurer le flux de sève à l'aide de capteurs de type Granier
   - type: paragraphe
-    paragraphe: Les données récoltées permettront de mieux comprendre les impacts
-      des changements climatiques sur la forêt boréale, et ainsi d’adapter les
-      pratiques de gestion forestière pour assurer la résilience de ces
-      écosystèmes face à ces changements. L’étude permettra de mieux comprendre
-      les impacts des changements climatiques sur la forêt boréale, et ainsi
-      d’adapter les pratiques de gestion forestière pour assurer la résilience
-      de ces écosystèmes face à ces changements. Le professeur Gennaretti est
-      également titulaire de la Chaire de recherche du Canada en dendroécologie
-      et en dendroclimatologie.
+    paragraphe: >-
+      Bien que les dendromètres nous fournissent une indication indirecte du
+      statut hydrique de l'arbre, ils ne nous informent pas sur le mouvement de
+      la sève dans l'arbre. C'est le rôle des capteurs de flux de sève!
+
+
+      Les capteurs de flux de sève installés à la forêt connectée sont de type
+      Granier. Ils sont constitués de deux fines aiguilles, dont l'une est
+      chauffée en continu et l'autre non. Les deux aiguilles sont installées sur
+      un axe vertical, l'aiguille chauffante étant installée plus haut que
+      l'autre. La différence de température entre ces deux aiguilles permet de
+      mesurer la vitesse de déplacement (le flux) de sève à travers le tronc de
+      l'arbre.
+
+
+      La nuit, alors que l'arbre ne transpire presque pas et que la sève est
+      donc pratiquement immobile, la chaleur produite par l'aiguille chauffée ne
+      se dissipe pas et elle devient très chaude par rapport à l'aiguille
+      inférieure. Au contraire, lorsque le flux de sève augmente en plein jour,
+      la chaleur produite par l'aiguille chauffée est dissipée par le mouvement
+      de la sève et la différence de température entre les deux aiguilles est
+      réduite.
   - type: doubleImageLegende
     image1: /images/foret/sapflow1 (1).jpg
-    alt1: bbb
-    legende1: « Dans les arbres, il y a un cycle journalier très marqué, le
-      mouvement de la sève est plus rapide durant la journée et presque absent
-      durant la nuit », explique Fabio Gennaretti.
-    image2: /images/foret/sapflow2.jpg
-    alt2: aaaa
-    legende2: Parmi les données analysées dans cette forêt connectée, une attention
-      particulière sera portée au flux de sève. « Dans les arbres, il y a un
-      cycle journalier très marqué, le mouvement de la sève explique Fabio
-      Gennaretti.
+    alt1: Un capteur de flux de sève non installé
+    legende1: Un capteur de flux de sève de type Granier. L'aiguille portant un
+      cercle jaune est munie d'un élément chauffant, et l'autre non.
+    image2: /images/foret/sapflow1 (1).jpg
+    alt2: Un capteur de flux de sève sous son bouclier de protection
+    legende2: Une fois installés, les capteurs de flux de sève sont recouverts d'un
+      bouclier de protection contre les radiations solaires et l'eau. Cela nous
+      assure que nous mesurons seulement des variations reliées au flux de sève
+      lui-même, et non pas les conditions météorologiques extérieures.
   - type: paragraphe
     paragraphe: Les données récoltées permettront de mieux comprendre les impacts
       des changements climatiques sur la forêt boréale, et ainsi d’adapter les
