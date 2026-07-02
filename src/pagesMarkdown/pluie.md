@@ -39,34 +39,25 @@ Sections:
       m<sup>2</sup> et permet de couper l'approvisionnement en eau à neuf
       épinettes noires.
   - type: paragraphe
-    paragraphe: Le flux de carbone sera, lui aussi, analysé. « Cette mesure
-      écosystémique n’est pas associée à un arbre spécifique, mais représente un
-      bilan de notre forêt, soit l’équilibre entre tous les atomes de carbone
-      captés versus ceux qui sont relâchés, ajoute le professeur. Elle nous
-      indique la productivité nette de notre écosystème et l’habilité de la
-      forêt à séquestrer du carbone en fonction des variabilités
-      environnementales. » Des images thermiques permettront par ailleurs à
-      l’équipe de glaner des indices sur la vulnérabilité des arbres durant des
-      périodes de sécheresse. Un système spécifique sera mis en place sur
-      certains arbres sélectionnés, privés d’eau de pluie par un toit, pour les
-      mettre en situation de stress hydrique simulé. Les résultats indiqueront
-      quelles espèces, conifères ou feuillus, sont plus ou moins sensibles.
+    paragraphe: En plus des cinq bouleaux et neuf épinettes soumis au traitement de
+      sécheresse, quinze bouleaux et onze épinettes serviront de témoins soumis
+      aux conditions naturelles de précipitations. Il sera donc possible de
+      comparer la réaction des arbres privés d'eau à d'autres arbres situés à
+      une dizaine de mètres seulement mais qui ne seront pas limités en eau.
   - type: sous-titre
-    sous-titre: Mesurer la croissance des arbres
+    sous-titre: Mesurer la croissance des arbres à l'aide de dendromètres
   - type: paragraphe
-    paragraphe: À terme, les informations récoltées devraient être utiles pour
-      réfléchir à une meilleure gestion des forêts, dans le cadre des
-      changements climatiques. Peut-on s’attendre à des changements importants
-      de séquestration du carbone ? Qu’en est-il de la biodiversité ? De la
-      disponibilité en bois ? L’équipe de Fabio Gennaretti se donne trois ans
-      pour dégager des éléments de réponse sur la résistance et la résilience
-      des écosystèmes forestiers face au plus grand défi de notre siècle.
+    paragraphe: Tous les quarante arbres (vingt bouleaux et vingt épinettes) suivis
+      à la forêt connectée sont équipés de dendromètres à pointe. Il s'agit de
+      capteurs fixés sur les arbres qui enregistrent les variations de diamètre
+      du tronc au moyen d'un piston à ressort. La résolution de cet instrument
+      est de l'ordre du micromètre (c'est-à-dire, un millième de millimètre). Il
+      est donc possible de mesurer des variations du diamètre du tronc qui sont
+      invisibles à l'oeil nu et impossibles à mesurer avec un instrument
+      traditionnel tel qu'un ruban à mesurer forestier.
   - type: imageLegende
     image: /images/foret/dendro.jpeg
-    legende: Le flux de carbone sera, lui aussi, analysé. « Cette mesure
-      écosystémique n’est pas associée à un arbre spécifique, mais représente un
-      bilan de notre forêt, soit l’équilibre entre tous les atomes de carbone
-      captés versus ceux qui sont relâchés, ajoute le professeur.
+    legende: "Les dendromètres sont fixés aux arbres à l'aide de vis, mais le piston "
     alt: aa
   - type: paragraphe
     paragraphe: Le flux de carbone sera, lui aussi, analysé. « Cette mesure
