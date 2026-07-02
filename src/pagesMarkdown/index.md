@@ -34,11 +34,11 @@ Sections:
       recherche sont les suivants :
 
 
-      * Mesurer les flux écosystémiques à l'aide d'une [tour à flux](./flux)
+      - Mesurer les flux écosystémiques à l'aide d'une [tour à flux](./flux)
 
-      * Évaluer l'effet sur les arbres d'une [sécheresse expérimentale](./pluie)
+      - Évaluer l'effet sur les arbres d'une [sécheresse expérimentale](./pluie)
 
-      * Fournir des [données météorologiques de haute précision](./meteo)
+      - Fournir des [données météorologiques de haute précision](./meteo)
 
 
       Les instruments de mesures installés à la forêt connectée sont reliés à
@@ -55,30 +55,22 @@ Sections:
   - type: sous-titre
     sous-titre: La forêt connectée en chiffres
   - type: paragraphe
-    paragraphe: >+
+    paragraphe: |+
       La forêt connectée d'Abitibi-Ouest, c'est :
 
-
       - 40 dendromètres mesurant la croissance des arbres
-
       - 18 capteurs de flux de sève des arbres
-
       - 25 capteurs d'humidité du sol
-
-      - 250 m<sup>2</sup> de superficie soumise à l'expérience d'exclusion de
-      pluie
-
+      - 250 m2 de superficie soumise à l'expérience d'exclusion de pluie
       - 
 
   - type: sous-titre
     sous-titre: Remerciements
   - type: paragraphe
     paragraphe: Ce projet a été possible grâce à la collaboration de la [MRC
-      d'Abitibi-Ouest]([https://www.mrcao.qc.ca](https://www.mrcao.qc.ca)) et la
-      [Direction de la recherche
-      forestière]([https://mffp.gouv.qc.ca/publications/enligne/forets/activites-recherche/recherche/index.asp](https://mffp.gouv.qc.ca/publications/enligne/forets/activites-recherche/recherche/index.asp))
+      d'Abitibi-Ouest](https://www.mrcao.qc.ca) et la [Direction de la recherche
+      forestière](https://mffp.gouv.qc.ca/publications/enligne/forets/activites-recherche/recherche/index.asp)
       du Ministère des ressources naturelles et de la forêt. De plus, ce projet
       bénéficie du soutien financier du [Conseil de recherches en sciences
-      naturelles et en génie du
-      Canada]([https://nserc-crsng.canada.ca/fr](https://nserc-crsng.canada.ca/fr)).
+      naturelles et en génie du Canada](https://nserc-crsng.canada.ca/fr).
 ---
