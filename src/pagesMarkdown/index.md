@@ -1,7 +1,8 @@
 ---
 Sections:
   - type: titre
-    titre: Une forêt connectée pour le climat.
+    titre: Une forêt connectée en Abitibi-Ouest pour répondre aux défis des
+      changements climatiques
     sous-texte: Nos forêts jouent un rôle clé dans la réduction des gaz à effet de
       serre. Mais comment réagissent-elles aux événements météorologiques
       extrêmes et aux changements climatiques ? Un projet de forêt connectée à
