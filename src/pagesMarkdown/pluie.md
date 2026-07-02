@@ -63,18 +63,27 @@ Sections:
       longueur du piston à un enregistreur de données qui consigne les valeurs.
     alt: Un exemple de dendromètre
   - type: paragraphe
-    paragraphe: Le flux de carbone sera, lui aussi, analysé. « Cette mesure
-      écosystémique n’est pas associée à un arbre spécifique, mais représente un
-      bilan de notre forêt, soit l’équilibre entre tous les atomes de carbone
-      captés versus ceux qui sont relâchés, ajoute le professeur. Elle nous
-      indique la productivité nette de notre écosystème et l’habilité de la
-      forêt à séquestrer du carbone en fonction des variabilités
-      environnementales. » Des images thermiques permettront par ailleurs à
-      l’équipe de glaner des indices sur la vulnérabilité des arbres durant des
-      périodes de sécheresse. Un système spécifique sera mis en place sur
-      certains arbres sélectionnés, privés d’eau de pluie par un toit, pour les
-      mettre en situation de stress hydrique simulé. Les résultats indiqueront
-      quelles espèces, conifères ou feuillus, sont plus ou moins sensibles.
+    paragraphe: >-
+      En réalité, les dendromètres ne permettent pas de mesurer simplement la
+      croissance des arbres, mais aussi leur statut hydrique. Contrairement à ce
+      qu'on pourrait croire, le diamètre des arbres ne varie pas seulement en
+      fonction de leur croissance, mais aussi en fonction de leur niveau
+      d'hydratation. Un arbre bien hydraté aura un tronc bien gorgé d'eau qui se
+      traduit par un diamètre plus grand. Au contraire, un arbre desséché aura
+      un diamètre plus petit puisque les cellules de son tronc sont moins
+      gorgées d'eau.
+
+
+      Ce phénomène est directement observable dans les graphiques ci-bas, où
+      l'on peut voir les variations du diamètre des arbres enregistrées par les
+      capteurs de la forêt connectée au fil du temps. Le jour, le diamètre des
+      arbres diminue parce que l'eau contenue dans leur tronc se déplace vers
+      les feuilles pour être transpirée par de petites ouvertures appelées
+      stomates. Ces ouvertures font entrer dans les feuilles le dioxyde de
+      carbone nécessaire à la phytosynthèse, mais laissent en contrepartie
+      s'échapper l'eau puisée dans les racines. La nuit, alors que les stomates
+      sont fermés, l'arbre peut refaire ses réserves d'eau et leur diamètre
+      augmente à nouveau.
   - type: graphiqueTempsReel
     legende: Le flux de carbone sera, lui aussi, analysé. « Cette mesure
       écosystémique n’est pas associée à un arbre spécifique, mais représente un
@@ -83,20 +92,25 @@ Sections:
       indique la productivité.
     fichier: /src/media/documents/graphData/dendrometers.json
   - type: paragraphe
-    paragraphe: Le flux de carbone sera, lui aussi, analysé. « Cette mesure
-      écosystémique n’est pas associée à un arbre spécifique, mais représente un
-      bilan de notre forêt, soit l’équilibre entre tous les atomes de carbone
-      captés versus ceux qui sont relâchés, ajoute le professeur. Elle nous
-      indique la productivité nette de notre écosystème et l’habilité de la
-      forêt à séquestrer du carbone en fonction des variabilités
-      environnementales. » Des images thermiques permettront par ailleurs à
-      l’équipe de glaner des indices sur la vulnérabilité des arbres durant des
-      périodes de sécheresse. Un système spécifique sera mis en place sur
-      certains arbres sélectionnés, privés d’eau de pluie par un toit, pour les
-      mettre en situation de stress hydrique simulé. Les résultats indiqueront
-      quelles espèces, conifères ou feuillus, sont plus ou moins sensibles.
+    paragraphe: >-
+      Au-delà du cycle journalier d'augmentation et de diminution du diamètre en
+      raison du contenu en eau du tronc, on observe une tendance à
+      l'augmentation du diamètre de l'arbre au fil du temps. En effet, lorsque
+      l'arbre est bien hydraté et que les conditions de croissance sont
+      favorable, de nouvelles cellules sont produites dans le tronc et
+      grandissent pour permettre la croissance radiale (c'est à dire la
+      croissance en diamètre) de l'arbre. Cette croissance est évidente lorsque
+      l'on observe les données pour toute une année, mais est parfois même
+      perceptible au sein d'une seule semaine lorsque les conditions de
+      croissance sont favorables.
+
+
+      Dans le cadre du projet de forêt connectée, nous utiliserons les données
+      recueillies par les dendromètres pour quantifier la croissance et le
+      statut hydrique des arbres selon le traitement auquel ils sont soumis
+      (sécheresse ou conditions naturelles) et l'espèce (bouleau ou épinette).
   - type: sous-titre
-    sous-titre: Mesurer le flux de sève
+    sous-titre: Mesurer le flux de sève à l'aide de capteurs de type Granier
   - type: paragraphe
     paragraphe: Les données récoltées permettront de mieux comprendre les impacts
       des changements climatiques sur la forêt boréale, et ainsi d’adapter les
