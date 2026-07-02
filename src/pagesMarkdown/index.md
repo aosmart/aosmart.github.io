@@ -23,54 +23,62 @@ Sections:
   - type: sous-titre
     sous-titre: Aperçu du projet
   - type: paragraphe
-    paragraphe: La forêt connectée d'Abitibi-Ouest est située à la [Forêt
-      d'enseignement et de recherche du Lac Duparquet](https://ferld.uqat.ca/),
-      à Rapide-Danseur.
-  - type: sous-titre-avec-lien
-    sous-titre: Simuler une sécheresse
-    lien: /pluie
+    paragraphe: >-
+      La forêt connectée d'Abitibi-Ouest est située à la [Forêt d'enseignement
+      et de recherche du Lac Duparquet](https://ferld.uqat.ca/) à Rapide-Danseur
+      et a été mise en place par une [équipe de recherche](./equipe) de
+      l'Université du Québec en Abitibi-Témiscamingue à l'été 2024. Depuis le
+      début du projet, plus d'une centaine de capteurs ont été installés afin
+      d'étudier la physiologie des arbres et de dresser un portrait complet du
+      fonctionnement de l'écosystème. Les objectifs principaux de ce projet de
+      recherche sont les suivants :
+
+
+      * Mesurer les flux écosystémiques à l'aide d'une [tour à flux](./flux)
+
+      * Évaluer l'effet sur les arbres d'une [sécheresse expérimentale](./pluie)
+
+      * Fournir des [données météorologiques de haute précision](./meteo)
+
+
+      Les instruments de mesures installés à la forêt connectée sont reliés à
+      internet par un modem cellulaire installé sur place. Sur ce site, vous
+      pourrez voir les dernières données acquises ainsi que la météo en temps
+      réel au site d'étude. De plus, vous pourrez apprendre comment fonctionnent
+      les différents types de capteurs qui permettent d'acquérir ces données.
+      N'hésitez pas à parcourir les différents onglets!
+
+
+      Tous les instruments installés au site d'étude fonctionnent grâce à
+      l'énergie solaire, ce qui réduit l'empreinte carbone du projet et permet
+      au site de fonctionner en complète autonomie du réseau électrique.
+  - type: sous-titre
+    sous-titre: La forêt connectée en chiffres
   - type: paragraphe
-    paragraphe: "[Exclusion de pluie : test](./pluie)"
-  - type: imageLegende
-    image: /images/foret/forest2.jpg
-    legende: It is a long established fact that a reader will be distracted by the
-      readable content of a page when looking at its layout.
-    alt: A forest
+    paragraphe: >+
+      La forêt connectée d'Abitibi-Ouest, c'est :
+
+
+      - 40 dendromètres mesurant la croissance des arbres
+
+      - 18 capteurs de flux de sève des arbres
+
+      - 25 capteurs d'humidité du sol
+
+      - 250 m<sup>2</sup> de superficie soumise à l'expérience d'exclusion de
+      pluie
+
+      - 
+
+  - type: sous-titre
+    sous-titre: Remerciements
   - type: paragraphe
-    paragraphe: Les chercheurs vont surveiller les impacts de la sécheresse sur la
-      croissance des arbres sous le toit, et comparer les données avec celles
-      récoltées sur les arbres qui ne sont pas protégés de la pluie. Les
-      équipements permettront de connaître en temps réel la productivité de la
-      parcelle de forêt qui sera observée.
-  - type: sous-titre-avec-lien
-    sous-titre: Suivre la météo en temps réeel
-    lien: /meteo
-  - type: paragraphe
-    paragraphe: Le professionnel de recherche Marc-André Lemay et Elena Barocci, une
-      stagiaire italienne qui étudie à la maîtrise, s’affairent donc à installer
-      des instruments dans la forêt connectée. On a différents capteurs qui sont
-      installés sur les arbres. On a des dendromètres qui mesurent chaque
-      demi-heure les variations radiales. Donc, ce qu’on peut voir avec ces
-      capteurs, c’est tous les cycles journaliers des contractions et expansions
-      de l’arbre. On peut convertir ça en déficit en eau de l’arbre et aussi en
-      croissance durant la saison de croissance, explique le professeur
-      Gennaretti.
-  - type: sous-titre-avec-lien
-    sous-titre: Mesurer des flux ecosystémiques
-    lien: /flux
-  - type: imageLegende
-    image: /images/tour/20250613110406.jpg
-    legende: It is a long established fact that a reader will be distracted by the
-      readable content of a page when looking at its layout.
-    alt: A tower
-  - type: paragraphe
-    paragraphe: Avec tous les capteurs qui seront en place, la Forêt connectée
-      Abitibi-Ouest pourra aussi mesurer en temps réel les impacts d’événements
-      météorologiques plus courts dans le temps. On parle d’événements qui se
-      passent sur deux jours, trois jours ou une semaine, et voir quels sont les
-      impacts cumulés d’événements comme des canicules sur la croissance des
-      arbres. Les dendromètres sont en place depuis dix jours et dans les
-      derniers dix jours, on a eu des changements de températures et des pluies
-      abondantes. On voit déjà tous ces changements, comment ils ont affecté les
-      expansions radiales des troncs des arbres, indique Fabio Gennaretti.
+    paragraphe: Ce projet a été possible grâce à la collaboration de la [MRC
+      d'Abitibi-Ouest]([https://www.mrcao.qc.ca](https://www.mrcao.qc.ca)) et la
+      [Direction de la recherche
+      forestière]([https://mffp.gouv.qc.ca/publications/enligne/forets/activites-recherche/recherche/index.asp](https://mffp.gouv.qc.ca/publications/enligne/forets/activites-recherche/recherche/index.asp))
+      du Ministère des ressources naturelles et de la forêt. De plus, ce projet
+      bénéficie du soutien financier du [Conseil de recherches en sciences
+      naturelles et en génie du
+      Canada]([https://nserc-crsng.canada.ca/fr](https://nserc-crsng.canada.ca/fr)).
 ---
