@@ -24,9 +24,8 @@ Sections:
     sous-titre: Aperçu du projet
   - type: paragraphe
     paragraphe: La forêt connectée d'Abitibi-Ouest est située à la [Forêt
-      d'enseignement et de recherche du Lac
-      Duparquet]([https://ferld.uqat.ca/](https://ferld.uqat.ca/)), à
-      Rapide-Danseur.
+      d'enseignement et de recherche du Lac Duparquet](https://ferld.uqat.ca/),
+      à Rapide-Danseur.
   - type: sous-titre-avec-lien
     sous-titre: Simuler une sécheresse
     lien: /pluie
