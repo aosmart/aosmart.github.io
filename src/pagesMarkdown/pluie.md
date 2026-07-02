@@ -1,52 +1,43 @@
 ---
 Sections:
   - type: titre
-    titre: Exclusion de pluie
-    sous-texte: Les travaux ont commencé l’automne dernier avec l’acquisition et
-      l’installation d’une tour télescopique rétractable. Et l'installation
-      d’équipements à la fine pointe de la technologie se poursuit sur le
-      terrain.
+    titre: Dispositif d'exclusion de pluie
+    sous-texte: Une expérience visant à évaluer l'effet de à sécheresse sur le
+      fonctionnement des arbres
   - type: paragraphe
-    paragraphe: >+
-      À terme, les informations récoltées devraient être utiles pour réfléchir à
-      une meilleure gestion des forêts, dans le cadre des changements
-      climatiques. Peut-on s’attendre à des changements importants de
-      séquestration du carbone ? Qu’en est-il de la biodiversité ? De la
-      disponibilité en bois ? L’équipe de Fabio Gennaretti se donne trois ans
-      pour dégager des éléments de réponse sur la résistance et la résilience
-      des écosystèmes forestiers face au plus grand défi de notre siècle. Le
-      professeur est également titulaire de la Chaire de recherche du Canada en
-      dendroécologie et en dendroclimatologie, dont la mission est de bonifier
-      les connaissances sur la variabilité climatique et le fonctionnement des
-      arbres dans la région boréale.
+    paragraphe: >-
+      En raison des changements climatiques, les sécheresses seront de plus en
+      plus fréquentes et intenses dans la forêt boréale. Mais quels seront les
+      impacts de ces sécheresses sur la croissance et le fonctionnement des
+      arbres? Disposent-ils de mécanismes leur permettant de s'adapter et de
+      croître malgré la sécheresse, où vont-ils dépérir?
 
 
-      - Des images thermiques permettront par ailleurs à l’équipe de glaner des
-      indices sur la vulnérabilité des arbres durant des périodes de sécheresse.
-
-      - Le professeur est également titulaire de la Chaire de recherche du
-      Canada en dendroécologie et en dendroclimatologie.
-
-      - Cette mesure écosystémique n’est pas associée à un arbre spécifique,
-      mais représente un bilan de notre forêt.
-
+      Ces questions sont cruciales pour les utilisateurs de la forêt et pour
+      l'avenir de l'industrie forestière en Abitibi-Témiscamingue. C'est
+      pourquoi nous avons voulu causer une sécheresse pour étudier quels
+      seraient les effets du manque d'eau sur les arbres.
   - type: sous-titre
     sous-titre: Design expérimental
+  - type: paragraphe
+    paragraphe: "Afin de créer une sécheresse de façon expérimentale, nous avons
+      installé deux structures de bois sur laquelle des panneaux en plastique
+      transparent ont été posés. Ces structures empêchent l'eau d'atteindre le
+      sol et donc d'irriguer les racines des arbres qui se trouvent en dessous.
+      Une des structures est située dans un peuplement de bouleaux à papier
+      (*Betula papyrifera*) alors que l'autre se trouve dans une plantation
+      d'épinettes noires (*Picea mariana*). "
   - type: doubleImageLegende
     image1: /images/foret/bouleaux.jpg
-    alt1: aaa
-    legende1: Des images thermiques permettront par ailleurs à l’équipe de glaner
-      des indices sur la vulnérabilité des arbres durant des périodes de
-      sécheresse. Un système spécifique sera mis en place sur certains arbres
-      sélectionnés, privés d’eau de pluie par un toit, pour les mettre en
-      situation de stress hydrique simulé.
+    alt1: Le toit d'exclusion de pluie des bouleaux
+    legende1: Le premier dispositif d'exclusion de pluie fait environ 150
+      m<sup>2</sup> et permet de couper l'approvisionnement en eau à cinq
+      bouleaux à papier.
     image2: /images/foret/epinettes.jpg
-    alt2: bbbb
-    legende2: Parmi les données analysées dans cette forêt connectée, une attention
-      particulière sera portée au flux de sève. « Dans les arbres, il y a un
-      cycle journalier très marqué, le mouvement de la sève est plus rapide
-      durant la journée et presque absent durant la nuit », explique Fabio
-      Gennaretti.
+    alt2: Le toit d'exclusion de pluie des épinettes
+    legende2: Le deuxième dispositif d'exclusion de pluie fait environ 110
+      m<sup>2</sup> et permet de couper l'approvisionnement en eau à neuf
+      épinettes noires.
   - type: paragraphe
     paragraphe: Le flux de carbone sera, lui aussi, analysé. « Cette mesure
       écosystémique n’est pas associée à un arbre spécifique, mais représente un
