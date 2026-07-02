@@ -1,53 +1,37 @@
 ---
 Sections:
   - type: titre
-    titre: Une forêt connectée en Abitibi-Ouest pour répondre aux défis des
-      changements climatiques
-    sous-texte: Nos forêts jouent un rôle clé dans la réduction des gaz à effet de
-      serre. Mais comment réagissent-elles aux événements météorologiques
-      extrêmes et aux changements climatiques ? Un projet de forêt connectée à
-      l’UQAT permettra d’analyser des données en temps réel pour mieux
-      comprendre ces impacts.
+    titre: Une forêt connectée en Abitibi-Ouest
+    sous-texte: Un projet de l'Université du Québec en Abitibi-Témiscamingue en
+      collaboration avec la MRC d'Abitibi-Ouest et le Ministère des ressources
+      naturelles et des forêts
   - type: sous-titre
-    sous-titre: Description du projet
+    sous-titre: Qu'est-ce qu'une forêt connectée?
   - type: paragraphe
-    paragraphe: >-
-      Dirigée par Fabio Gennaretti, professeur à l’Institut de recherche sur les
-      forêts de l’Université du Québec en Abitibi-Témiscamingue (UQAT), cette
-      étude évaluera les impacts des évènements météorologiques de courte durée,
-      telles les sécheresses estivales et les gelées printanières et automnales
-      sur la croissance des objectifs:
-
-
-      - Your heart's been aching, but you're too shy to say it
-
-      - Never gonna give you up
-
-      - Never gonna let you down
-
-
-      Pour ce faire, une série de capteurs seront installés dans la forêt
-      expérimentale, située à la Forêt d’enseignement et de recherche du lac
-      Duparquet, afin de suivre de près la croissance de la végétation en place.
-      Des équipements à la fine pointe de la technologie seront utilisés pour
-      amasser ces données en temps réel, ce qui permettra à l’équipe de
-      recherche de suivre en continu les changements occasionnés par les
-      évènements météorologiques.
-
-
-      L’étude permettra de mieux comprendre les impacts des changements
-      climatiques sur la forêt boréale, et ainsi d’adapter les pratiques de
-      gestion forestière pour assurer la résilience de ces écosystèmes face à
-      ces changements.
+    paragraphe: "Une forêt connectée (ou forêt intelligente, *smart forest* en
+      anglais) est une forêt dans laquelle des capteurs et autres instruments de
+      haute précision mesurent en continu l'état de l'écosystème. L'objectif
+      d'une telle infrastructure combinant la nature et la technologie est de
+      mieux comprendre le fonctionnement de la forêt de façon à pouvoir
+      planifier l'adapation aux changements climatiques. La dimension
+      socio-économique est également un élément clé d'une forêt connectée :
+      celle-ci doit apporter une valeur ajoutée pour les utilisateurs de la
+      forêt, qu'il s'agisse des citoyens habitant la région ou de l'industrie
+      forestière. C'est dans cette optique que ce site web a été mis sur pied
+      afin de diffuser en temps réel les données acquises à la forêt connecté
+      d'Abitibi-Ouest et les résultats de recherche qui en découlent."
+  - type: sous-titre
+    sous-titre: Aperçu du projet
+  - type: paragraphe
+    paragraphe: La forêt connectée d'Abitibi-Ouest est située à la [Forêt
+      d'enseignement et de recherche du Lac
+      Duparquet]([https://ferld.uqat.ca/](https://ferld.uqat.ca/)), à
+      Rapide-Danseur.
   - type: sous-titre-avec-lien
     sous-titre: Simuler une sécheresse
     lien: /pluie
   - type: paragraphe
-    paragraphe: Pour comprendre les impacts des changements climatiques sur la forêt
-      boréale, les chercheurs étudieront les effets de la sécheresse sur une
-      essence d’arbre résineuse, l’épinette noire, et une essence feuillue, le
-      bouleau blanc. Ils ont choisi une plantation d’épinettes noires d’environ
-      35 ans pour l’étude.
+    paragraphe: "[Exclusion de pluie : test](./pluie)"
   - type: imageLegende
     image: /images/foret/forest2.jpg
     legende: It is a long established fact that a reader will be distracted by the
