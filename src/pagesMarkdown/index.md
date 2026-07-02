@@ -61,7 +61,7 @@ Sections:
       - 40 dendromètres mesurant la croissance des arbres
       - 18 capteurs de flux de sève des arbres
       - 25 capteurs d'humidité du sol
-      - 250 m2 de superficie soumise à l'expérience d'exclusion de pluie
+      - 250 $m^2$ de superficie soumise à l'expérience d'exclusion de pluie
       - 
 
   - type: sous-titre
