@@ -42,15 +42,22 @@ Sections:
   - type: doubleGraphiqueTempsReel
     legende1: La température, l’humidité, la vitesse et la direction du vent, ainsi
       que les précipitations. Ces données sont essentielles pour comprendre.
-    fichier1: /src/media/documents/graphData/rain.json
+    fichier1: /graphData/air_temperature.json
     legende2: La température, l’humidité, la vitesse et la direction du vent, ainsi
       que les précipitations. Ces données sont essentielles pour comprendre.
-    fichier2: /src/media/documents/graphData/humidity.json
+    fichier2: /graphData/precipitation.json
   - type: doubleGraphiqueTempsReel
     legende1: La température, l’humidité, la vitesse et la direction du vent, ainsi
       que les précipitations. Ces données sont essentielles pour comprendre.
-    fichier1: /src/media/documents/graphData/airtemp.json
+    fichier1: /graphData/wind_speed.json
     legende2: La température, l’humidité, la vitesse et la direction du vent, ainsi
       que les précipitations. Ces données sont essentielles pour comprendre.
-    fichier2: /src/media/documents/graphData/snow.json
+    fichier2: /graphData/wind_direction.json
+  - type: doubleGraphiqueTempsReel
+    legende1: La température, l’humidité, la vitesse et la direction du vent, ainsi
+      que les précipitations. Ces données sont essentielles pour comprendre.
+    fichier1: /graphData/solar_radiation.json
+    legende2: La température, l’humidité, la vitesse et la direction du vent, ainsi
+      que les précipitations. Ces données sont essentielles pour comprendre.
+    fichier2: /graphData/snow_height.json
 ---
