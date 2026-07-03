@@ -90,7 +90,7 @@ Sections:
       bilan de notre forêt, soit l’équilibre entre tous les atomes de carbone
       captés versus ceux qui sont relâchés, ajoute le professeur. Elle nous
       indique la productivité.
-    fichier: /src/media/documents/graphData/dendrometers.json
+    fichier: /graphData/dendrometers_BOP.json
   - type: paragraphe
     paragraphe: >-
       Au-delà du cycle journalier d'augmentation et de diminution du diamètre en
@@ -134,6 +134,15 @@ Sections:
       la chaleur produite par l'aiguille chauffée est dissipée par le mouvement
       de la sève et la différence de température entre les deux aiguilles est
       réduite.
+  - type: graphiqueTempsReel
+    legende: Le flux de carbone sera, lui aussi, analysé. « Cette mesure
+      écosystémique n’est pas associée à un arbre spécifique, mais représente un
+      bilan de notre forêt, soit l’équilibre entre tous les atomes de carbone
+      captés versus ceux qui sont relâchés, ajoute le professeur. Elle nous
+      indique la productivité nette de notre écosystème et l’habilité de la
+      forêt à séquestrer du carbone en fonction des variabilités
+      environnementales. » Des images thermiques permettront par ailleurs
+    fichier: /graphData/sapflows_EPN.json
   - type: doubleImageLegende
     image1: /images/foret/sapflow1 (1).jpg
     alt1: Un capteur de flux de sève non installé
@@ -161,7 +170,7 @@ Sections:
       bilan de notre forêt, soit l’équilibre entre tous les atomes de carbone
       captés versus ceux qui sont relâchés, ajoute le professeur. Elle nous
       indique la productivité.
-    fichier: /src/media/documents/graphData/soilmoisture.json
+    fichier: /graphData/soilmoisture_BOP.json
   - type: paragraphe
     paragraphe: >-
       Le flux de carbone sera, lui aussi, analysé. « Cette mesure écosystémique
