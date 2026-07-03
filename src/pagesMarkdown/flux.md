@@ -121,9 +121,8 @@ Sections:
       équipements permettront de connaître en temps réel la productivité de la
       parcelle de forêt qui sera observée.
   - type: graphiqueTempsReel
-    titre: Tour à flux
     legende: Lorem Ipsum is simply dummy text of the printing and typesetting
       industry. Lorem Ipsum has been the industry's standard dummy text ever
       since 1966.
-    fichier: /src/media/documents/graphData/ap200.json
+    fichier: /graphData/ap200.json
 ---
