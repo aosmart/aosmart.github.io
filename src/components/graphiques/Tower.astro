@@ -1,0 +1,280 @@
+---
+interface Props {
+  dataSrc: string;
+}
+
+const { dataSrc } = Astro.props;
+
+const rows = [
+  { channel: 8, height: "15.4 m" },
+  { channel: 7, height: "12.7 m" },
+  { channel: 6, height: "9.7 m" },
+  { channel: 5, height: "6.9 m" },
+  { channel: 4, height: "5.4 m" },
+  { channel: 3, height: "4.2 m" },
+  { channel: 2, height: "2.5 m" },
+  { channel: 1, height: "0.85 m" },
+];
+---
+
+<div class="tower-profile-card">
+  <div class="tower-profile" data-src={dataSrc}>
+    <div></div>
+    <div class="header">Température</div>
+    <div class="header">CO₂</div>
+    <div class="header">H₂O</div>
+
+    {
+      rows.map((row) => (
+        <>
+          <div class="tower-row">
+            <div class="height-label">{row.height}</div>
+            <div class="guide" />
+            <div class="sensor" />
+          </div>
+
+          <div
+            class="value"
+            data-channel={row.channel}
+            data-variable="Air temperature"
+            data-unit="°C"
+          >
+            —
+          </div>
+
+          <div
+            class="value"
+            data-channel={row.channel}
+            data-variable="CO₂"
+            data-unit="ppm"
+          >
+            —
+          </div>
+
+          <div
+            class="value"
+            data-channel={row.channel}
+            data-variable="H₂O"
+            data-unit="ppt"
+          >
+            —
+          </div>
+        </>
+      ))
+    }
+
+    <div class="base"></div>
+  </div>
+
+  <div class="last-update">
+    Dernière mise à jour : <span data-last-update>—</span>
+  </div>
+</div>
+
+<script>
+  document.querySelectorAll(".tower-profile").forEach(async (chart) => {
+    const src = chart.dataset.src;
+
+    const response = await fetch(src);
+    const json = await response.json();
+
+    chart.querySelectorAll(".value").forEach((cell) => {
+      const channel = cell.dataset.channel;
+      const variable = cell.dataset.variable;
+      const unit = cell.dataset.unit;
+
+      const value = findLatestValue(json.datasets, channel, variable);
+
+      cell.textContent =
+        value == null ? "—" : `${Number(value).toFixed(2)} ${unit}`;
+    });
+
+    const lastUpdated = json.datasets?.[0]?.data?.[0]?.x;
+    const lastUpdateElement =
+      chart.parentElement.querySelector("[data-last-update]");
+
+    if (lastUpdated && lastUpdateElement) {
+      const date = new Date(lastUpdated);
+
+      lastUpdateElement.textContent = date.toLocaleString("fr-CA", {
+        dateStyle: "medium",
+        timeStyle: "short",
+      });
+    }
+  });
+
+  function findLatestValue(datasets, channel, variableName) {
+    const dataset = datasets.find((dataset) => {
+      return (
+        dataset.label.includes(`Channel ${channel}`) &&
+        dataset.label.includes(variableName)
+      );
+    });
+
+    if (!dataset || dataset.data.length === 0) {
+      return null;
+    }
+
+    return dataset.data[dataset.data.length - 1].y;
+  }
+</script>
+
+<style>
+  .tower-profile-card {
+    max-width: 1050px;
+    margin: 2rem auto;
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+    overflow: hidden;
+  }
+
+  .tower-profile {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 220px repeat(3, 160px);
+    column-gap: 35px;
+    align-items: center;
+  }
+
+  .header {
+    text-align: center;
+    padding-bottom: 18px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+
+  .tower-row {
+    position: relative;
+    height: 72px;
+  }
+
+  .tower-row::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    transform: translateX(-50%);
+    background: #64748b;
+  }
+
+  .height-label {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    color: #64748b;
+    font-weight: 600;
+    font-size: 0.95rem;
+  }
+
+  .guide {
+    position: absolute;
+    top: 50%;
+    left: 58px;
+    right: 50%;
+    height: 1px;
+    background: #cbd5e1;
+  }
+
+  .sensor {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 13px;
+    height: 13px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: #22c55e;
+    border: 3px solid white;
+    box-shadow: 0 0 0 3px rgba(34, 197, 94, 0.18);
+  }
+
+  .value {
+    text-align: center;
+    color: #1f2937;
+    padding: 12px;
+    border-bottom: 1px solid #eef2f7;
+    white-space: nowrap;
+  }
+
+  .base {
+    grid-column: 1;
+    justify-self: center;
+    width: 95px;
+    height: 14px;
+    background: #64748b;
+    border-radius: 0 0 8px 8px;
+  }
+
+  .last-update {
+    padding: 14px 24px;
+    border-top: 1px solid #eef2f7;
+    text-align: center;
+    color: #64748b;
+    font-size: 0.9rem;
+    background: #fafafa;
+  }
+
+  @media (max-width: 700px) {
+    .tower-profile-card {
+      width: 100%;
+      margin: 1.25rem 0;
+      border-radius: 14px;
+    }
+
+    .tower-profile {
+      padding: 18px 10px;
+      grid-template-columns: 90px repeat(3, minmax(0, 1fr));
+      column-gap: 6px;
+    }
+
+    .header {
+      font-size: 0.68rem;
+      padding-bottom: 10px;
+    }
+
+    .tower-row {
+      height: 48px;
+    }
+
+    .tower-row::before {
+      left: 66px;
+      width: 3px;
+    }
+
+    .height-label {
+      font-size: 0.68rem;
+      left: 0;
+    }
+
+    .guide {
+      left: 38px;
+      right: 24px;
+    }
+
+    .sensor {
+      left: 66px;
+      width: 10px;
+      height: 10px;
+      border-width: 2px;
+      box-shadow: 0 0 0 2px rgba(34, 197, 94, 0.18);
+    }
+
+    .value {
+      font-size: 0.62rem;
+      padding: 7px 2px;
+    }
+
+    .base {
+      display: none;
+    }
+
+    .last-update {
+      font-size: 0.75rem;
+      padding: 12px;
+    }
+  }
+</style>
