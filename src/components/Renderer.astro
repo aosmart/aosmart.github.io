@@ -92,6 +92,8 @@ const { sections } = Astro.props;
             <p>{section["description"]}</p>
           </TextAndSideImage>
         );
+      case "htmlBlock":
+        return <div set:html={section["htmlBlock"]} />;
       default:
         return <p>{section.type}</p>;
     }
