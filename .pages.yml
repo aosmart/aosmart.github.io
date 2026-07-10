@@ -155,7 +155,7 @@ components:
         type: image
         
   htmlBlock:
-    label: Titre
+    label: htmlBlock
     type: object
     fields:
       - name: htmlBlock
