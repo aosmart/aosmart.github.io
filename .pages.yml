@@ -155,9 +155,14 @@ components:
         type: image
         
   htmlBlock:
-      label: htmlBlock
-      type: code
-      options:
+    label: Titre
+    type: object
+    fields:
+      - name: htmlBlock
+        label: html
+        type: code
+        required: true
+        options:
           format: html
 
 content:
