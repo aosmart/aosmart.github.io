@@ -94,21 +94,6 @@ components:
         type: string
         required: true
 
-  tableauLegende:
-    label: Tableau + légende
-    type: object
-    fields:
-      - name: legende
-        label: Légende
-        type: text
-        required: true
-
-      - name: fichier
-        label: Fichier CSV du tableau
-        type: file
-        description: Selectionnez un fichier .csv contenant les données du tableau.
-        required: true
-
   graphiqueTempsReel:
     label: Graphique en temps réel
     type: object
@@ -168,6 +153,17 @@ components:
       - name: photo
         label: Photo
         type: image
+        
+  htmlBlock:
+    label: htmlBlock
+    type: object
+    fields:
+      - name: htmlBlock
+        label: html
+        type: code
+        required: true
+        options:
+          format: html
 
 content:
   - name: Accueil
@@ -194,12 +190,12 @@ content:
             component: imageLegende
           - name: doubleImageLegende
             component: doubleImageLegende
-          - name: tableauLegende
-            component: tableauLegende
           - name: graphiqueTempsReel
             component: graphiqueTempsReel
           - name: doubleGraphiqueTempsReel
             component: doubleGraphiqueTempsReel
+          - name: htmlBlock
+            component: htmlBlock
 
   - name: pluie
     label: Exclusion de pluie
@@ -225,12 +221,12 @@ content:
             component: imageLegende
           - name: doubleImageLegende
             component: doubleImageLegende
-          - name: tableauLegende
-            component: tableauLegende
           - name: graphiqueTempsReel
             component: graphiqueTempsReel
           - name: doubleGraphiqueTempsReel
             component: doubleGraphiqueTempsReel
+          - name: htmlBlock
+            component: htmlBlock
 
   - name: meteo
     label: Météorologie
@@ -256,12 +252,12 @@ content:
             component: imageLegende
           - name: doubleImageLegende
             component: doubleImageLegende
-          - name: tableauLegende
-            component: tableauLegende
           - name: graphiqueTempsReel
             component: graphiqueTempsReel
           - name: doubleGraphiqueTempsReel
             component: doubleGraphiqueTempsReel
+          - name: htmlBlock
+            component: htmlBlock
 
   - name: carbone
     label: Flux de carbone
@@ -287,12 +283,12 @@ content:
             component: imageLegende
           - name: doubleImageLegende
             component: doubleImageLegende
-          - name: tableauLegende
-            component: tableauLegende
           - name: graphiqueTempsReel
             component: graphiqueTempsReel
           - name: doubleGraphiqueTempsReel
             component: doubleGraphiqueTempsReel
+          - name: htmlBlock
+            component: htmlBlock
 
   - name: equipe
     label: Équipe
@@ -318,6 +314,9 @@ content:
             component: imageLegende
           - name: doubleImageLegende
             component: doubleImageLegende
+          - name: htmlBlock
+            component: htmlBlock
+            
   - name: blogPosts
     label: Blog
     type: collection
@@ -357,9 +356,9 @@ content:
             component: imageLegende
           - name: doubleImageLegende
             component: doubleImageLegende
-          - name: tableauLegende
-            component: tableauLegende
           - name: graphiqueTempsReel
             component: graphiqueTempsReel
           - name: doubleGraphiqueTempsReel
             component: doubleGraphiqueTempsReel
+          - name: htmlBlock
+            component: htmlBlock

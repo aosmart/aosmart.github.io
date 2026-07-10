@@ -18,12 +18,79 @@ Sections:
       dendroécologie et en dendroclimatologie, dont la mission est de bonifier
       les connaissances sur la variabilité climatique et le fonctionnement des
       arbres dans la région boréale.
-  - type: tableauLegende
-    legende: La tour télescopique rétractable, d’une hauteur de 30 mètres, est
-      équipée de capteurs météorologiques qui mesurent des variables telles que
-      la température, l’humidité, la vitesse et la direction du vent, ainsi que
-      les précipitations. Ces données sont essentielles pour comprendre.
-    fichier: /src/media/documents/tables/BOP-CTRL_tree_sapflow_2026-06-03_to_2026-06-21.csv
+  - type: htmlBlock
+    htmlBlock: |-
+      <table class="styled-table">
+        <thead>
+          <tr>
+            <th>Équipement</th>
+            <th>Nombre</th>
+            <th>Variable mesurée</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>IRGASON</td>
+            <td>1</td>
+            <td>Flux écosystémiques de CO₂ et H₂O</td>
+          </tr>
+          <tr>
+            <td>Système AP200</td>
+            <td>1</td>
+            <td>Profil de CO₂ et H₂O à 8 hauteurs</td>
+          </tr>
+          <tr>
+            <td>Sonde 109</td>
+            <td>8</td>
+            <td>Profil de température de l'air</td>
+          </tr>
+          <tr>
+            <td>Radiomètre net NR01</td>
+            <td>1</td>
+            <td>Rayonnement entrant et sortant</td>
+          </tr>
+          <tr>
+            <td>Capteur de rayonnement CS310</td>
+            <td>1</td>
+            <td>Rayonnement photosynthétique</td>
+          </tr>
+          <tr>
+            <td>Radiomètre infrarouge SI-111SS</td>
+            <td>1</td>
+            <td>Température de la canopée</td>
+          </tr>
+          <tr>
+            <td>Capteur SnowVue 10</td>
+            <td>1</td>
+            <td>Hauteur de la neige</td>
+          </tr>
+          <tr>
+            <td>Capteur HygroVue 10</td>
+            <td>1</td>
+            <td>Température et humidité de l'air</td>
+          </tr>
+          <tr>
+            <td>Pluviomètre TE525MM</td>
+            <td>1</td>
+            <td>Précipitations</td>
+          </tr>
+          <tr>
+            <td>Humidimètre CS655</td>
+            <td>3</td>
+            <td>Humidité du sol</td>
+          </tr>
+          <tr>
+            <td>Fluxmètre HFP01</td>
+            <td>3</td>
+            <td>Flux de chaleur dans le sol</td>
+          </tr>
+          <tr>
+            <td>Sonde TCAV</td>
+            <td>3</td>
+            <td>Température du sol</td>
+          </tr>
+        </tbody>
+      </table>
   - type: paragraphe
     paragraphe: Le flux de carbone sera, lui aussi, analysé. « Cette mesure
       écosystémique n’est pas associée à un arbre spécifique, mais représente un
