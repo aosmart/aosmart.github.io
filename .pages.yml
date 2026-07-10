@@ -94,21 +94,6 @@ components:
         type: string
         required: true
 
-  tableauLegende:
-    label: Tableau + légende
-    type: object
-    fields:
-      - name: legende
-        label: Légende
-        type: text
-        required: true
-
-      - name: fichier
-        label: Fichier CSV du tableau
-        type: file
-        description: Selectionnez un fichier .csv contenant les données du tableau.
-        required: true
-
   graphiqueTempsReel:
     label: Graphique en temps réel
     type: object
@@ -200,8 +185,6 @@ content:
             component: imageLegende
           - name: doubleImageLegende
             component: doubleImageLegende
-          - name: tableauLegende
-            component: tableauLegende
           - name: graphiqueTempsReel
             component: graphiqueTempsReel
           - name: doubleGraphiqueTempsReel
@@ -233,8 +216,6 @@ content:
             component: imageLegende
           - name: doubleImageLegende
             component: doubleImageLegende
-          - name: tableauLegende
-            component: tableauLegende
           - name: graphiqueTempsReel
             component: graphiqueTempsReel
           - name: doubleGraphiqueTempsReel
@@ -266,8 +247,6 @@ content:
             component: imageLegende
           - name: doubleImageLegende
             component: doubleImageLegende
-          - name: tableauLegende
-            component: tableauLegende
           - name: graphiqueTempsReel
             component: graphiqueTempsReel
           - name: doubleGraphiqueTempsReel
@@ -299,8 +278,6 @@ content:
             component: imageLegende
           - name: doubleImageLegende
             component: doubleImageLegende
-          - name: tableauLegende
-            component: tableauLegende
           - name: graphiqueTempsReel
             component: graphiqueTempsReel
           - name: doubleGraphiqueTempsReel
@@ -374,8 +351,6 @@ content:
             component: imageLegende
           - name: doubleImageLegende
             component: doubleImageLegende
-          - name: tableauLegende
-            component: tableauLegende
           - name: graphiqueTempsReel
             component: graphiqueTempsReel
           - name: doubleGraphiqueTempsReel
