@@ -168,6 +168,12 @@ components:
       - name: photo
         label: Photo
         type: image
+        
+  htmlBlock:
+      label: htmlBlock
+      type: code
+      options:
+          format: html
 
 content:
   - name: Accueil
@@ -200,6 +206,8 @@ content:
             component: graphiqueTempsReel
           - name: doubleGraphiqueTempsReel
             component: doubleGraphiqueTempsReel
+          - name: htmlBlock
+            component: htmlBlock
 
   - name: pluie
     label: Exclusion de pluie
@@ -231,6 +239,8 @@ content:
             component: graphiqueTempsReel
           - name: doubleGraphiqueTempsReel
             component: doubleGraphiqueTempsReel
+          - name: htmlBlock
+            component: htmlBlock
 
   - name: meteo
     label: Météorologie
@@ -262,6 +272,8 @@ content:
             component: graphiqueTempsReel
           - name: doubleGraphiqueTempsReel
             component: doubleGraphiqueTempsReel
+          - name: htmlBlock
+            component: htmlBlock
 
   - name: carbone
     label: Flux de carbone
@@ -293,6 +305,8 @@ content:
             component: graphiqueTempsReel
           - name: doubleGraphiqueTempsReel
             component: doubleGraphiqueTempsReel
+          - name: htmlBlock
+            component: htmlBlock
 
   - name: equipe
     label: Équipe
@@ -318,6 +332,9 @@ content:
             component: imageLegende
           - name: doubleImageLegende
             component: doubleImageLegende
+          - name: htmlBlock
+            component: htmlBlock
+            
   - name: blogPosts
     label: Blog
     type: collection
@@ -363,3 +380,5 @@ content:
             component: graphiqueTempsReel
           - name: doubleGraphiqueTempsReel
             component: doubleGraphiqueTempsReel
+          - name: htmlBlock
+            component: htmlBlock
