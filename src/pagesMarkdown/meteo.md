@@ -18,12 +18,6 @@ Sections:
       dendroécologie et en dendroclimatologie, dont la mission est de bonifier
       les connaissances sur la variabilité climatique et le fonctionnement des
       arbres dans la région boréale.
-  - type: tableauLegende
-    legende: La tour télescopique rétractable, d’une hauteur de 30 mètres, est
-      équipée de capteurs météorologiques qui mesurent des variables telles que
-      la température, l’humidité, la vitesse et la direction du vent, ainsi que
-      les précipitations. Ces données sont essentielles pour comprendre.
-    fichier: /src/media/documents/tables/BOP-CTRL_tree_sapflow_2026-06-03_to_2026-06-21.csv
   - type: paragraphe
     paragraphe: Le flux de carbone sera, lui aussi, analysé. « Cette mesure
       écosystémique n’est pas associée à un arbre spécifique, mais représente un
