@@ -60,4 +60,8 @@ Sections:
     legende2: La température, l’humidité, la vitesse et la direction du vent, ainsi
       que les précipitations. Ces données sont essentielles pour comprendre.
     fichier2: /graphData/snow_height.json
+  - type: graphiqueTempsReel
+    legende: La température, l’humidité, la vitesse et la direction du vent, ainsi
+      que les précipitations. Ces données sont essentielles pour comprendre.
+    fichier: /graphData/atmospheric_pressure.json
 ---
