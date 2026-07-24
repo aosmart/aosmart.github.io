@@ -106,46 +106,42 @@ Sections:
       bien mesurer les flux écosystémique, l'instrument est installé à une
       hauteur de 21 mètres, soit environ une fois et demie la hauteur des arbres
       les plus grands.
-  - type: paragraphe
-    paragraphe: >-
-      Les chercheurs vont surveiller les impacts de la sécheresse sur la
-      croissance des arbres sous le toit, et comparer les données avec celles
-      récoltées sur les arbres qui ne sont pas protégés de la pluie. Les
-      équipements permettront de connaître en temps réel la productivité de la
-      parcelle de forêt qui sera observée.
-
-
-      Les arbres qui ne sont pas protégés de la pluie. Les équipements
-      permettront de connaître en temps réel la productivité de la parcelle de
-      forêt qui sera observée. Les chercheurs vont surveiller les impacts de la
-      sécheresse sur la croissance des arbres sous le toit, et comparer les
-      données avec celles récoltées sur.
   - type: sous-titre
-    sous-titre: Le système AP200
+    sous-titre: Caractérisation du profil de la colonne d'air
   - type: paragraphe
     paragraphe: >-
-      Les chercheurs vont surveiller les impacts de la sécheresse sur la
-      croissance des arbres sous le toit, et comparer les données avec celles
-      récoltées sur les arbres qui ne sont pas protégés de la pluie. Les
-      équipements permettront de connaître en temps réel la productivité de la
-      parcelle de forêt qui sera observée.
+      Pour calculer les flux écosystémiques avec plus de précision, il est
+      nécessaire de connaître la température ainsi que la concentration en
+      dioxyde de carbone et en vapeur d'eau dans la colonne d'air sous
+      l'IRGASON. Ces mesures permettent d'analyser des échanges gazeux qui
+      pourraient ne pas être détectés par l'IRGASON situé au sommet de la tour.
 
 
-      Les arbres qui ne sont pas protégés de la pluie. Les équipements
-      permettront de connaître en temps réel la productivité de la parcelle de
-      forêt qui sera observée. Les chercheurs vont surveiller les impacts de la
-      sécheresse sur la croissance des arbres sous le toit, et comparer les
-      données avec celles récoltées sur.
+      Pour ce faire, un système appelé AP200 est installé sur la tour
+      téléscopique. Ce système comprend huit capteurs de température de l'air et
+      huit entrées d'air installées à différentes hauteurs afin de caractériser
+      la colonne d'air. L'air est pompé à partir de chacune de ces entrées d'air
+      vers un boîtier à la base de la tour où sont mesurées les concentrations
+      de dioxyde de carbone et de vapeur d'eau au moyen d'un analyseur de gaz
+      infrarouge.
 
 
-      Les chercheurs vont surveiller les impacts de la sécheresse sur la
-      croissance des arbres sous le toit, et comparer les données avec celles
-      récoltées sur les arbres qui ne sont pas protégés de la pluie. Les
-      équipements permettront de connaître en temps réel la productivité de la
-      parcelle de forêt qui sera observée.
+      Selon l'heure à laquelle vous regardez les données ci-bas, vous pourriez
+      voir comment différents phénomènes affectent les propriétés de la colonne
+      d'air. Par exemple, en plein jour et lorsque les vents sont plus forts,
+      les différentes couches de la colonne d'air se mélangent rapidement et on
+      distingue à peine les distinctions entre les différents étages du système.
+      Par contre, en pleine nuit, les organismes vivant au niveau du sol
+      relâchent du dioxyde de carbone (CO2) par respiration et la vitesse
+      moindre des vents nocturnes ne mélange pas aussi bien les couches d'air.
+      On observe ainsi habituellement un gradient clair avec une concentration
+      de dioxyde de carbone plus élevée près du sol et décroissante à mesure que
+      l'on monte le long de la colonne d'air.
   - type: graphiqueTempsReel
-    legende: Lorem Ipsum is simply dummy text of the printing and typesetting
-      industry. Lorem Ipsum has been the industry's standard dummy text ever
-      since 1966.
+    legende: Représentation des données les plus récentes acquises par le système
+      AP200 à huit hauteurs différentes le long de la tour téléscopique. On y
+      voit la température moyenne de l'air au cours des 30 dernières minutes, la
+      concentration moyenne en dioxyde de carbone (parties par million), et la
+      concentration moyenne en vapeur d'eau (parties par millier).
     fichier: /graphData/ap200.json
 ---
