@@ -87,7 +87,9 @@ Sections:
     legende1: Un radiomètre NR01 installé à 15 mètres au-dessus du sol mesure le
       rayonnement solaire entrant et sortant au site d'étude. Ce graphique
       montre le rayonnement solaire entrant dans le domaine des longueurs d'onde
-      courtes, soit les rayons UV, la lumi
+      courtes, soit les rayons UV, la lumière visible et le proche infrarouge.
+      Des valeurs autour de 1000 watts par mètre carré correspondent à des
+      conditions ensoleillées.
     fichier1: /graphData/solar_radiation.json
     legende2: La température, l’humidité, la vitesse et la direction du vent, ainsi
       que les précipitations. Ces données sont essentielles pour comprendre.
