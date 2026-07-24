@@ -82,5 +82,8 @@ Sections:
       bénéficie du soutien financier du [Conseil de recherches en sciences
       naturelles et en génie du Canada](https://nserc-crsng.canada.ca/fr).
   - type: htmlBlock
-    htmlBlock: <img src=/logos/mrcao.png alt="MRC d'Abitibi-Ouest"/>
+    htmlBlock: |-
+      <Row>
+          <img src=/logos/mrcao.png alt="MRC d'Abitibi-Ouest"/>
+      </Row>
 ---
