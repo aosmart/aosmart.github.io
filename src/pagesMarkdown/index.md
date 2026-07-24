@@ -5,6 +5,12 @@ Sections:
     sous-texte: Un projet de l'Université du Québec en Abitibi-Témiscamingue en
       collaboration avec la MRC d'Abitibi-Ouest et le Ministère des ressources
       naturelles et des forêts
+  - type: imageLegende
+    image: /images/tour/DJI_0264.jpg
+    legende: Une tour téléscopique sur laquelle sont installés des capteurs
+      météorologiques et de mesure des flux écosystémique constitue un des
+      éléments clés de la forêt connectée d'Abitibi-Ouest
+    alt: Vue de la tour à flux prise à partir d'un drone
   - type: sous-titre
     sous-titre: Qu'est-ce qu'une forêt connectée?
   - type: paragraphe
@@ -55,19 +61,13 @@ Sections:
   - type: sous-titre
     sous-titre: La forêt connectée en chiffres
   - type: paragraphe
-    paragraphe: >+
+    paragraphe: |+
       La forêt connectée d'Abitibi-Ouest, c'est :
 
-
       - 40 dendromètres mesurant la croissance des arbres
-
       - 18 capteurs de flux de sève des arbres
-
       - 25 capteurs d'humidité du sol
-
-      - 250 m<sup>2</sup> de superficie soumise à l'expérience d'exclusion de
-      pluie
-
+      - 250 m2 de superficie soumise à l'expérience d'exclusion de pluie
       - 
 
   - type: sous-titre
