@@ -40,19 +40,13 @@ Sections:
       mesurant les flux de carbone à la forêt connectée d'Abitibi-Ouest.
   - type: sous-titre
     sous-titre: Une tour à flux pour mesurer les flux écosystémiques
-  - type: doubleImageLegende
-    image1: /images/tour/20250613110406.jpg
-    alt1: aaa
-    legende1: Des images thermiques permettront par ailleurs à l’équipe de glaner
-      des indices sur la vulnérabilité des arbres durant des périodes de
-      sécheresse. Un système spécifique sera mis en place sur certains arbres
-      sélectionnés, privés d’eau de pluie par un toit, pour les mettre en
-      situation de stress hydrique simulé.
-    image2: /images/tour/178215248803362581225476964258.jpg
-    alt2: bbb
-    legende2: « Dans les arbres, il y a un cycle journalier très marqué, le
-      mouvement de la sève est plus rapide durant la journée et presque absent
-      durant la nuit », explique Fabio Gennaretti.
+  - type: imageLegende
+    image: /images/tour/20250613110406.jpg
+    legende: Une tour téléscopique sert d'ancrage pour installer des instruments
+      météorologiques et de mesure des flux écosystémiques en hauteur. Tout en
+      haut de la tour trône l'IRGASON, l'instrument de mesure principal des flux
+      écosystémiques à la forêt connectée.
+    alt: La tour téléscopique de la forêt connectée
   - type: paragraphe
     paragraphe: Le flux de carbone sera, lui aussi, analysé. « Cette mesure
       écosystémique n’est pas associée à un arbre spécifique, mais représente un
