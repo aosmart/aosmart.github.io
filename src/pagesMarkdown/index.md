@@ -52,12 +52,13 @@ Sections:
       - Fournir des [données météorologiques de haute précision](./meteo)
 
 
-      Les instruments de mesures installés à la forêt connectée sont reliés à
-      internet par un modem cellulaire installé sur place. Sur ce site, vous
-      pourrez voir les dernières données acquises ainsi que la météo en temps
-      réel au site d'étude. De plus, vous pourrez apprendre comment fonctionnent
-      les différents types de capteurs qui permettent d'acquérir ces données.
-      N'hésitez pas à parcourir les différents onglets!
+      Les instruments de mesure installés à la forêt connectée sont reliés à
+      internet par un modem cellulaire qui donne accès aux appareils à distance.
+      Sur ce site web, vous pourrez voir les dernières données acquises ainsi
+      que la météo au site d'étude en temps réel. De plus, vous pourrez
+      apprendre comment fonctionnent les différents types de capteurs qui
+      permettent d'obtenir ces données. N'hésitez pas à parcourir les différents
+      onglets!
 
 
       Tous les instruments installés au site d'étude fonctionnent grâce à
