@@ -1,23 +1,16 @@
 ---
 Sections:
   - type: titre
-    titre: Météorologie
-    sous-texte: Les travaux ont commencé l’automne dernier avec l’acquisition et
-      l’installation d’une tour télescopique rétractable. Et l'installation
-      d’équipements à la fine pointe de la technologie se poursuit sur le
-      terrain.
+    titre: Données météorologiques
+    sous-texte: Des capteurs météorologiques de haute précision installés au site
+      d'étude permettront de connaître les conditions dans lesquelles les arbres
+      évoluent. Grâce à ces capteurs, vous pouvez aussi savoir quel temps il
+      fait à Rapide-Danseur en temps réel!
   - type: paragraphe
-    paragraphe: À terme, les informations récoltées devraient être utiles pour
-      réfléchir à une meilleure gestion des forêts, dans le cadre des
-      changements climatiques. Peut-on s’attendre à des changements importants
-      de séquestration du carbone ? Qu’en est-il de la biodiversité ? De la
-      disponibilité en bois ? L’équipe de Fabio Gennaretti se donne trois ans
-      pour dégager des éléments de réponse sur la résistance et la résilience
-      des écosystèmes forestiers face au plus grand défi de notre siècle. Le
-      professeur est également titulaire de la Chaire de recherche du Canada en
-      dendroécologie et en dendroclimatologie, dont la mission est de bonifier
-      les connaissances sur la variabilité climatique et le fonctionnement des
-      arbres dans la région boréale.
+    paragraphe: "Plus d'une dizaine de capteurs ont été installés au site de la
+      forêt connectée pour mesurer des données non seulement sur la température
+      et les précipitations, mais aussi sur la vitesse du vent et les radiations
+      solaires :"
   - type: htmlBlock
     htmlBlock: |-
       <table class="styled-table">
@@ -30,41 +23,6 @@ Sections:
         </thead>
         <tbody>
           <tr>
-            <td>IRGASON</td>
-            <td>1</td>
-            <td>Flux écosystémiques de CO₂ et H₂O</td>
-          </tr>
-          <tr>
-            <td>Système AP200</td>
-            <td>1</td>
-            <td>Profil de CO₂ et H₂O à 8 hauteurs</td>
-          </tr>
-          <tr>
-            <td>Sonde 109</td>
-            <td>8</td>
-            <td>Profil de température de l'air</td>
-          </tr>
-          <tr>
-            <td>Radiomètre net NR01</td>
-            <td>1</td>
-            <td>Rayonnement entrant et sortant</td>
-          </tr>
-          <tr>
-            <td>Capteur de rayonnement CS310</td>
-            <td>1</td>
-            <td>Rayonnement photosynthétique</td>
-          </tr>
-          <tr>
-            <td>Radiomètre infrarouge SI-111SS</td>
-            <td>1</td>
-            <td>Température de la canopée</td>
-          </tr>
-          <tr>
-            <td>Capteur SnowVue 10</td>
-            <td>1</td>
-            <td>Hauteur de la neige</td>
-          </tr>
-          <tr>
             <td>Capteur HygroVue 10</td>
             <td>1</td>
             <td>Température et humidité de l'air</td>
@@ -75,19 +33,29 @@ Sections:
             <td>Précipitations</td>
           </tr>
           <tr>
-            <td>Humidimètre CS655</td>
-            <td>3</td>
-            <td>Humidité du sol</td>
+            <td>Anémomètre sonique (IRGASON)</td>
+            <td>1</td>
+            <td>Vitesse et direction du vent</td>
           </tr>
           <tr>
-            <td>Fluxmètre HFP01</td>
-            <td>3</td>
-            <td>Flux de chaleur dans le sol</td>
+            <td>Baromètre (IRGASON)</td>
+            <td>1</td>
+            <td>Pression atmosphérique</td>
           </tr>
           <tr>
-            <td>Sonde TCAV</td>
-            <td>3</td>
-            <td>Température du sol</td>
+            <td>Radiomètre NR01</td>
+            <td>1</td>
+            <td>Rayonnement entrant et sortant</td>
+          </tr>
+          <tr>
+            <td>Sonde 109</td>
+            <td>8</td>
+            <td>Profil de température de l'air</td>
+          </tr>
+          <tr>
+            <td>Capteur SnowVue 10</td>
+            <td>1</td>
+            <td>Hauteur de la neige</td>
           </tr>
         </tbody>
       </table>
