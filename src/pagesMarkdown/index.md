@@ -81,4 +81,6 @@ Sections:
       du Ministère des ressources naturelles et de la forêt. De plus, ce projet
       bénéficie du soutien financier du [Conseil de recherches en sciences
       naturelles et en génie du Canada](https://nserc-crsng.canada.ca/fr).
+  - type: htmlBlock
+    htmlBlock: <img src=/images/logos/mrcao.png alt="MRC d'Abitibi-Ouest"/>
 ---
