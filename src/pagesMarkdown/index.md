@@ -26,6 +26,11 @@ Sections:
       été mis sur pied afin de diffuser en temps réel les données acquises à la
       forêt connecté d'Abitibi-Ouest et les résultats de recherche qui en
       découlent."
+  - type: imageLegende
+    image: /images/foret/capteurs_epinettes.jpg
+    legende: Dans une forêt connecté, les éléments naturels s'entremêlent avec les
+      instruments de mesure.
+    alt: Capteurs de flux de sève installés sur des épinettes
   - type: sous-titre
     sous-titre: Aperçu du projet
   - type: paragraphe
