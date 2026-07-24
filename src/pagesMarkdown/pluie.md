@@ -64,13 +64,13 @@ Sections:
     alt: Un exemple de dendromètre
   - type: paragraphe
     paragraphe: >-
-      En réalité, les dendromètres ne permettent pas de mesurer simplement la
-      croissance des arbres, mais aussi leur statut hydrique. Contrairement à ce
-      qu'on pourrait croire, le diamètre des arbres ne varie pas seulement en
-      fonction de leur croissance, mais aussi en fonction de leur niveau
-      d'hydratation. Un arbre bien hydraté aura un tronc bien gorgé d'eau qui se
-      traduit par un diamètre plus grand. Au contraire, un arbre desséché aura
-      un diamètre plus petit puisque les cellules de son tronc sont moins
+      En réalité, les dendromètres mesurent non seulement la croissance des
+      arbres, mais aussi leur statut hydrique. Contrairement à ce qu'on pourrait
+      croire, le diamètre des arbres ne fait pas qu'augmenter au fil du temps,
+      mais peut aussi varier à la baisse ou à la hausse en fonction de leur
+      niveau d'hydratation. Un arbre bien hydraté aura un tronc bien gorgé d'eau
+      qui se traduit par un diamètre plus grand. Au contraire, un arbre desséché
+      aura un diamètre plus petit puisque les cellules de son tronc sont moins
       gorgées d'eau.
 
 
