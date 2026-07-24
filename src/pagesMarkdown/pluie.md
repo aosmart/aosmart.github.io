@@ -144,10 +144,11 @@ Sections:
       environnementales. » Des images thermiques permettront par ailleurs
     fichier: /graphData/sapflows_EPN.json
   - type: doubleImageLegende
-    image1: /images/foret/sapflow1 (1).jpg
-    alt1: Un capteur de flux de sève non installé
-    legende1: Un capteur de flux de sève de type Granier. L'aiguille portant un
-      cercle jaune est munie d'un élément chauffant, et l'autre non.
+    image1: /images/foret/sapflow2.jpg
+    alt1: "Un capteur de flux de sève nouvellement installé. "
+    legende1: Un capteur de flux de sève de type Granier nouvellement installé.
+      L'aiguille portant un cercle jaune (en haut) est munie d'un élément
+      chauffant, et l'autre non.
     image2: /images/foret/sapflow1 (1).jpg
     alt2: Un capteur de flux de sève sous son bouclier de protection
     legende2: Une fois installés, les capteurs de flux de sève sont recouverts d'un
