@@ -67,8 +67,10 @@ Sections:
       - 40 dendromètres mesurant la croissance des arbres
       - 18 capteurs de flux de sève des arbres
       - 25 capteurs d'humidité du sol
+      - Plus de 20 capteurs météorologiques
       - 250 m2 de superficie soumise à l'expérience d'exclusion de pluie
-      - 
+      - 230 m de câble Ethernet
+      - Plus de 2000 W de puissance solaire
 
   - type: sous-titre
     sous-titre: Remerciements
