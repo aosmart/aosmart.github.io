@@ -8,8 +8,8 @@ Sections:
   - type: imageLegende
     image: /images/tour/DJI_0264.jpg
     legende: Une tour téléscopique sur laquelle sont installés des capteurs
-      météorologiques et de mesure des flux écosystémique constitue un des
-      éléments clés de la forêt connectée d'Abitibi-Ouest
+      météorologiques et de mesure des flux écosystémiques constitue un des
+      éléments clés de la forêt connectée d'Abitibi-Ouest.
     alt: Vue de la tour à flux prise à partir d'un drone
   - type: sous-titre
     sous-titre: Qu'est-ce qu'une forêt connectée?
@@ -17,15 +17,15 @@ Sections:
     paragraphe: "Une forêt connectée (ou forêt intelligente, *smart forest* en
       anglais) est une forêt dans laquelle des capteurs et autres instruments de
       haute précision mesurent en continu l'état de l'écosystème. L'objectif
-      d'une telle infrastructure combinant la nature et la technologie est de
-      mieux comprendre le fonctionnement de la forêt de façon à pouvoir
-      planifier l'adapation aux changements climatiques. La dimension
-      socio-économique est également un élément clé d'une forêt connectée :
-      celle-ci doit apporter une valeur ajoutée pour les utilisateurs de la
-      forêt, qu'il s'agisse des citoyens habitant la région ou de l'industrie
-      forestière. C'est dans cette optique que ce site web a été mis sur pied
-      afin de diffuser en temps réel les données acquises à la forêt connecté
-      d'Abitibi-Ouest et les résultats de recherche qui en découlent."
+      d'une telle infrastructure est de mieux comprendre le fonctionnement de la
+      forêt de façon à pouvoir planifier l'adapation aux changements
+      climatiques. La dimension socio-économique est au centre du concept de
+      forêt connectée : celle-ci doit apporter une valeur ajoutée pour les
+      utilisateurs de la forêt, qu'il s'agisse des citoyens habitant la région
+      ou de l'industrie forestière. C'est dans cette optique que ce site web a
+      été mis sur pied afin de diffuser en temps réel les données acquises à la
+      forêt connecté d'Abitibi-Ouest et les résultats de recherche qui en
+      découlent."
   - type: sous-titre
     sous-titre: Aperçu du projet
   - type: paragraphe
