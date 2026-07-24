@@ -2,7 +2,7 @@
 Sections:
   - type: titre
     titre: Dispositif d'exclusion de pluie
-    sous-texte: Une expérience visant à évaluer l'effet de à sécheresse sur le
+    sous-texte: Une expérience qui évalue l'effet de la sécheresse sur le
       fonctionnement des arbres
   - type: paragraphe
     paragraphe: >-
@@ -15,18 +15,18 @@ Sections:
 
       Ces questions sont cruciales pour les utilisateurs de la forêt et pour
       l'avenir de l'industrie forestière en Abitibi-Témiscamingue. C'est
-      pourquoi nous avons voulu causer une sécheresse pour étudier quels
+      pourquoi nous avons créé une sécheresse artificielle afin d'étudier quels
       seraient les effets du manque d'eau sur les arbres.
   - type: sous-titre
     sous-titre: Design expérimental
   - type: paragraphe
-    paragraphe: "Afin de créer une sécheresse de façon expérimentale, nous avons
-      installé deux structures de bois sur laquelle des panneaux en plastique
-      transparent ont été posés. Ces structures empêchent l'eau d'atteindre le
-      sol et donc d'irriguer les racines des arbres qui se trouvent en dessous.
-      Une des structures est située dans un peuplement de bouleaux à papier
-      (*Betula papyrifera*) alors que l'autre se trouve dans une plantation
-      d'épinettes noires (*Picea mariana*). "
+    paragraphe: "Pour créer une sécheresse de façon expérimentale, nous avons
+      installé deux structures de bois recouvertes de panneaux en plastique
+      transparent. Ces structures empêchent l'eau d'atteindre le sol et donc
+      d'irriguer les racines des arbres qui se trouvent en dessous. Une des
+      structures est située dans un peuplement de bouleaux à papier (*Betula
+      papyrifera*) alors que l'autre se trouve dans une plantation d'épinettes
+      noires (*Picea mariana*). "
   - type: doubleImageLegende
     image1: /images/foret/bouleaux.jpg
     alt1: Le toit d'exclusion de pluie des bouleaux
@@ -43,7 +43,7 @@ Sections:
       sécheresse, quinze bouleaux et onze épinettes serviront de témoins soumis
       aux conditions naturelles de précipitations. Il sera donc possible de
       comparer la réaction des arbres privés d'eau à d'autres arbres situés à
-      une dizaine de mètres seulement mais qui ne seront pas limités en eau.
+      une dizaine de mètres seulement mais qui ne sont pas limités en eau.
   - type: sous-titre
     sous-titre: Mesurer la croissance des arbres à l'aide de dendromètres
   - type: paragraphe
