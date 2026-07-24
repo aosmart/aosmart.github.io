@@ -106,13 +106,20 @@ Sections:
       bien mesurer les flux écosystémique, l'instrument est installé à une
       hauteur de 21 mètres, soit environ une fois et demie la hauteur des arbres
       les plus grands.
-  - type: imageLegende
-    image: /images/capteurs/irgason_1.jpg
-    legende: Vue rapprochée de l'IRGASON avant son installation sur la tour
+  - type: doubleImageLegende
+    image1: /images/capteurs/irgason_1.jpg
+    alt1: Vue rapprochée de l'IRGASON
+    legende1: Vue rapprochée de l'IRGASON avant son installation sur la tour
       téléscopique. La partie de droite correspond aux émetteurs et récepteurs
       mesurant la vitesse du vent et la concentration en dioxyde de carbone et
       en vapeur d'eau de l'air.
-    alt: Vue rapprochée de l'IRGASON
+    image2: /images/capteurs/irgason_2.jpg
+    alt2: Vue de l'IRGASON sut la tour
+    legende2: IRGASON une fois installé sur la tour téléscopique. Cette photo a été
+      prise alors que la tour téléscopique était en position horizontale pour
+      pouvoir y installer les équipements. Lorsqu'il est en fonction, l'IRGASON
+      est orienté de sorte que ses émetteurs et récepteurs ont orientés à la
+      verticale.
   - type: sous-titre
     sous-titre: Caractérisation du profil de la colonne d'air
   - type: paragraphe
