@@ -85,5 +85,6 @@ Sections:
     htmlBlock: |-
       <Row>
           <img src=/logos/mrcao.png alt="MRC d'Abitibi-Ouest"/>
+          <img src=/logos/crsng.svg alt="CRSNG"/>
       </Row>
 ---
