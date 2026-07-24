@@ -85,11 +85,14 @@ Sections:
       sont fermés, l'arbre peut refaire ses réserves d'eau et leur diamètre
       augmente à nouveau.
   - type: graphiqueTempsReel
-    legende: Le flux de carbone sera, lui aussi, analysé. « Cette mesure
-      écosystémique n’est pas associée à un arbre spécifique, mais représente un
-      bilan de notre forêt, soit l’équilibre entre tous les atomes de carbone
-      captés versus ceux qui sont relâchés, ajoute le professeur. Elle nous
-      indique la productivité.
+    legende: Données enregistrées par les dendromètres installés sur les bouleaux à
+      papier au cours de la dernière semaine. Chaque nuit, les arbres se
+      réhydratent et leur diamètre augmente donc en conséquence. Le jour,
+      lorsqu'il ne pleut pas, les arbres perdent plus d'eau par les feuilles
+      qu'ils n'en obtiennent par leurs racines, et leur tronc se contracte.
+      Malgré le cycle journalier de contraction et de dilatation du tronc, le
+      diamètre des arbres a tendance à augmenter au fil du temps en raison de
+      leur croissance.
     fichier: /graphData/dendrometers_BOP.json
   - type: paragraphe
     paragraphe: >-
@@ -134,15 +137,6 @@ Sections:
       la chaleur produite par l'aiguille chauffée est dissipée par le mouvement
       de la sève et la différence de température entre les deux aiguilles est
       réduite.
-  - type: graphiqueTempsReel
-    legende: Le flux de carbone sera, lui aussi, analysé. « Cette mesure
-      écosystémique n’est pas associée à un arbre spécifique, mais représente un
-      bilan de notre forêt, soit l’équilibre entre tous les atomes de carbone
-      captés versus ceux qui sont relâchés, ajoute le professeur. Elle nous
-      indique la productivité nette de notre écosystème et l’habilité de la
-      forêt à séquestrer du carbone en fonction des variabilités
-      environnementales. » Des images thermiques permettront par ailleurs
-    fichier: /graphData/sapflows_EPN.json
   - type: doubleImageLegende
     image1: /images/foret/sapflow2.jpg
     alt1: "Un capteur de flux de sève nouvellement installé. "
@@ -156,15 +150,24 @@ Sections:
       assure que nous mesurons seulement des variations reliées au flux de sève
       lui-même, et non pas les conditions météorologiques extérieures.
   - type: paragraphe
-    paragraphe: Les données récoltées permettront de mieux comprendre les impacts
-      des changements climatiques sur la forêt boréale, et ainsi d’adapter les
-      pratiques de gestion forestière pour assurer la résilience de ces
-      écosystèmes face à ces changements. L’étude permettra de mieux comprendre
-      les impacts des changements climatiques sur la forêt boréale, et ainsi
-      d’adapter les pratiques de gestion forestière pour assurer la résilience
-      de ces écosystèmes face à ces changements. Le professeur Gennaretti est
-      également titulaire de la Chaire de recherche du Canada en dendroécologie
-      et en dendroclimatologie.
+    paragraphe: Les données en provenance des capteurs de flux de sève sont mesurées
+      par les enregistreurs de données selon leur différence de potentiel
+      électrique en millivolts (mV). Des calculs complexes sont requis pour
+      transformer cette différence de potentiel en densité de flux de sève (en
+      quantité d'eau par unité de surface de tronc et de temps), mais les
+      données brutes en mV peuvent tout de même être interprétées pour
+      déterminer le flux de sève relatif de l'arbre. Une différence de potentiel
+      plus basse indique un flux de sève plus élevé, alors qu'une différence de
+      potentiel élevée indique un flux de sève réduit.
+  - type: graphiqueTempsReel
+    legende: Données issue des capteurs de flux de sève des bouleaux à papier au
+      cours de la dernière semaine. Au cours de la nuit, la transpiration des
+      arbres est à son plus bas et la différence de potentiel mesurée par les
+      capteurs est maximale. Lors de journées chaudes et sèches, les arbres
+      transpirent abondamment et la différence de potentiel mesurée est à son
+      plus bas. Lors de journées pluvieuses, les valeurs mesurées sont également
+      élevées puisque les arbres transpirent très peu.
+    fichier: /graphData/sapflows_BOP.json
   - type: graphiqueTempsReel
     legende: Le flux de carbone sera, lui aussi, analysé. « Cette mesure
       écosystémique n’est pas associée à un arbre spécifique, mais représente un
@@ -172,32 +175,8 @@ Sections:
       captés versus ceux qui sont relâchés, ajoute le professeur. Elle nous
       indique la productivité.
     fichier: /graphData/soilmoisture_BOP.json
+  - type: sous-titre
+    sous-titre: Suivi du contenu en eau du sol
   - type: paragraphe
-    paragraphe: >-
-      Le flux de carbone sera, lui aussi, analysé. « Cette mesure écosystémique
-      n’est pas associée à un arbre spécifique, mais représente un bilan de
-      notre forêt, soit l’équilibre entre tous les atomes de carbone captés
-      versus ceux qui sont relâchés, ajoute le professeur. Elle nous indique la
-      productivité nette de notre écosystème et l’habilité de la forêt à
-      séquestrer du carbone en fonction des variabilités environnementales. »
-      Des images thermiques permettront par ailleurs à l’équipe de glaner des
-      indices sur la vulnérabilité des arbres durant des périodes de sécheresse.
-      Un système spécifique sera mis en place sur certains arbres sélectionnés,
-      privés d’eau de pluie par un toit, pour les mettre en situation de stress
-      hydrique simulé. Les résultats indiqueront quelles espèces, conifères ou
-      feuillus, sont plus ou moins sensibles.
-
-
-      Le flux de carbone sera, lui aussi, analysé. « Cette mesure écosystémique
-      n’est pas associée à un arbre spécifique, mais représente un bilan de
-      notre forêt, soit l’équilibre entre tous les atomes de carbone captés
-      versus ceux qui sont relâchés, ajoute le professeur. Elle nous indique la
-      productivité nette de notre écosystème et l’habilité de la forêt à
-      séquestrer du carbone en fonction des variabilités environnementales. »
-      Des images thermiques permettront par ailleurs à l’équipe de glaner des
-      indices sur la vulnérabilité des arbres durant des périodes de sécheresse.
-      Un système spécifique sera mis en place sur certains arbres sélectionnés,
-      privés d’eau de pluie par un toit, pour les mettre en situation de stress
-      hydrique simulé. Les résultats indiqueront quelles espèces, conifères ou
-      feuillus, sont plus ou moins sensibles.
+    paragraphe: Capteurs d'humidité du sol
 ---
