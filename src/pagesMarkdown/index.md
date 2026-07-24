@@ -58,6 +58,15 @@ Sections:
       Tous les instruments installés au site d'étude fonctionnent grâce à
       l'énergie solaire, ce qui réduit l'empreinte carbone du projet et permet
       au site de fonctionner en complète autonomie du réseau électrique.
+  - type: doubleImageLegende
+    image1: /images/foret/toit_bouleaux.jpg
+    alt1: Toits des bouleaux
+    legende1: La moitié des arbres suivis par l'expérience d'exclusion de pluie sont
+      des bouleaux à papier.
+    image2: /images/foret/toits_epinettes.jpg
+    alt2: Toit des épinettes
+    legende2: L'autre moitié des arbres suivis par l'expérience d'exclusion de pluie
+      sont des épinettes noires.
   - type: sous-titre
     sous-titre: La forêt connectée en chiffres
   - type: paragraphe
