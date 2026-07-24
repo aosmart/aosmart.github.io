@@ -28,7 +28,7 @@ Sections:
       découlent."
   - type: imageLegende
     image: /images/foret/capteurs_epinettes.jpg
-    legende: Dans une forêt connecté, les éléments naturels s'entremêlent avec les
+    legende: Dans une forêt connectée, les éléments naturels s'entremêlent avec les
       instruments de mesure.
     alt: Capteurs de flux de sève installés sur des épinettes
   - type: sous-titre
@@ -47,7 +47,7 @@ Sections:
 
       - Mesurer les flux écosystémiques à l'aide d'une [tour à flux](./flux)
 
-      - Évaluer l'effet sur les arbres d'une [sécheresse expérimentale](./pluie)
+      - Évaluer l'effet d'une [sécheresse expérimentale](./pluie) sur les arbres
 
       - Fournir des [données météorologiques de haute précision](./meteo)
 
