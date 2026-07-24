@@ -168,8 +168,8 @@ Sections:
       cours de la dernière semaine. Au cours de la nuit, la transpiration des
       arbres est à son plus bas et la différence de potentiel mesurée par les
       capteurs est maximale. Lors de journées chaudes et sèches, les arbres
-      transpirent abondamment et la différence de potentiel mesurée est à son
-      plus bas. Lors de journées pluvieuses, les valeurs mesurées sont également
+      transpirent abondamment et la différence de potentiel mesurée est
+      minimale. Lors de journées pluvieuses, les valeurs mesurées sont également
       élevées puisque les arbres transpirent très peu.
     fichier: /graphData/sapflows_BOP.json
   - type: graphiqueTempsReel
@@ -179,18 +179,16 @@ Sections:
   - type: sous-titre
     sous-titre: Suivi du contenu en eau du sol
   - type: paragraphe
-    paragraphe: >-
-      Le contenu en eau du sol dans les parcelles d'étude sous traitement
+    paragraphe: "Le contenu en eau du sol dans les parcelles d'étude sous traitement
       d'exclusion de pluie et les parcelles témoins est mesuré à toutes les dix
       minutes au moyen de sondes réflectométriques de teneur en eau. Ces sondes
       fonctionnent en produisant un signal électromagnétique à partir de deux
       tiges de métal parallèles et en mesurant le temps que le signal prend pour
-      revenant à l'instrument : plus le délai est long, plus le contenu en haut
-      du sol et élevé. Ce temps de retour du signal est ensuite converti en une
-      mesure relative de contenu en eau du sol en pourcentage.  
-
-      Un milieu complètement dépourvu d'eau retournera une valeur de 0%, alors
-      qu'une sonde immergée dans de l'eau produira une valeur de 100%.
+      revenir à l'instrument : plus le délai est long, plus le contenu en eau du
+      sol et élevé. Ce temps de retour du signal est ensuite converti en une
+      mesure relative de contenu en eau du sol en pourcentage. Un milieu
+      complètement dépourvu d'eau retournera une valeur de 0%, alors qu'une
+      sonde immergée dans de l'eau produira une valeur de 100%."
   - type: doubleImageLegende
     image1: /images/capteurs/cs616_1.jpg
     alt1: Capteur d'humidité du sol non installé
