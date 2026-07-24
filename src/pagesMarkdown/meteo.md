@@ -9,7 +9,7 @@ Sections:
   - type: sous-titre
     sous-titre: Données météorologiques au cours de la dernière semaine
   - type: doubleGraphiqueTempsReel
-    legende1: Un capteur HygroVUE 10 installé à mètres au-dessus du niveau du sol
+    legende1: Un capteur HygroVUE 10 installé à 7 mètres au-dessus du niveau du sol
       mesure la température de l'air.
     fichier1: /graphData/air_temperature.json
     legende2: Un pluviomètre TE525MM mesure la quantité de pluie tombant au site
@@ -19,16 +19,16 @@ Sections:
       l'enregistreur de données.
     fichier2: /graphData/precipitation.json
   - type: doubleGraphiqueTempsReel
-    legende1: Un anémomètre sonique à trois dimensions intégré à l'instrument
+    legende1: Un anémomètre à ultrasons à trois dimensions intégré à l'instrument
       IRGASON mesure la vitesse et la direction du vent. Cet instrument
       fonctionne en produisant des ondes sonores à partir de trois émetteurs. La
-      vitesse du vent est calculée à selon le temps que prennent les ondes à
-      atteindre les récepteurs associés à chacun des émetteurs
+      vitesse du vent est calculée selon le temps que prennent les ondes à
+      atteindre les récepteurs associés à chacun des émetteurs.
     fichier1: /graphData/wind_speed.json
     legende2: La vitesse du vent calculée selon les trois dimensions permet aussi de
-      connaître la direction d'où le vent provient. Une valeur de 0/360 degrés
+      connaître la direction d'où le vent provient. Une valeur de 0 degré
       correspond à un vent en provenance du nord. Une valeur de 90 degrés
-      correspond à l'est, 180 au sud, et 270 degrés à l'ouest.
+      correspond à l'est, 180 degrés au sud, et 270 degrés à l'ouest.
     fichier2: /graphData/wind_direction.json
   - type: doubleGraphiqueTempsReel
     legende1: Un radiomètre NR01 installé à 15 mètres au-dessus du sol mesure le
