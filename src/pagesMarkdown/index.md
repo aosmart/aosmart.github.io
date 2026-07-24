@@ -89,12 +89,12 @@ Sections:
 
   - type: imageLegende
     image: /images/foret/panneaux_arbres.jpg
-    legende: Tous les instruments du site d'étude sont alimentés à l'énergée solaire
+    legende: Tous les instruments du site d'étude sont alimentés à l'énergée solaire.
     alt: Photos des panneaux solaires au site des arbres
   - type: sous-titre
     sous-titre: Remerciements
   - type: paragraphe
-    paragraphe: Ce projet a été possible grâce à la collaboration de la [MRC
+    paragraphe: Ce projet est possible grâce à la collaboration de la [MRC
       d'Abitibi-Ouest](https://www.mrcao.qc.ca) et la [Direction de la recherche
       forestière](https://mffp.gouv.qc.ca/publications/enligne/forets/activites-recherche/recherche/index.asp)
       du Ministère des ressources naturelles et de la forêt. De plus, ce projet
