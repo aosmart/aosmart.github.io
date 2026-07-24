@@ -94,6 +94,12 @@ Sections:
       diamètre des arbres a tendance à augmenter au fil du temps en raison de
       leur croissance.
     fichier: /graphData/dendrometers_BOP.json
+  - type: graphiqueTempsReel
+    legende: Données enregistrées par les dendromètres installés sur les épinettes
+      noires au cours de la dernière semaine. Les patrons observés sont
+      généralement similaires à ceux pour le bouleau à papier, mais les
+      épinettes ont tendance à croître moins rapidement.
+    fichier: /graphData/dendrometers_EPN.json
   - type: paragraphe
     paragraphe: >-
       Au-delà du cycle journalier d'augmentation et de diminution du diamètre en
@@ -160,7 +166,7 @@ Sections:
       plus basse indique un flux de sève plus élevé, alors qu'une différence de
       potentiel élevée indique un flux de sève réduit.
   - type: graphiqueTempsReel
-    legende: Données issue des capteurs de flux de sève des bouleaux à papier au
+    legende: Données issues des capteurs de flux de sève des bouleaux à papier au
       cours de la dernière semaine. Au cours de la nuit, la transpiration des
       arbres est à son plus bas et la différence de potentiel mesurée par les
       capteurs est maximale. Lors de journées chaudes et sèches, les arbres
@@ -168,6 +174,10 @@ Sections:
       plus bas. Lors de journées pluvieuses, les valeurs mesurées sont également
       élevées puisque les arbres transpirent très peu.
     fichier: /graphData/sapflows_BOP.json
+  - type: graphiqueTempsReel
+    legende: Données issues des capteurs de flux de sève des épinettes noires au
+      cours de la dernière semaine.
+    fichier: /graphData/sapflows_EPN.json
   - type: sous-titre
     sous-titre: Suivi du contenu en eau du sol
   - type: paragraphe
@@ -202,4 +212,8 @@ Sections:
       produit des pics d'humidité du sol dans les parcelles témoins, mais pas
       dans les parcelles expérimentales.
     fichier: /graphData/soilmoisture_BOP.json
+  - type: graphiqueTempsReel
+    legende: Données recueillies par les capteurs d'humidité du sol au site des
+      épinettes noires sous exclusion de pluie (EXP) et témoin (CTRL).
+    fichier: /graphData/soilmoisture_EPN.json
 ---
