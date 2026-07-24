@@ -80,27 +80,32 @@ Sections:
     sous-titre: Mesure des flux par covariance des turbulences
   - type: paragraphe
     paragraphe: >-
-      Les chercheurs vont surveiller les impacts de la sécheresse sur la
-      croissance des arbres sous le toit, et comparer les données avec celles
-      récoltées sur les arbres qui ne sont pas protégés de la pluie. Les
-      équipements permettront de connaître en temps réel la productivité de la
-      parcelle de forêt qui sera observée.
+      Le calcul des flux écosystémiques repose sur une approche appelée «
+      covariance des turbulence ». Bien que la théorie derrière le calcul de ces
+      flux soit complexe, le concept est en réalité assez simple.
 
 
-      Les arbres qui ne sont pas protégés de la pluie. Les équipements
-      permettront de connaître en temps réel la productivité de la parcelle de
-      forêt qui sera observée. Les chercheurs vont surveiller les impacts de la
-      sécheresse sur la croissance des arbres sous le toit, et comparer les
-      données avec celles récoltées sur.
-  - type: sous-titre
-    sous-titre: L'IRGASON
-  - type: imageLegende
-    image: /images/tour/irgason.webp
-    legende: Le flux de carbone l’habilité de la forêt à séquestrer du carbone en
-      fonction des variabilités environnementales. » Des images thermiques
-      permettront par ailleurs à l’équipe de glaner des indices sur la
-      vulnérabilité des arbres durant des.
-    alt: irgason
+      D'une part, on mesure la vitesse du vent en trois dimensions.  On peut
+      ainsi savoir la vitesse à laquelle l'air se déplace dans les directions
+      est/ouest, nord/sud, et haut/bas. D'autre part, on mesure la concentration
+      en dioxyde de carbone et en vapeur d'eau des mêmes masses d'air pour
+      lesquelles on mesure la direction de déplacement. En prenant ces mesures
+      simultanément et à une fréquence très élevée (dans notre cas, vingt fois
+      par seconde), on peut connaître le contenu en gaz de l'air en provenance
+      de l'atmosphère (en haut) et de l'écosystème (en bas). Si on intègre les
+      données obtenues sur de plus longues périodes, on peut calculer les
+      échanges nets entre l'écosystème et l'atmosphère.
+
+
+      Au site d'étude de la forêt connectée, ces mesures sont réalisées par un
+      appareil appelé IRGASON. Cet appareil couple un anémomètre à ultrasons à
+      un analyseur de gaz infrarouge. L'anémomètre à ultrasons mesure la vitesse
+      du vent en trois dimensions alors que l'analyseur de gaz détermine la
+      concentration de dioxyde de carbone et de vapeur d'eau selon la quantité
+      de rayonnement infrarouge absorbé entre un émetteur et un récepteur. Pour
+      bien mesurer les flux écosystémique, l'instrument est installé à une
+      hauteur de 21 mètres, soit environ une fois et demie la hauteur des arbres
+      les plus grands.
   - type: paragraphe
     paragraphe: >-
       Les chercheurs vont surveiller les impacts de la sécheresse sur la
