@@ -9,9 +9,9 @@ Sections:
     nom: Fabio Gennaretti
     sous-texte: Professeur, Université polytechnique des Marches, Ancône, Italie
     description: |-
-      - Écophysiologie végétale
-      - Modélisation mécaniste des processus écologiques
-      - Dendrochronologie
+      * Écophysiologie végétale
+      * Modélisation mécaniste des processus écologiques
+      * Dendrochronologie
     photo: /images/equipe/fabio.jpg
   - type: membreEquipe
     nom: Xavier Cavard
