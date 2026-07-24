@@ -118,8 +118,7 @@ Sections:
     legende2: IRGASON une fois installé sur la tour téléscopique. Cette photo a été
       prise alors que la tour téléscopique était en position horizontale pour
       pouvoir y installer les équipements. Lorsqu'il est en fonction, l'IRGASON
-      est orienté de sorte que ses émetteurs et récepteurs ont orientés à la
-      verticale.
+      est situé à 21 mètres au-dessus du sol.
   - type: sous-titre
     sous-titre: Caractérisation du profil de la colonne d'air
   - type: paragraphe
