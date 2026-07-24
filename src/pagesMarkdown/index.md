@@ -57,7 +57,7 @@ Sections:
       Sur ce site web, vous pourrez voir les dernières données acquises ainsi
       que la météo au site d'étude en temps réel. De plus, vous pourrez
       apprendre comment fonctionnent les différents types de capteurs qui
-      permettent d'obtenir ces données. N'hésitez pas à parcourir les différents
+      enregistrent ces données. N'hésitez pas à parcourir les différents
       onglets!
 
 
