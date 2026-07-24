@@ -40,6 +40,35 @@ Sections:
       mesurant les flux de carbone à la forêt connectée d'Abitibi-Ouest.
   - type: sous-titre
     sous-titre: Une tour à flux pour mesurer les flux écosystémiques
+  - type: paragraphe
+    paragraphe: >+
+      Nous avons installé une tour téléscopique au site de la forêt connectée
+      afin d'y installer en hauteur des capteurs météorologiques, mais surtout,
+      des instruments de mesure des flux écosystémiques. Derrière le terme «
+      flux écosystémique » se cache un concept en réalité assez simple : on veut
+      connaître les échanges nets de carbone et d'eau entre l'écosystème et
+      l'atmosphère. Ces flux nous permettent de répondre, par exemple, aux
+      questions suivantes :
+
+
+      - Combien de dioxyde de carbone est fixé par la forêt par photosynthèse?
+
+      - Combien de dioxyde de carbone est relâché par respiration par
+      l'écosystème?
+
+      - Quelle quantité d'eau est transpirée sous forme de vapeur par
+      l'écosystème?
+
+      - Quelle quantité d'énergie est échangée (sous forme de rayonnement ou de
+      chaleur) entre l'écosystème et l'atmosphère?
+
+
+      Ces flux peuvent être étudiés à une fine échelle temporelle, dans notre
+      cas, pour chaque demie-heure. Ainsi, il se peut que la quantité de carbone
+      fixée par l'écosystème soit supérieure à la quantité relâchée pour
+      certaines périodes de temps (par exemple, lors d'une journée ensoleillée)
+      mais inférieure à d'autres moments (par exemple, lors d'une nuit chaude).
+
   - type: imageLegende
     image: /images/tour/20250613110406.jpg
     legende: Une tour téléscopique sert d'ancrage pour installer des instruments
@@ -47,21 +76,8 @@ Sections:
       haut de la tour trône l'IRGASON, l'instrument de mesure principal des flux
       écosystémiques à la forêt connectée.
     alt: La tour téléscopique de la forêt connectée
-  - type: paragraphe
-    paragraphe: Le flux de carbone sera, lui aussi, analysé. « Cette mesure
-      écosystémique n’est pas associée à un arbre spécifique, mais représente un
-      bilan de notre forêt, soit l’équilibre entre tous les atomes de carbone
-      captés versus ceux qui sont relâchés, ajoute le professeur. Elle nous
-      indique la productivité nette de notre écosystème et l’habilité de la
-      forêt à séquestrer du carbone en fonction des variabilités
-      environnementales. » Des images thermiques permettront par ailleurs à
-      l’équipe de glaner des indices sur la vulnérabilité des arbres durant des
-      périodes de sécheresse. Un système spécifique sera mis en place sur
-      certains arbres sélectionnés, privés d’eau de pluie par un toit, pour les
-      mettre en situation de stress hydrique simulé. Les résultats indiqueront
-      quelles espèces, conifères ou feuillus, sont plus ou moins sensibles.
   - type: sous-titre
-    sous-titre: L'eddy covariance
+    sous-titre: Mesure des flux par covariance des turbulences
   - type: paragraphe
     paragraphe: >-
       Les chercheurs vont surveiller les impacts de la sécheresse sur la
