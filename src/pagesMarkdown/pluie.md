@@ -68,19 +68,19 @@ Sections:
       arbres, mais aussi leur statut hydrique. Contrairement à ce qu'on pourrait
       croire, le diamètre des arbres ne fait pas qu'augmenter au fil du temps,
       mais peut aussi varier à la baisse ou à la hausse en fonction de leur
-      niveau d'hydratation. Un arbre bien hydraté aura un tronc bien gorgé d'eau
-      qui se traduit par un diamètre plus grand. Au contraire, un arbre desséché
-      aura un diamètre plus petit puisque les cellules de son tronc sont moins
-      gorgées d'eau.
+      niveau d'hydratation. Un arbre bien hydraté aura un tronc gorgé d'eau qui
+      se traduit par un diamètre plus grand. Au contraire, un arbre desséché
+      aura un diamètre plus petit puisque les cellules de son tronc contiennent
+      moins d'eau.
 
 
       Ce phénomène est directement observable dans les graphiques ci-bas, où
       l'on peut voir les variations du diamètre des arbres enregistrées par les
       capteurs de la forêt connectée au fil du temps. Le jour, le diamètre des
-      arbres diminue parce que l'eau contenue dans leur tronc se déplace vers
-      les feuilles pour être transpirée par de petites ouvertures appelées
-      stomates. Ces ouvertures font entrer dans les feuilles le dioxyde de
-      carbone nécessaire à la phytosynthèse, mais laissent en contrepartie
+      arbres diminue généralement parce que l'eau contenue dans leur tronc se
+      déplace vers les feuilles pour être transpirée par de petites ouvertures
+      appelées stomates. Ces ouvertures font entrer dans les feuilles le dioxyde
+      de carbone nécessaire à la phytosynthèse, mais laissent en contrepartie
       s'échapper l'eau puisée dans les racines. La nuit, alors que les stomates
       sont fermés, l'arbre peut refaire ses réserves d'eau et leur diamètre
       augmente à nouveau.
@@ -104,14 +104,12 @@ Sections:
     paragraphe: >-
       Au-delà du cycle journalier d'augmentation et de diminution du diamètre en
       raison du contenu en eau du tronc, on observe une tendance à
-      l'augmentation du diamètre de l'arbre au fil du temps. En effet, lorsque
-      l'arbre est bien hydraté et que les conditions de croissance sont
-      favorable, de nouvelles cellules sont produites dans le tronc et
-      grandissent pour permettre la croissance radiale (c'est à dire la
-      croissance en diamètre) de l'arbre. Cette croissance est évidente lorsque
-      l'on observe les données pour toute une année, mais est parfois même
-      perceptible au sein d'une seule semaine lorsque les conditions de
-      croissance sont favorables.
+      l'augmentation du diamètre des arbres au fil du temps. En effet, lorsqu'un
+      arbre est bien hydraté et que les conditions de croissance sont
+      favorables, de nouvelles cellules sont produites dans le tronc et l'arbre
+      croît en diamètre. Cette croissance est évidente lorsque l'on observe les
+      données pour toute une année, mais est parfois même perceptible au sein
+      d'une seule semaine lorsque les conditions de croissance sont bonnes.
 
 
       Dans le cadre du projet de forêt connectée, nous utiliserons les données
@@ -154,7 +152,7 @@ Sections:
     legende2: Une fois installés, les capteurs de flux de sève sont recouverts d'un
       bouclier de protection contre les radiations solaires et l'eau. Cela nous
       assure que nous mesurons seulement des variations reliées au flux de sève
-      lui-même, et non pas les conditions météorologiques extérieures.
+      lui-même, et non pas aux conditions météorologiques extérieures.
   - type: paragraphe
     paragraphe: Les données en provenance des capteurs de flux de sève sont mesurées
       par les enregistreurs de données selon leur différence de potentiel
