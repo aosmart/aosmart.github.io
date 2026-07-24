@@ -9,15 +9,26 @@ Sections:
   - type: sous-titre
     sous-titre: Direction de recherche
   - type: membreEquipe
+    nom: Valentina Buttò
+    sous-texte: Professeure, Université du Québec en Abitibi-Témiscamingue
+    description: |-
+      Phénologie
+      Anatomie du bois
+      Écophysiologie
+  - type: membreEquipe
     nom: Xavier Cavard
     sous-texte: Professeur, Université du Québec en Abitibi-Témiscamingue
-    description: Dynamique du carbone forestier, Sols forestiers, Impacts de
-      l'aménagement forestier sur le carbone
+    description: |-
+      Dynamique du carbone forestier
+      Écologie fonctionnelle
+      Liens sols-plantes
   - type: membreEquipe
     nom: Fabio Gennaretti
     sous-texte: Professeur, Université polytechnique des Marches
-    description: Écophysiologie végétale, Modélisation mécaniste des processus
-      écologiques, Dendrochronologie
+    description: |-
+      Écophysiologie végétale
+      Modélisation mécaniste des processus écologiques
+      Dendrochronologie
   - type: sous-titre
     sous-titre: Personnel technique
   - type: membreEquipe
