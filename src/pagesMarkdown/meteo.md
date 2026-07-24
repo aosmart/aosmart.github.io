@@ -78,7 +78,7 @@ Sections:
             <td>Précipitations</td>
           </tr>
           <tr>
-            <td>Anémomètre sonique (IRGASON)</td>
+            <td>Anémomètre à ultrasons (IRGASON)</td>
             <td>1</td>
             <td>Vitesse et direction du vent</td>
           </tr>
