@@ -59,27 +59,17 @@ Sections:
           </tr>
         </tbody>
       </table>
-  - type: paragraphe
-    paragraphe: Le flux de carbone sera, lui aussi, analysé. « Cette mesure
-      écosystémique n’est pas associée à un arbre spécifique, mais représente un
-      bilan de notre forêt, soit l’équilibre entre tous les atomes de carbone
-      captés versus ceux qui sont relâchés, ajoute le professeur. Elle nous
-      indique la productivité nette de notre écosystème et l’habilité de la
-      forêt à séquestrer du carbone en fonction des variabilités
-      environnementales. » Des images thermiques permettront par ailleurs à
-      l’équipe de glaner des indices sur la vulnérabilité des arbres durant des
-      périodes de sécheresse. Un système spécifique sera mis en place sur
-      certains arbres sélectionnés, privés d’eau de pluie par un toit, pour les
-      mettre en situation de stress hydrique simulé. Les résultats indiqueront
-      quelles espèces, conifères ou feuillus, sont plus ou moins sensibles.
   - type: sous-titre
-    sous-titre: Données météorologiques de cette semaine
+    sous-titre: Données météorologiques au cours de la dernière semaine
   - type: doubleGraphiqueTempsReel
-    legende1: La température, l’humidité, la vitesse et la direction du vent, ainsi
-      que les précipitations. Ces données sont essentielles pour comprendre.
+    legende1: Un capteur HygroVUE 10 installé à mètres au-dessus du niveau du sol
+      mesure la température de l'air.
     fichier1: /graphData/air_temperature.json
-    legende2: La température, l’humidité, la vitesse et la direction du vent, ainsi
-      que les précipitations. Ces données sont essentielles pour comprendre.
+    legende2: Un pluviomètre TE525MM mesure la quantité de pluie tombant au site
+      d'étude. Cet instrument est muni d'un entonnoir qui recueille l'eau et la
+      redirige vers un système d'auget basculant. À chaque fois qu'une hauteur
+      de pluie de 0,1 mm a été accumulée, l'auget bascule et envoie un signal à
+      l'enregistreur de données.
     fichier2: /graphData/precipitation.json
   - type: doubleGraphiqueTempsReel
     legende1: La température, l’humidité, la vitesse et la direction du vent, ainsi
