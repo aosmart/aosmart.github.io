@@ -179,10 +179,23 @@ Sections:
       tiges de métal parallèles et en mesurant le temps que le signal prend pour
       revenant à l'instrument : plus le délai est long, plus le contenu en haut
       du sol et élevé. Ce temps de retour du signal est ensuite converti en une
-      mesure relative de contenu en eau du sol en pourcentage.   
+      mesure relative de contenu en eau du sol en pourcentage.  
 
       Un milieu complètement dépourvu d'eau retournera une valeur de 0%, alors
       qu'une sonde immergée dans de l'eau produira une valeur de 100%.
+  - type: doubleImageLegende
+    image1: /images/capteurs/cs616_1.jpg
+    alt1: Capteur d'humidité du sol non installé
+    legende1: Aperçu d'un capteur d'humidité du sol avant son installation. Les
+      tiges métalliques attachées au capteur émettent le signal
+      électromagnétique utilisé pour mesurer le contenu en eau du sol.
+    image2: /images/capteurs/cs616_2.jpg
+    alt2: Capteur d'humidité du sol installé
+    legende2: Aperçu d'un capteur d'humidité du sol installé sur le terrain. Un trou
+      est creusé dans le sol pour y insérer le capteur à une profondeur de 20
+      cm. Les tiges sont enfoncées dans la paroi transversale du trou afin de
+      mesurer un sol non perturbée. La terre retirée est ensuite replacée
+      au-dessus du capteur.
   - type: graphiqueTempsReel
     legende: Données recueillies par les capteurs d'humidité du sol au site des
       bouleaux à papier sous exclusion de pluie (EXP) et témoin (CTRL). La pluie
