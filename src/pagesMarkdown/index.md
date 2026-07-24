@@ -81,6 +81,10 @@ Sections:
       - 230 m de câble Ethernet
       - Plus de 2000 W de puissance solaire
 
+  - type: imageLegende
+    image: /images/foret/panneaux_arbres.jpg
+    legende: Tous les instruments du site d'étude sont alimentés à l'énergée solaire
+    alt: Photos des panneaux solaires au site des arbres
   - type: sous-titre
     sous-titre: Remerciements
   - type: paragraphe
