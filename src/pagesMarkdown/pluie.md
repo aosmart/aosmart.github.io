@@ -200,7 +200,7 @@ Sections:
     legende2: Aperçu d'un capteur d'humidité du sol installé sur le terrain. Un trou
       est creusé dans le sol pour y insérer le capteur à une profondeur de 20
       cm. Les tiges sont enfoncées dans la paroi transversale du trou afin de
-      mesurer un sol non perturbée. La terre retirée est ensuite replacée
+      mesurer un sol non perturbé. La terre retirée est ensuite replacée
       au-dessus du capteur.
   - type: graphiqueTempsReel
     legende: Données recueillies par les capteurs d'humidité du sol au site des
