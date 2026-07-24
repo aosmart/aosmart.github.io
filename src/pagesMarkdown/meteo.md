@@ -72,8 +72,9 @@ Sections:
       l'enregistreur de données.
     fichier2: /graphData/precipitation.json
   - type: doubleGraphiqueTempsReel
-    legende1: La température, l’humidité, la vitesse et la direction du vent, ainsi
-      que les précipitations. Ces données sont essentielles pour comprendre.
+    legende1: "Un anémomètre sonique à trois dimensions intégré à l'instrument
+      IRGASON mesure la vitesse et la direction du vent. Cet instrument
+      fonctionne "
     fichier1: /graphData/wind_speed.json
     legende2: La température, l’humidité, la vitesse et la direction du vent, ainsi
       que les précipitations. Ces données sont essentielles pour comprendre.
