@@ -8,11 +8,10 @@ Sections:
   - type: membreEquipe
     nom: Fabio Gennaretti
     sous-texte: Professeur, Université polytechnique des Marches, Ancône, Italie
-    description: Fabio Gennaretti is a professor at the Institut de recherche sur
-      les forêts of the Université du Québec en Abitibi-Témiscamingue (UQAT). He
-      is also the holder of the Canada Research Chair in Dendroecology and
-      Dendroclimatology, which aims to enhance knowledge about climate
-      variability and tree functioning in the boreal region.
+    description: |-
+      - Écophysiologie végétale
+      - Modélisation mécaniste des processus écologiques
+      - Dendrochronologie
     photo: /images/equipe/fabio.jpg
   - type: membreEquipe
     nom: Xavier Cavard
