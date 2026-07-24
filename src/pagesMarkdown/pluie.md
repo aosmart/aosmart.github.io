@@ -208,12 +208,13 @@ Sections:
       au-dessus du capteur.
   - type: graphiqueTempsReel
     legende: Données recueillies par les capteurs d'humidité du sol au site des
-      bouleaux à papier sous exclusion de pluie (EXP) et témoin (CTRL). La pluie
-      produit des pics d'humidité du sol dans les parcelles témoins, mais pas
-      dans les parcelles expérimentales.
+      bouleaux à papier sous exclusion de pluie (EXP) et témoin (CTRL) au cours
+      de la dernière semaine. La pluie produit des pics d'humidité du sol dans
+      les parcelles témoins, mais pas dans les parcelles expérimentales.
     fichier: /graphData/soilmoisture_BOP.json
   - type: graphiqueTempsReel
     legende: Données recueillies par les capteurs d'humidité du sol au site des
-      épinettes noires sous exclusion de pluie (EXP) et témoin (CTRL).
+      épinettes noires sous exclusion de pluie (EXP) et témoin (CTRL) au cours
+      de la dernière semaine.
     fichier: /graphData/soilmoisture_EPN.json
 ---
