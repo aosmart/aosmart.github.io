@@ -168,15 +168,25 @@ Sections:
       plus bas. Lors de journées pluvieuses, les valeurs mesurées sont également
       élevées puisque les arbres transpirent très peu.
     fichier: /graphData/sapflows_BOP.json
-  - type: graphiqueTempsReel
-    legende: Le flux de carbone sera, lui aussi, analysé. « Cette mesure
-      écosystémique n’est pas associée à un arbre spécifique, mais représente un
-      bilan de notre forêt, soit l’équilibre entre tous les atomes de carbone
-      captés versus ceux qui sont relâchés, ajoute le professeur. Elle nous
-      indique la productivité.
-    fichier: /graphData/soilmoisture_BOP.json
   - type: sous-titre
     sous-titre: Suivi du contenu en eau du sol
   - type: paragraphe
-    paragraphe: Capteurs d'humidité du sol
+    paragraphe: >-
+      Le contenu en eau du sol dans les parcelles d'étude sous traitement
+      d'exclusion de pluie et les parcelles témoins est mesuré à toutes les dix
+      minutes au moyen de sondes réflectométriques de teneur en eau. Ces sondes
+      fonctionnent en produisant un signal électromagnétique à partir de deux
+      tiges de métal parallèles et en mesurant le temps que le signal prend pour
+      revenant à l'instrument : plus le délai est long, plus le contenu en haut
+      du sol et élevé. Ce temps de retour du signal est ensuite converti en une
+      mesure relative de contenu en eau du sol en pourcentage.   
+
+      Un milieu complètement dépourvu d'eau retournera une valeur de 0%, alors
+      qu'une sonde immergée dans de l'eau produira une valeur de 100%.
+  - type: graphiqueTempsReel
+    legende: Données recueillies par les capteurs d'humidité du sol au site des
+      bouleaux à papier sous exclusion de pluie (EXP) et témoin (CTRL). La pluie
+      produit des pics d'humidité du sol dans les parcelles témoins, mais pas
+      dans les parcelles expérimentales.
+    fichier: /graphData/soilmoisture_BOP.json
 ---
