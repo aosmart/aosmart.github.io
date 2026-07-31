@@ -9,9 +9,9 @@ Sections:
   - type: sous-titre
     sous-titre: Données météorologiques au cours de la dernière semaine
   - type: doubleGraphiqueTempsReel
-    legende1: Un capteur <a href="https://www.campbellsci.ca/hygrovue10">HygroVUE
-      10</a> installé à 7 mètres au-dessus du niveau du sol mesure la
-      température de l'air.
+    legende1: Un capteur set:html{<a
+      href="https://www.campbellsci.ca/hygrovue10">HygroVUE 10</a>} installé à 7
+      mètres au-dessus du niveau du sol mesure la température de l'air.
     fichier1: /graphData/air_temperature.json
     legende2: Un pluviomètre TE525MM mesure la quantité de pluie tombant au site
       d'étude. Cet instrument est muni d'un entonnoir qui recueille l'eau et la
