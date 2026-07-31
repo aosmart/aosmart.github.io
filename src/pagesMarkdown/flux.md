@@ -12,21 +12,21 @@ Sections:
       Le carbone est un élément retrouvé naturellement dans l'environnement et
       dont on entend surtout parler comme composant du dioxyde de carbone
       (CO<sub>2</sub>) dans le contexte des changements climatiques. En effet,
-      le dioxyde de carbone et un gaz à effet de serre qui est produit par la
+      le dioxyde de carbone est un gaz à effet de serre qui est produit par la
       combustion de bois et de combustibles fossiles, mais aussi par la
       respiration des animaux et autres êtres vivants. C'est l'augmentation de
       sa concentration dans l'atmosphère depuis l'industrialisation qui est la
       cause principale des changements climatiques.
 
 
-      Les arbres et autres plantes prélèvent le dioxyde de carbone par leurs
+      Les arbres et autres plantes prélèvent le CO<sub>2</sub> par leurs
       feuilles et s'en servent, conjointement avec l'eau et la lumière du
       soleil, pour incorporer les atomes de carbone dans des sucres qui servent
       de base pour tout le reste : bois, racines, fonctionnement énergétique,
       etc. Les produits qui découlent de ces sucres ont consommés par les
       plantes elles-même et d'autres organismes qui utilisent l'oxygène de l'air
       pour produire de l'énergie et du dioxyde de carbone. Ce retour des atomes
-      de carbone sous forme gazeuse dans le dioxyde de carbone vient boucler ce
+      de carbone sous forme gazeuse dans le CO<sub>2</sub> vient boucler ce
       qu'on appelle le cycle du carbone.
 
 
