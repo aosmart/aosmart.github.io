@@ -13,12 +13,13 @@ Sections:
       10</a> installé à 7 mètres au-dessus du niveau du sol mesure la
       température de l'air.
     fichier1: /graphData/air_temperature.json
-    legende2: Un pluviomètre <a href= "https://www.campbellsci.com/products/te525mm"
-      TE525MM</a> mesure la quantité de pluie tombant au site d'étude. Cet
-      instrument est muni d'un entonnoir qui recueille l'eau et la redirige vers
-      un système d'auget basculant. À chaque fois qu'une hauteur de pluie de 0,1
-      mm a été accumulée, l'auget bascule et envoie un signal à l'enregistreur
-      de données.
+    legende2: Un pluviomètre <a href=
+      "https://www.campbellsci.com/products/te525mm"> TE525MM</a> mesure la
+      quantité de pluie tombant au site d'étude. Cet instrument est muni d'un
+      entonnoir qui recueille l'eau et la redirige vers un système d'auget
+      basculant. À chaque fois qu'une hauteur de pluie de 0,1 mm a été
+      accumulée, l'auget bascule et envoie un signal à l'enregistreur de
+      données.
     fichier2: /graphData/precipitation.json
   - type: doubleGraphiqueTempsReel
     legende1: Un anémomètre à ultrasons à trois dimensions intégré à l'instrument
