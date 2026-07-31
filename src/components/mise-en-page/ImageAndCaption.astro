@@ -11,7 +11,7 @@ const { description } = Astro.props;
     <slot />
   </div>
 
-  <p class="image-card__caption">{description}</p>
+  <p class="image-card__caption"><Fragment set:html={description} /></p>
 </div>
 
 <style>
