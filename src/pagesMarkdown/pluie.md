@@ -38,7 +38,7 @@ Sections:
       permet de couper l'approvisionnement en eau à neuf épinettes noires.
   - type: paragraphe
     paragraphe: En plus des cinq bouleaux et neuf épinettes soumis au traitement de
-      sécheresse, quinze bouleaux et onze épinettes serviront de témoins soumis
+      sécheresse, quinze bouleaux et onze épinettes servent de témoins soumis
       aux conditions naturelles de précipitations. Il sera donc possible de
       comparer la réaction des arbres privés d'eau à d'autres arbres situés à
       une dizaine de mètres seulement mais qui ne sont pas limités en eau.
@@ -58,15 +58,16 @@ Sections:
     legende: Les dendromètres sont fixés aux arbres à l'aide de vis, mais le piston
       gainé de caoutchouc est libre de bouger en fonction du diamètre de
       l'arbre. L'instrument envoie un signal électrique variable selon la
-      longueur du piston à un enregistreur de données qui consigne les valeurs.
+      longueur du piston à un enregistreur de données qui consigne les valeurs à
+      toutes les trente minutes.
     alt: Un exemple de dendromètre
   - type: paragraphe
     paragraphe: >-
       En réalité, les dendromètres mesurent non seulement la croissance des
-      arbres, mais aussi leur statut hydrique. Contrairement à ce qu'on pourrait
-      croire, le diamètre des arbres ne fait pas qu'augmenter au fil du temps,
-      mais peut aussi varier à la baisse ou à la hausse en fonction de leur
-      niveau d'hydratation. Un arbre bien hydraté aura un tronc gorgé d'eau qui
+      arbres, mais aussi leur niveau d'hydratation. Contrairement à ce qu'on
+      pourrait croire, le diamètre des arbres ne fait pas qu'augmenter au fil du
+      temps, mais peut aussi varier à la baisse ou à la hausse en fonction de
+      leur contenu en eau. Un arbre bien hydraté aura un tronc gorgé d'eau qui
       se traduit par un diamètre plus grand. Au contraire, un arbre desséché
       aura un diamètre plus petit puisque les cellules de son tronc contiennent
       moins d'eau.
@@ -80,8 +81,8 @@ Sections:
       appelées stomates. Ces ouvertures font entrer dans les feuilles le dioxyde
       de carbone nécessaire à la phytosynthèse, mais laissent en contrepartie
       s'échapper l'eau puisée dans les racines. La nuit, alors que les stomates
-      sont fermés, l'arbre peut refaire ses réserves d'eau et leur diamètre
-      augmente à nouveau.
+      sont fermés, l'arbre peut refaire ses réserves d'eau et le diamètre de son
+      tronc augmente à nouveau.
   - type: graphiqueTempsReel
     legende: Données enregistrées par les dendromètres installés sur les bouleaux à
       papier au cours de la dernière semaine. Chaque nuit, les arbres se
@@ -118,9 +119,9 @@ Sections:
     sous-titre: Mesurer le flux de sève à l'aide de capteurs de type Granier
   - type: paragraphe
     paragraphe: >-
-      Bien que les dendromètres nous fournissent une indication indirecte du
-      statut hydrique de l'arbre, ils ne nous informent pas sur le mouvement de
-      la sève dans l'arbre. C'est le rôle des capteurs de flux de sève!
+      Bien que les dendromètres nous renseignent sur le statut hydrique de
+      l'arbre, ils ne nous informent pas sur le mouvement de la sève dans
+      l'arbre. C'est le rôle des capteurs de flux de sève!
 
 
       Les capteurs de flux de sève installés à la forêt connectée sont de type
@@ -128,17 +129,16 @@ Sections:
       chauffée en continu et l'autre non. Les deux aiguilles sont installées sur
       un axe vertical, l'aiguille chauffante étant installée plus haut que
       l'autre. La différence de température entre ces deux aiguilles permet de
-      mesurer la vitesse de déplacement (le flux) de sève à travers le tronc de
+      mesurer la vitesse de déplacement (le flux) de sève vers le haut de
       l'arbre.
 
 
-      La nuit, alors que l'arbre ne transpire presque pas et que la sève est
-      donc pratiquement immobile, la chaleur produite par l'aiguille chauffée ne
-      se dissipe pas et elle devient très chaude par rapport à l'aiguille
-      inférieure. Au contraire, lorsque le flux de sève augmente en plein jour,
-      la chaleur produite par l'aiguille chauffée est dissipée par le mouvement
-      de la sève et la différence de température entre les deux aiguilles est
-      réduite.
+      La nuit, alors que l'arbre ne transpire pas et que la sève est donc
+      immobile, la chaleur produite par l'aiguille chauffée ne se dissipe pas et
+      elle devient très chaude par rapport à l'aiguille inférieure. Au
+      contraire, lorsque le flux de sève augmente en plein jour, la chaleur
+      produite par l'aiguille chauffée est dissipée par le mouvement de la sève
+      et la différence de température entre les deux aiguilles est réduite.
   - type: doubleImageLegende
     image1: /images/foret/sapflow2.jpg
     alt1: "Un capteur de flux de sève nouvellement installé. "
@@ -148,19 +148,18 @@ Sections:
     image2: /images/foret/sapflow1 (1).jpg
     alt2: Un capteur de flux de sève sous son bouclier de protection
     legende2: Une fois installés, les capteurs de flux de sève sont recouverts d'un
-      bouclier de protection contre les radiations solaires et l'eau. Cela nous
+      bouclier de protection contre le rayonnement solaire et l'eau. Cela nous
       assure que nous mesurons seulement des variations reliées au flux de sève
       lui-même, et non pas aux conditions météorologiques extérieures.
   - type: paragraphe
-    paragraphe: Les données en provenance des capteurs de flux de sève sont mesurées
-      par les enregistreurs de données selon leur différence de potentiel
-      électrique en millivolts (mV). Des calculs complexes sont requis pour
-      transformer cette différence de potentiel en densité de flux de sève (en
-      quantité d'eau par unité de surface de tronc et de temps), mais les
-      données brutes en mV peuvent tout de même être interprétées pour
-      déterminer le flux de sève relatif de l'arbre. Une différence de potentiel
-      plus basse indique un flux de sève plus élevé, alors qu'une différence de
-      potentiel élevée indique un flux de sève réduit.
+    paragraphe: Les données provenant des capteurs de flux de sève sont mesurées par
+      les enregistreurs de données selon leur différence de potentiel électrique
+      en millivolts (mV). Des calculs complexes sont requis pour transformer
+      cette différence de potentiel en densité de flux de sève (en quantité
+      d'eau par unité de surface de tronc et de temps), mais les données brutes
+      en mV peuvent tout de même être interprétées pour déterminer le flux de
+      sève relatif de l'arbre. Une différence de potentiel plus basse indique un
+      flux de sève plus élevé, et vice versa.
   - type: graphiqueTempsReel
     legende: Données issues des capteurs de flux de sève des bouleaux à papier au
       cours de la dernière semaine. Au cours de la nuit, la transpiration des
@@ -183,7 +182,7 @@ Sections:
       fonctionnent en produisant un signal électromagnétique à partir de deux
       tiges de métal parallèles et en mesurant le temps que le signal prend pour
       revenir à l'instrument : plus le délai est long, plus le contenu en eau du
-      sol et élevé. Ce temps de retour du signal est ensuite converti en une
+      sol est élevé. Ce temps de retour du signal est ensuite converti en une
       mesure relative de contenu en eau du sol en pourcentage. Un milieu
       complètement dépourvu d'eau retournera une valeur de 0%, alors qu'une
       sonde immergée dans de l'eau produira une valeur de 100%."
