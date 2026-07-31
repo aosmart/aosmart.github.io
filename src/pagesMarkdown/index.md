@@ -76,15 +76,23 @@ Sections:
   - type: sous-titre
     sous-titre: La forêt connectée en chiffres
   - type: paragraphe
-    paragraphe: |+
+    paragraphe: >+
       La forêt connectée d'Abitibi-Ouest, c'est :
 
+
       - 40 dendromètres mesurant la croissance des arbres
+
       - 18 capteurs de flux de sève des arbres
+
       - 25 capteurs d'humidité du sol
-      - Plus de 20 capteurs météorologiques
-      - 250 m2 de superficie soumise à l'expérience d'exclusion de pluie
+
+      - Plus de 20 capteurs météorologiques divers
+
+      - 250 m<sup>2</sup> de superficie soumise à l'expérience d'exclusion de
+      pluie
+
       - 230 m de câble Ethernet
+
       - Plus de 2000 W de puissance solaire
 
   - type: imageLegende
