@@ -30,14 +30,12 @@ Sections:
   - type: doubleImageLegende
     image1: /images/foret/bouleaux.jpg
     alt1: Le toit d'exclusion de pluie des bouleaux
-    legende1: Le premier dispositif d'exclusion de pluie fait environ 150
-      m<sup>2</sup> et permet de couper l'approvisionnement en eau à cinq
-      bouleaux à papier.
+    legende1: Le premier dispositif d'exclusion de pluie fait environ 150 m² et
+      permet de couper l'approvisionnement en eau à cinq bouleaux à papier.
     image2: /images/foret/epinettes.jpg
     alt2: Le toit d'exclusion de pluie des épinettes
-    legende2: Le deuxième dispositif d'exclusion de pluie fait environ 110
-      m<sup>2</sup> et permet de couper l'approvisionnement en eau à neuf
-      épinettes noires.
+    legende2: Le deuxième dispositif d'exclusion de pluie fait environ 110 m² et
+      permet de couper l'approvisionnement en eau à neuf épinettes noires.
   - type: paragraphe
     paragraphe: En plus des cinq bouleaux et neuf épinettes soumis au traitement de
       sécheresse, quinze bouleaux et onze épinettes serviront de témoins soumis
