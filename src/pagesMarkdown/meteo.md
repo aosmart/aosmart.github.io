@@ -22,11 +22,12 @@ Sections:
       données.
     fichier2: /graphData/precipitation.json
   - type: doubleGraphiqueTempsReel
-    legende1: Un anémomètre à ultrasons à trois dimensions intégré à l'instrument
-      IRGASON mesure la vitesse et la direction du vent. Cet instrument
-      fonctionne en produisant des ondes sonores à partir de trois émetteurs. La
-      vitesse du vent est calculée selon le temps que prennent les ondes à
-      atteindre les récepteurs associés à chacun des émetteurs.
+    legende1: Un anémomètre à ultrasons à trois dimensions intégré à l'instrument <a
+      href="https://www.campbellsci.ca/irgason" >IRGASON</a> mesure la vitesse
+      et la direction du vent. Cet instrument fonctionne en produisant des ondes
+      sonores à partir de trois émetteurs. La vitesse du vent est calculée selon
+      le temps que prennent les ondes à atteindre les récepteurs associés à
+      chacun des émetteurs.
     fichier1: /graphData/wind_speed.json
     legende2: La vitesse du vent calculée selon les trois dimensions permet aussi de
       connaître la direction d'où le vent provient. Une valeur de 0 degré
