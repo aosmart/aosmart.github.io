@@ -10,13 +10,13 @@ Sections:
   - type: paragraphe
     paragraphe: >-
       Le carbone est un élément retrouvé naturellement dans l'environnement et
-      dont on entend surtout parler comme composant du dioxyde de carbone
-      (CO<sub>2</sub>) dans le contexte des changements climatiques. En effet,
-      le dioxyde de carbone et un gaz à effet de serre qui est produit par la
-      combustion de bois et de combustibles fossiles, mais aussi par la
-      respiration des animaux et autres êtres vivants. C'est l'augmentation de
-      sa concentration dans l'atmosphère depuis l'industrialisation qui est la
-      cause principale des changements climatiques.
+      dont on entend surtout parler comme composant du dioxyde de carbone (CO2)
+      dans le contexte des changements climatiques. En effet, le dioxyde de
+      carbone et un gaz à effet de serre qui est produit par la combustion de
+      bois et de combustibles fossiles, mais aussi par la respiration des
+      animaux et autres êtres vivants. C'est l'augmentation de sa concentration
+      dans l'atmosphère depuis l'industrialisation qui est la cause principale
+      des changements climatiques.
 
 
       Les arbres et autres plantes prélèvent le dioxyde de carbone par leurs
