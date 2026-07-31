@@ -35,17 +35,19 @@ Sections:
       correspond à l'est, 180 degrés au sud, et 270 degrés à l'ouest.
     fichier2: /graphData/wind_direction.json
   - type: doubleGraphiqueTempsReel
-    legende1: Un radiomètre NR01 installé à 15 mètres au-dessus du sol mesure le
-      rayonnement solaire entrant et sortant au site d'étude. Ce graphique
-      montre le rayonnement solaire entrant dans le domaine des longueurs d'onde
-      courtes, soit les rayons UV, la lumière visible et le proche infrarouge.
-      Des valeurs autour de 1000 watts par mètre carré correspondent à des
-      conditions ensoleillées.
+    legende1: Un radiomètre <a href="https://www.campbellsci.ca/nr01">NR01</a>
+      installé à 15 mètres au-dessus du sol mesure le rayonnement solaire
+      entrant et sortant au site d'étude. Ce graphique montre le rayonnement
+      solaire entrant dans le domaine des longueurs d'onde courtes, soit les
+      rayons UV, la lumière visible et le proche infrarouge. Des valeurs autour
+      de 1000 watts par mètre carré correspondent à des conditions ensoleillées.
     fichier1: /graphData/solar_radiation.json
-    legende2: Un capteur SnowVUE 10 mesure l'épaisseur du couvert de neige en
-      émettant des ondes sonores et en calculant le temps que prend le signal à
-      revenir au capteur après avoir été réfléchi par la neige. Ce capteur est
-      installé à une hauteur de 2,15 mètres et pointe directement vers le sol.
+    legende2: Un capteur <a
+      href="https://www.campbellsci.ca/snowvue10">SnowVUE10</a> mesure
+      l'épaisseur du couvert de neige en émettant des ondes sonores et en
+      calculant le temps que prend le signal à revenir au capteur après avoir
+      été réfléchi par la neige. Ce capteur est installé à une hauteur de 2,15
+      mètres et pointe directement vers le sol.
     fichier2: /graphData/snow_height.json
   - type: graphiqueTempsReel
     legende: Un baromètre intégré à l'instrument IRGASON mesure la pression
