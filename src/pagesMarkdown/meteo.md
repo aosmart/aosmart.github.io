@@ -4,13 +4,14 @@ Sections:
     titre: Données météorologiques
     sous-texte: Des capteurs météorologiques installés au site d'étude nous
       renseignent sur les conditions dans lesquelles les arbres évoluent. Grâce
-      à ces capteurs, vous pouvez aussi savoir quel temps il fait à
-      Rapide-Danseur en temps réel!
+      à ces capteurs, vous pouvez aussi connaître la météo à Rapide-Danseur en
+      temps réel!
   - type: sous-titre
     sous-titre: Données météorologiques au cours de la dernière semaine
   - type: doubleGraphiqueTempsReel
-    legende1: Un capteur HygroVUE 10 installé à 7 mètres au-dessus du niveau du sol
-      mesure la température de l'air.
+    legende1: Un capteur [HygroVUE 10](https://www.campbellsci.ca/hygrovue10)
+      installé à 7 mètres au-dessus du niveau du sol mesure la température de
+      l'air.
     fichier1: /graphData/air_temperature.json
     legende2: Un pluviomètre TE525MM mesure la quantité de pluie tombant au site
       d'étude. Cet instrument est muni d'un entonnoir qui recueille l'eau et la
