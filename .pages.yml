@@ -94,6 +94,53 @@ components:
         type: string
         required: true
 
+  gallerie_imageLegende:
+    label: Image + Légende
+    type: object
+    fields:
+      - name: image
+        label: Image
+        type: image
+        required: true
+      - name: legende
+        label: Légende
+        type: string
+        required: true
+      - name: alt
+        label: Texte alternatif
+        type: string
+        required: true
+
+  gallerie_doubleImageLegende:
+    label: Double image + double légende
+    type: object
+    fields:
+      - name: image1
+        label: Image 1
+        type: image
+        required: true
+      - name: alt1
+        label: Texte alternatif image 1
+        type: string
+        required: true
+      - name: legende1
+        label: Légende image 1
+        type: string
+        required: true
+
+      - name: image2
+        label: Image 2
+        type: image
+        required: true
+      - name: alt2
+        label: Texte alternatif image 2
+        type: string
+        required: true
+      - name: legende2
+        label: Légende image 2
+        type: string
+        required: true
+
   graphiqueTempsReel:
     label: Graphique en temps réel
     type: object
