@@ -95,7 +95,7 @@ components:
         required: true
 
   gallerie_imageLegende:
-    label: Image + Légende
+    label: Image + Légende (gallerie)
     type: object
     fields:
       - name: image
@@ -112,7 +112,7 @@ components:
         required: true
 
   gallerie_doubleImageLegende:
-    label: Double image + double légende
+    label: Double image + double légende (gallerie)
     type: object
     fields:
       - name: image1
