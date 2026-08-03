@@ -9,7 +9,8 @@ Sections:
   - type: sous-titre
     sous-titre: Données météorologiques au cours de la dernière semaine
   - type: doubleGraphiqueTempsReel
-    legende1: Un capteur <a href="https://www.campbellsci.ca/hygrovue10">HygroVUE
+    legende1:
+      Un capteur <a href="https://www.campbellsci.ca/hygrovue10">HygroVUE
       10</a> installé à 7 mètres au-dessus du niveau du sol mesure la
       température de l'air.
     fichier1: /graphData/air_temperature.json
@@ -22,14 +23,16 @@ Sections:
       données.
     fichier2: /graphData/precipitation.json
   - type: doubleGraphiqueTempsReel
-    legende1: Un anémomètre à ultrasons à trois dimensions intégré à l'instrument <a
+    legende1:
+      Un anémomètre à ultrasons à trois dimensions intégré à l'instrument <a
       href="https://www.campbellsci.ca/irgason" >IRGASON</a> mesure la vitesse
       et la direction du vent. Cet instrument fonctionne en produisant des ondes
       sonores à partir de trois émetteurs. La vitesse du vent est calculée selon
       le temps que prennent les ondes à atteindre les récepteurs associés à
       chacun des émetteurs.
     fichier1: /graphData/wind_speed.json
-    legende2: La vitesse du vent calculée selon les trois dimensions permet aussi de
+    legende2:
+      La vitesse du vent calculée selon les trois dimensions permet aussi de
       connaître la direction d'où le vent provient. Une valeur de 0 degré
       correspond à un vent en provenance du nord. Une valeur de 90 degrés
       correspond à l'est, 180 degrés au sud, et 270 degrés à l'ouest.

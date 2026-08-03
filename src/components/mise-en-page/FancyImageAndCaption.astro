@@ -1,0 +1,114 @@
+---
+interface Props {
+  description: string;
+}
+
+const { description } = Astro.props;
+---
+
+<div class="expandable-image">
+  <div class="expandable-image__content">
+    <slot />
+  </div>
+</div>
+
+<div class="expandable-image__overlay">
+  <div class="expandable-image__viewer">
+    <div class="expandable-image__viewer-content"></div>
+    <p class="expandable-image__caption">
+      <Fragment set:html={description} />
+    </p>
+  </div>
+</div>
+
+<script>
+  document.currentScript.previousElementSibling.previousElementSibling
+    .querySelector(".expandable-image__content")
+    .addEventListener("click", (e) => {
+      const root = e.currentTarget.closest(".expandable-image");
+      const overlay = root.nextElementSibling;
+
+      const viewer = overlay.querySelector(".expandable-image__viewer-content");
+
+      viewer.innerHTML = "";
+      viewer.appendChild(e.currentTarget.firstElementChild.cloneNode(true));
+
+      overlay.classList.add("open");
+    });
+
+  document.querySelectorAll(".expandable-image__overlay").forEach((overlay) => {
+    overlay.addEventListener("click", (e) => {
+      if (
+        e.target === overlay ||
+        !e.target.closest(".expandable-image__viewer")
+      ) {
+        overlay.classList.remove("open");
+      }
+    });
+  });
+</script>
+
+<style>
+  .expandable-image__content {
+    cursor: pointer;
+    transition:
+      transform 0.2s ease,
+      filter 0.2s ease;
+  }
+
+  .expandable-image__content:hover {
+    transform: scale(1.03);
+    filter: brightness(1.15);
+  }
+
+  .expandable-image__content :global(img) {
+    display: block;
+    max-width: 100%;
+    object-fit: contain;
+  }
+
+  .expandable-image__overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s ease;
+
+    z-index: 1000;
+  }
+
+  .expandable-image__overlay.open {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .expandable-image__viewer {
+    max-width: 90vw;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .expandable-image__viewer-content {
+    display: flex;
+    justify-content: center;
+  }
+
+  .expandable-image__viewer-content :global(img) {
+    max-width: 90vw;
+    max-height: 80vh;
+    object-fit: contain;
+  }
+
+  .expandable-image__caption {
+    color: white;
+    text-align: center;
+    margin: 0;
+  }
+</style>
