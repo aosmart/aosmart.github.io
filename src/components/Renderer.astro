@@ -87,7 +87,7 @@ const { sections } = Astro.props;
             src={section["photo"] || "/images/equipe/null.jpeg"}
             alt={section["nom"]}
           >
-            <h2>{section["nom"]}</h2>
+            <h4>{section["nom"]}</h4>
             <p class="lead">{section["sous-texte"]}</p>
             <div set:html={marked.parse(section["description"])} />
           </TextAndSideImage>
