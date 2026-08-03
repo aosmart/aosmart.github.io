@@ -89,7 +89,7 @@ const { sections } = Astro.props;
           >
             <h2>{section["nom"]}</h2>
             <p class="lead">{section["sous-texte"]}</p>
-            <p>{section["description"]}</p>
+            <div set:html={marked.parse(section["description"])} />
           </TextAndSideImage>
         );
       case "htmlBlock":

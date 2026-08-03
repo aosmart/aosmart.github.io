@@ -2,7 +2,8 @@
 Sections:
   - type: titre
     titre: Équipe
-    sous-texte: L'installation du dispositif de la forêt connectée et l'analyse des
+    sous-texte:
+      L'installation du dispositif de la forêt connectée et l'analyse des
       données sont rendues possibles par la collaboration d'une équipe
       professionnelle et technique aux expertise complémentaires. Vous trouverez
       ici la liste des personnes ayant contribué au projet.
@@ -97,7 +98,8 @@ Sections:
 
   - type: membreEquipe
     nom: Simon Filiatrault
-    sous-texte: Technicien en laboratoire et instrumentation, Université du Québec
+    sous-texte:
+      Technicien en laboratoire et instrumentation, Université du Québec
       en Abitibi-Témiscamingue
     description: |+
       - Opération et entretien d'équipement lourds
@@ -153,4 +155,5 @@ Sections:
       - A
       - B
       - C
+
 ---
