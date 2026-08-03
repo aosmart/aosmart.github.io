@@ -34,4 +34,9 @@ Sections:
     legende2: Veuillez prendre note de la maintenance des équipements réseau et
       serveurs qui affecteront UQAT Montréal sur Président Kennedy qui
       s’effectuera le jeudi 30 juillet 2026 entre 19h et 23h30.
+  - type: gallerie_imageLegende
+    image: /images/foret/tower.jpg
+    legende: Dans une forêt connectée, les éléments naturels s'entremêlent avec les
+      instruments de mesure.
+    alt: Capteurs de flux de sève installés sur des épinettes
 ---
