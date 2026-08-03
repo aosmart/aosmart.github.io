@@ -28,8 +28,7 @@ Sections:
       découlent."
   - type: imageLegende
     image: /images/foret/capteurs_epinettes.jpg
-    legende:
-      Dans une forêt connectée, les éléments naturels s'entremêlent avec les
+    legende: Dans une forêt connectée, les éléments naturels s'entremêlent avec les
       instruments de mesure.
     alt: Capteurs de flux de sève installés sur des épinettes
   - type: sous-titre
@@ -68,13 +67,11 @@ Sections:
   - type: doubleImageLegende
     image1: /images/foret/toit_bouleaux.jpg
     alt1: Toits des bouleaux
-    legende1:
-      La moitié des arbres suivis par l'expérience d'exclusion de pluie sont
+    legende1: La moitié des arbres suivis par l'expérience d'exclusion de pluie sont
       des bouleaux à papier.
     image2: /images/foret/toits_epinettes.jpg
     alt2: Toit des épinettes
-    legende2:
-      L'autre moitié des arbres suivis par l'expérience d'exclusion de pluie
+    legende2: L'autre moitié des arbres suivis par l'expérience d'exclusion de pluie
       sont des épinettes noires.
   - type: sous-titre
     sous-titre: La forêt connectée en chiffres
@@ -105,27 +102,9 @@ Sections:
       naturelles et en génie du Canada](https://nserc-crsng.canada.ca/fr).
   - type: htmlBlock
     htmlBlock: |-
-      <div class="row">
+      <div style="display: flex; gap: 1rem;">
         <img src="/logos/mrcao.png" alt="MRC d'Abitibi-Ouest" />
         <img src="/logos/crsng.svg" alt="CRSNG" />
         <img src="/logos/mrnf.png" alt="MRNF" />
       </div>
-
-      <style>
-        .row {
-          display: flex;
-          gap: 1rem;
-        }
-
-        .row > * {
-          flex: 1;
-          min-width: 0;
-        }
-
-        @media (max-width: 768px) {
-          .row {
-            flex-direction: column;
-          }
-        }
-      </style>
 ---
