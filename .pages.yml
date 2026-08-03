@@ -380,9 +380,9 @@ content:
             component: sous-titre
           - name: paragraphe
             component: paragraphe
-          - name: imageLegende
-            component: imageLegende
-          - name: doubleImageLegende
-            component: doubleImageLegende
+          - name: gallerie_imageLegende
+            component: gallerie_imageLegende
+          - name: gallerie_doubleImageLegende
+            component: gallerie_doubleImageLegende
           - name: htmlBlock
             component: htmlBlock
