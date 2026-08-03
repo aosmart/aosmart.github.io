@@ -105,9 +105,27 @@ Sections:
       naturelles et en génie du Canada](https://nserc-crsng.canada.ca/fr).
   - type: htmlBlock
     htmlBlock: |-
-      <div class="row" data-astro-cid-bjm3r2lr>
-          <img src=/logos/mrcao.png alt="MRC d'Abitibi-Ouest"/>
-          <img src=/logos/crsng.svg alt="CRSNG"/>
-          <img src=/logos/mrnf.png alt="MRNF"/>
-      <div class="row" data-astro-cid-bjm3r2lr>
+      <div class="row">
+        <img src="/logos/mrcao.png" alt="MRC d'Abitibi-Ouest" />
+        <img src="/logos/crsng.svg" alt="CRSNG" />
+        <img src="/logos/mrnf.png" alt="MRNF" />
+      </div>
+
+      <style>
+        .row {
+          display: flex;
+          gap: 1rem;
+        }
+
+        .row > * {
+          flex: 1;
+          min-width: 0;
+        }
+
+        @media (max-width: 768px) {
+          .row {
+            flex-direction: column;
+          }
+        }
+      </style>
 ---
