@@ -3,6 +3,7 @@
 import { marked } from "marked";
 import HeaderAndLink from "../components/mise-en-page/HeaderAndLink.astro";
 import ImageAndCaption from "../components/mise-en-page/ImageAndCaption.astro";
+import FancyImageAndCaption from "./mise-en-page/FancyImageAndCaption.astro";
 import Row from "../components/mise-en-page/Row.astro";
 import Chart from "../components/graphiques/Chart.astro";
 import Tower from "../components/graphiques/Tower.astro";
@@ -94,6 +95,24 @@ const { sections } = Astro.props;
         );
       case "htmlBlock":
         return <div set:html={section["htmlBlock"]} />;
+
+      case "gallerie_imageLegende":
+        return (
+          <FancyImageAndCaption description={section["legende"]}>
+            <img src={section["image"]} alt={section["alt"]} />
+          </FancyImageAndCaption>
+        );
+      case "gallerie_doubleImageLegende":
+        return (
+          <Row>
+            <FancyImageAndCaption description={section["legende1"]}>
+              <img src={section["image1"]} alt={section["alt1"]} />
+            </FancyImageAndCaption>
+            <FancyImageAndCaption description={section["legende2"]}>
+              <img src={section["image2"]} alt={section["alt2"]} />
+            </FancyImageAndCaption>
+          </Row>
+        );
       default:
         return <p>{section.type}</p>;
     }
