@@ -362,3 +362,27 @@ content:
             component: doubleGraphiqueTempsReel
           - name: htmlBlock
             component: htmlBlock
+  - name: gallerie
+    label: Gallerie
+    type: file
+    path: src/pagesMarkdown/photos.md
+
+    fields:
+      - name: Sections
+        label: Sections
+        type: block
+        list: true
+        blockKey: type
+        blocks:
+          - name: titre
+            component: titre
+          - name: sous-titre
+            component: sous-titre
+          - name: paragraphe
+            component: paragraphe
+          - name: imageLegende
+            component: imageLegende
+          - name: doubleImageLegende
+            component: doubleImageLegende
+          - name: htmlBlock
+            component: htmlBlock
