@@ -1,10 +1,11 @@
 ---
+import { marked } from "marked";
+
 interface Props {
   description: string;
 }
 
 const { description } = Astro.props;
-import { marked } from "marked";
 ---
 
 <div class="image-card">
@@ -12,7 +13,10 @@ import { marked } from "marked";
     <slot />
   </div>
 
-  <div class="image-card__caption lead" set:html={marked.parse(description)} />
+  <p
+    class="image-card__caption lead"
+    set:html={marked.parseInline(description)}
+  />
 </div>
 
 <style>
@@ -22,6 +26,7 @@ import { marked } from "marked";
     flex-direction: column;
     gap: 0.5rem;
   }
+
   .image-card__content {
     display: flex;
     justify-content: center;
@@ -33,14 +38,18 @@ import { marked } from "marked";
     max-height: 100%;
     object-fit: contain;
   }
+
   .image-card__caption {
+    max-width: none;
     color: var(--muted);
-  }
-  .image-card__caption :global(p) {
-    margin: 1;
-    font-size: inherit;
-    font-weight: inherit;
-    line-height: inherit;
-    color: inherit;
+
+    text-align: justify;
+    text-align-last: left;
+
+    hyphens: auto;
+    -webkit-hyphens: auto;
+
+    overflow-wrap: normal;
+    word-break: normal;
   }
 </style>

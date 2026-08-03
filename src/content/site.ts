@@ -34,7 +34,7 @@ export const site: SiteConfig = {
   description:
     "Astro Baseline is a minimal HTML-first starter with senior defaults: SEO, JSON-LD, a11y basics, and clean structure.",
   url: import.meta.env.SITE_URL ?? "https://example.com",
-  locale: "en",
+  locale: "fr",
   author: {
     name: "",
     email: "",
