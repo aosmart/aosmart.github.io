@@ -57,7 +57,7 @@ components:
         required: true
       - name: legende
         label: Légende
-        type: string
+        type: rich-text
         required: true
       - name: alt
         label: Texte alternatif
@@ -78,7 +78,7 @@ components:
         required: true
       - name: legende1
         label: Légende image 1
-        type: string
+        type: rich-text
         required: true
 
       - name: image2
@@ -91,7 +91,7 @@ components:
         required: true
       - name: legende2
         label: Légende image 2
-        type: string
+        type: rich-text
         required: true
 
   gallerie_imageLegende:
@@ -125,7 +125,7 @@ components:
         required: true
       - name: legende1
         label: Légende image 1
-        type: string
+        type: rich-text
         required: true
 
       - name: image2
@@ -138,7 +138,7 @@ components:
         required: true
       - name: legende2
         label: Légende image 2
-        type: string
+        type: rich-text
         required: true
 
   graphiqueTempsReel:
@@ -147,10 +147,10 @@ components:
     fields:
       - name: legende
         label: Légende
-        type: string
+        type: rich-text
         required: true
       - name: fichier
-        type: file
+        type: string
         required: true
 
   doubleGraphiqueTempsReel:
@@ -160,7 +160,7 @@ components:
 
       - name: legende1
         label: Légende du graphique 1
-        type: string
+        type: rich-text
         required: true
 
       - name: fichier1
@@ -170,7 +170,7 @@ components:
 
       - name: legende2
         label: Légende du graphique 2
-        type: string
+        type: rich-text
         required: true
 
       - name: fichier2
