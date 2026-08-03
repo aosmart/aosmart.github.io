@@ -28,7 +28,8 @@ Sections:
       découlent."
   - type: imageLegende
     image: /images/foret/capteurs_epinettes.jpg
-    legende: Dans une forêt connectée, les éléments naturels s'entremêlent avec les
+    legende:
+      Dans une forêt connectée, les éléments naturels s'entremêlent avec les
       instruments de mesure.
     alt: Capteurs de flux de sève installés sur des épinettes
   - type: sous-titre
@@ -67,11 +68,13 @@ Sections:
   - type: doubleImageLegende
     image1: /images/foret/toit_bouleaux.jpg
     alt1: Toits des bouleaux
-    legende1: La moitié des arbres suivis par l'expérience d'exclusion de pluie sont
+    legende1:
+      La moitié des arbres suivis par l'expérience d'exclusion de pluie sont
       des bouleaux à papier.
     image2: /images/foret/toits_epinettes.jpg
     alt2: Toit des épinettes
-    legende2: L'autre moitié des arbres suivis par l'expérience d'exclusion de pluie
+    legende2:
+      L'autre moitié des arbres suivis par l'expérience d'exclusion de pluie
       sont des épinettes noires.
   - type: sous-titre
     sous-titre: La forêt connectée en chiffres
