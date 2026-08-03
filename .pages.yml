@@ -147,7 +147,7 @@ components:
 
       - name: description
         label: Description
-        type: text
+        type: rich-text
         required: true
 
       - name: photo
