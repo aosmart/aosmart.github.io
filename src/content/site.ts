@@ -48,7 +48,7 @@ export const site: SiteConfig = {
     { label: "Flux de carbone", href: "/flux" },
     { label: "Équipe", href: "/equipe" },
     { label: "Nouvelles", href: "/news" },
-    { label: "Gallerie", href: "/photos" },
+    { label: "Galerie de photos", href: "/photos" },
   ],
   seo: {
     ogImage: "/images/og/og-default.jpg",

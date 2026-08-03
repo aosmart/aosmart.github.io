@@ -4,6 +4,7 @@ interface Props {
 }
 
 const { description } = Astro.props;
+import { marked } from "marked";
 ---
 
 <div class="image-card">
@@ -11,7 +12,7 @@ const { description } = Astro.props;
     <slot />
   </div>
 
-  <p class="image-card__caption"><Fragment set:html={description} /></p>
+  <div class="image-card__caption lead" set:html={marked.parse(description)} />
 </div>
 
 <style>
@@ -34,5 +35,12 @@ const { description } = Astro.props;
   }
   .image-card__caption {
     color: var(--muted);
+  }
+  .image-card__caption :global(p) {
+    margin: 1;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    color: inherit;
   }
 </style>

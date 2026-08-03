@@ -1,4 +1,5 @@
 ---
+import { marked } from "marked";
 interface Props {
   description: string;
 }
@@ -23,9 +24,10 @@ const { description } = Astro.props;
 
       <div class="expandable-image__viewer-content"></div>
 
-      <p class="expandable-image__caption">
-        <Fragment set:html={description} />
-      </p>
+      <div
+        class="expandable-image__caption"
+        set:html={marked.parse(description)}
+      />
     </div>
   </div>
 </div>
@@ -178,6 +180,11 @@ const { description } = Astro.props;
     margin: 0;
     color: white;
     text-align: center;
+  }
+
+  .expandable-image__caption :global(p) {
+    margin: 0;
+    color: inherit;
   }
 
   .expandable-image__close {
