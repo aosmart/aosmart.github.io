@@ -2,12 +2,14 @@
 import Base from "../layouts/Base.astro";
 import { site } from "../content/site";
 import HeaderAndLink from "../components/mise-en-page/HeaderAndLink.astro";
-const title = "Blog";
+
+const title = "Nouvelles";
+
 const posts = Object.entries(
-  import.meta.glob("../blogposts/*.md", { eager: true })
+  import.meta.glob("../newsposts/*.md", { eager: true }),
 );
 
-const blogs = posts
+const news = posts
   .map(([path, post]: [string, any]) => {
     const slug = path.split("/").pop()?.replace(".md", "");
 
@@ -15,23 +17,31 @@ const blogs = posts
       titre: post.frontmatter.titre,
       author: post.frontmatter.author,
       date: post.frontmatter.date,
-      url: `/blog/${slug}`,
+      url: `/news/${slug}`,
     };
   })
   .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 ---
 
-<Base title={title} description={`Blog — ${site.name}`} canonicalPath="/blog">
+<Base
+  title={title}
+  description={`Nouvelles — ${site.name}`}
+  canonicalPath="/news"
+>
   <article class="prose">
-    <h1>Blog</h1>
-      {
-        blogs.map((blog) => (
-            <HeaderAndLink href={blog.url}>{blog.titre}</HeaderAndLink>
-            <p class="lead">
-              Par {blog.author} —{" "}
-              {new Date(blog.date).toLocaleDateString("fr-CA")}
-            </p>
-        ))
-      }
+    <h1>Nouvelles</h1>
+
+    {
+      news.map((blog) => (
+        <>
+          <HeaderAndLink href={blog.url}>{blog.titre}</HeaderAndLink>
+
+          <p class="lead">
+            Par {blog.author} —{" "}
+            {new Date(blog.date).toLocaleDateString("fr-CA")}
+          </p>
+        </>
+      ))
+    }
   </article>
 </Base>

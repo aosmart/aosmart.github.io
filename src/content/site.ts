@@ -47,7 +47,8 @@ export const site: SiteConfig = {
     { label: "Météorologie", href: "/meteo" },
     { label: "Flux de carbone", href: "/flux" },
     { label: "Équipe", href: "/equipe" },
-    { label: "Blog", href: "/blog" },
+    { label: "Nouvelles", href: "/news" },
+    { label: "Gallerie", href: "/photos" },
   ],
   seo: {
     ogImage: "/images/og/og-default.jpg",

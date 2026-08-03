@@ -1,0 +1,28 @@
+---
+import Base from "../layouts/Base.astro";
+import { site } from "../content/site";
+import Renderer from "../components/Renderer.astro";
+
+import { frontmatter } from "../pagesMarkdown/photos.md";
+
+const { Sections } = frontmatter;
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: site.name,
+  url: site.url,
+  inLanguage: site.locale,
+};
+---
+
+<Base
+  title="Gallerie"
+  description={site.description}
+  canonicalPath="/"
+  jsonLd={jsonLd}
+>
+  <article class="prose">
+    <Renderer sections={Sections} />
+  </article>
+</Base>
