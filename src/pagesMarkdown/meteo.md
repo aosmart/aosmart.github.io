@@ -108,4 +108,7 @@ Sections:
           </tr>
         </tbody>
       </table>
+  - type: graphiqueTempsReel
+    legende: J'aime les patates froides, merci.
+    fichier: /graphData/particules.json
 ---
