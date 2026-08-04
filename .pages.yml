@@ -367,7 +367,7 @@ content:
   - name: blogPosts
     label: Blog
     type: collection
-    path: src/blogposts
+    path: src/newsposts
     view:
       fields: [titre, author, date]
     fields:
