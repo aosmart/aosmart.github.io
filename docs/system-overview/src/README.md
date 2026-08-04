@@ -2,7 +2,6 @@
 
 | Folder | Description |
 |---|---|
-| [`src/components/`](/home/javier/USherbrooke/stage/aosmart.github.io/src/components) | Reusable Astro UI components shared across the site. |
 | [`src/components/graphiques/`](/home/javier/USherbrooke/stage/aosmart.github.io/src/components/graphiques) | Reusable Astro UI components shared across the site to display the charts |
 | [`src/components/mise-en-page/`](/home/javier/USherbrooke/stage/aosmart.github.io/src/components/mise-en-page) | Reusable Astro UI components shared across the site for arranging content. |
 | [`src/content/`](/home/javier/USherbrooke/stage/aosmart.github.io/src/content) | Global site configuration. |
