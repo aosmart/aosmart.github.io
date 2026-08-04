@@ -45,13 +45,18 @@ const { src, alt } = Astro.props;
 
   @media (max-width: 768px) {
     .image-text {
-      flex-direction: column;
+      grid-template-columns: 1fr;
+      gap: 1rem;
     }
 
-    .image-text__text,
     .image-text__image {
-      flex: none;
+      height: auto;
+    }
+
+    .image-text__image img {
       width: 100%;
+      max-width: 300px; /* optional */
+      height: auto;
     }
   }
 </style>
