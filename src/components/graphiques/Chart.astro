@@ -69,87 +69,8 @@ const { datasets } = Astro.props;
       },
     };
 
-    const defaultColors = [
-      // Blues (16)
-      "#4E79A7",
-      "#5B8FF9",
-      "#4C78A8",
-      "#6B9AC4",
-      "#3E7CB1",
-      "#5D8AA8",
-      "#4F81BD",
-      "#6A95C7",
-      "#5A9BD5",
-      "#3F88C5",
-      "#6D9DC5",
-      "#729FCF",
-      "#4A90A4",
-      "#5C93B8",
-      "#648DBF",
-      "#7BA7D7",
-
-      // Teals / Greens (16)
-      "#5F9EA0",
-      "#76B7B2",
-      "#4FA3A5",
-      "#6FA8A8",
-      "#5AAE9E",
-      "#6BBBAE",
-      "#7CBF9E",
-      "#70AD8F",
-      "#59A14F",
-      "#6FAF73",
-      "#7FB77E",
-      "#88B04B",
-      "#7DAF6D",
-      "#8DBA74",
-      "#6EA36B",
-      "#7CB38A",
-
-      // Oranges / Golds (12)
-      "#F28E2B",
-      "#E89C45",
-      "#E6A15C",
-      "#D9923B",
-      "#D9A441",
-      "#C98F3B",
-      "#EDC948",
-      "#D8B84C",
-      "#D4A857",
-      "#E0B15A",
-      "#CFA34A",
-      "#DDAA63",
-
-      // Reds (10)
-      "#E15759",
-      "#D96C75",
-      "#C76D6D",
-      "#C65B5B",
-      "#B85C5C",
-      "#A95A52",
-      "#C97C7C",
-      "#B96B6B",
-      "#D07A72",
-      "#BF6666",
-
-      // Purples (6)
-      "#B07AA1",
-      "#9C7FB8",
-      "#8F77B5",
-      "#7F6AAD",
-      "#8B84C7",
-      "#7A8CC2",
-
-      // Neutrals (4)
-      "#9C755F",
-      "#A67C6B",
-      "#8D99AE",
-      "#7F8C8D",
-    ];
-
     if (datasets.length === 1) {
-      const color =
-        defaultColors[Math.floor(Math.random() * defaultColors.length)];
+      const color = "#3F51B5";
 
       datasets[0].borderColor = color;
       datasets[0].backgroundColor = color;
