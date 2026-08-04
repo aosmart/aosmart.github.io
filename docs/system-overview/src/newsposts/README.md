@@ -1,1 +1,1 @@
-x
+Contains the markdown content of the different newsposts that appear in the `Nouvelles` tab, so the files follow the same conventions as those in pagesMarrkdown/. News posts can be edited or added easily using PagesCMS
