@@ -31,7 +31,7 @@ components:
     fields:
       - name: sous-titre
         label: Sous-titre
-        type: 
+        type: string
         required: true
       - name: lien
         label: Lien
@@ -157,7 +157,6 @@ components:
     label: Double graphique en temps réel
     type: object
     fields:
-
       - name: legende1
         label: Légende du graphique 1
         type: rich-text
@@ -200,7 +199,7 @@ components:
       - name: photo
         label: Photo
         type: image
-        
+
   htmlBlock:
     label: htmlBlock
     type: object
@@ -363,7 +362,7 @@ content:
             component: doubleImageLegende
           - name: htmlBlock
             component: htmlBlock
-            
+
   - name: blogPosts
     label: Blog
     type: collection
