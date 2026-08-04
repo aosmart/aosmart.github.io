@@ -14,6 +14,12 @@ permissions:
   pages: write
   id-token: write
 
+  # Run Pages deployments one at a time.
+# New workflow runs wait instead of interfering with the active deployment.
+concurrency:
+  group: github-pages-${{ github.ref }}
+  queue: max
+
 jobs:
   build:
     runs-on: ubuntu-latest
