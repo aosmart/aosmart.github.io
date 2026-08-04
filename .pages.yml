@@ -150,7 +150,7 @@ components:
         type: rich-text
         required: true
       - name: fichier
-        type: string
+        type: file
         required: true
 
   doubleGraphiqueTempsReel:
