@@ -1,1 +1,1 @@
-x
+[Astro pages](https://docs.astro.build/en/basics/astro-pages/) that automatically generate routes based on the file name, so you will see that all files correspond to a page in the website. Most of this documents are very similar: They use the base l;ayout of the site (for styling and consistency) then use the `Renderer` component which translates the markdown elements in the imported markdown file at the top to the corresponding HTML or Astro componennt
