@@ -53,6 +53,9 @@ Sections:
       d'air de l'atmosphère et varie entre autres en fonction de la température
       et de l'humidité de l'air.
     fichier: /graphData/atmospheric_pressure.json
+  - type: graphiqueTempsReel
+    legende: J'aime les patates froides, merci.
+    fichier: /graphData/particules.json
   - type: sous-titre
     sous-titre: Description des capteurs
   - type: paragraphe
@@ -108,7 +111,4 @@ Sections:
           </tr>
         </tbody>
       </table>
-  - type: graphiqueTempsReel
-    legende: J'aime les patates froides, merci.
-    fichier: /graphData/particules.json
 ---
