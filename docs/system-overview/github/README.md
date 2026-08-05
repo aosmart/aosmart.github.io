@@ -1,15 +1,15 @@
-[`deploy.yml`](/home/javier/USherbrooke/stage/aosmart.github.io/.github/workflows/deploy.yml) is the GitHub Actions workflow that publishes the site to GitHub Pages. It is mostky the same file you can finde [here](https://docs.astro.build/en/guides/deploy/github/)
+`deploy.yml` is the GitHub Actions workflow that publishes the site to GitHub Pages. It is essentially the same file as the one found in the official Astro documentation [here](https://docs.astro.build/en/guides/deploy/github/).
 
 It runs when:
 
 - Code is pushed to the `main` branch.
-- Someone starts it manually through GitHub’s Actions page.
+- Someone manually starts it from GitHub's **Actions** page.
 
 It contains two jobs:
 
 | Job | Purpose |
 |---|---|
-| `build` | Checks out the repository, installs dependencies, runs the Astro build, and uploads the generated static site. |
+| `build` | Checks out the repository, installs dependencies, builds the Astro site, and uploads the generated static files. |
 | `deploy` | Takes the uploaded build output and publishes it to GitHub Pages. |
 
-The workflow also grants the permissions needed to publish to Pages and prevents multiple deployments from interfering with one another.
+The workflow also grants the permissions required to publish to GitHub Pages and prevents multiple deployments from interfering with one another.
