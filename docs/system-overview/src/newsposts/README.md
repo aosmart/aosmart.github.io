@@ -1,1 +1,3 @@
-Contains the markdown content of the different newsposts that appear in the `Nouvelles` tab, so the files are similar to those in pagesMarrkdown/. News posts can be edited or added easily using PagesCMS
+Contains the frontmatter and Markdown content for the different news posts that appear in the **Nouvelles** tab. These files are similar to those in `pagesMarkdown/`.
+
+News posts can be added or edited either through Pages CMS or manually.
