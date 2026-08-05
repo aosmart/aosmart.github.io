@@ -1,4 +1,4 @@
-`deploy.yml` is the GitHub Actions workflow that publishes the site to GitHub Pages. It is essentially the same file as the one found in the official Astro documentation [here](https://docs.astro.build/en/guides/deploy/github/).
+`deploy.yml` is the GitHub Actions workflow that publishes the site to GitHub Pages. It is mostly the same file as the one found in the official Astro documentation [here](https://docs.astro.build/en/guides/deploy/github/).
 
 It runs when:
 
