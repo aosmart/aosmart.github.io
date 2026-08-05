@@ -1,16 +1,18 @@
-To learn more about the `pages.yml` file, you cand find the [documentation](https://pagescms.org/docs/configuration/) here.
+To learn more about the `.pages.yml` file, you can read the [Pages CMS configuration documentation](https://pagescms.org/docs/configuration/). The file can also be edited more easily through the **Config** tab in the browser:
 
-[`.pages.yml`](/home/javier/USherbrooke/stage/aosmart.github.io/.pages.yml) configures **Pages CMS**, the visual editor used to manage the site’s Markdown content.
+<img width="2554" height="1444" alt="image" src="https://github.com/user-attachments/assets/524811a9-0118-42d2-8f64-43e852e8e715" />
+
+[`.pages.yml`](/home/javier/USherbrooke/stage/aosmart.github.io/.pages.yml) configures **Pages CMS**, the visual editor used to manage the site's Markdown content.
 
 It has three main sections:
 
 | Section | Purpose |
 |---|---|
-| `media` | Tells the CMS to store uploaded files in `public/` and reference them with URLs beginning at `/`. |
-| `components` | Defines reusable content-block schemas such as titles, paragraphs, images, graphs, team members, and HTML blocks. |
-| `content` | Defines which pages and collections users can edit and which components are allowed on each one. |
+| `media` | Tells the CMS to store uploaded files in `public/` and reference them with URLs beginning with `/`. |
+| `components` | Defines reusable content block schemas such as `titre`, `paragraphe`, `imageLegende`, `doubleImageLegende`, etc. |
+| `content` | Defines which pages and collections users can edit, as well as which components are allowed on each one. |
 
-For example, this component definition:
+For example, this component definition in `.pages.yml`:
 
 ```yaml
 paragraphe:
@@ -22,14 +24,18 @@ paragraphe:
       required: true
 ```
 
-tells Pages CMS to display a rich-text field. When saved, it produces:
+tells Pages CMS to display a rich-text field.
+
+<img width="882" height="469" alt="image" src="https://github.com/user-attachments/assets/d3ca0e0c-ad19-4004-9849-5f08e4694dda" />
+
+When the page is saved, it produces the following frontmatter:
 
 ```yaml
 - type: paragraphe
   paragraphe: The entered content
 ```
 
-The `content` section connects CMS entries to actual files:
+The `content` section connects CMS entries to the actual files they edit. For example:
 
 ```yaml
 - name: meteo
@@ -38,7 +44,7 @@ The `content` section connects CMS entries to actual files:
   path: src/pagesMarkdown/meteo.md
 ```
 
-Most entries are `type: file`, meaning they edit one existing page. The news section is a `collection`:
+Most entries use `type: file`, meaning they edit a single existing page. The news section, however, is defined as a `collection`:
 
 ```yaml
 - name: blogPosts
@@ -46,6 +52,4 @@ Most entries are `type: file`, meaning they edit one existing page. The news sec
   path: src/newsposts
 ```
 
-This lets editors create and remove multiple news-post files.
-
-Each page also has an explicit list of allowed blocks. For example, the gallery permits gallery-image components, while the team page permits `membreEquipe`.
+Each page also has an explicit list of allowed components. For example, the gallery page allows `gallery-image` components, while the team page allows `membreEquipe` components.
