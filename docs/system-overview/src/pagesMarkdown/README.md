@@ -1,4 +1,4 @@
-The files in `src/pagesMarkdown/` are structured-content files. Although they use the `.md` extension, almost all their content is [YAML frontmatter](https://docs.github.com/en/contributing/writing-for-github-docs/using-yaml-frontmatter) rather than ordinary Markdown.
+The files in `src/pagesMarkdown/` are structured-content files. Although they use the `.md` extension, almost all their content is YAML frontmatterrather than ordinary Markdown.
 
 ## Overall structure
 
