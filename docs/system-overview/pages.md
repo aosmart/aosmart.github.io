@@ -2,7 +2,7 @@ To learn more about the `.pages.yml` file, you can read the [Pages CMS configura
 
 <img width="2554" height="1444" alt="image" src="https://github.com/user-attachments/assets/524811a9-0118-42d2-8f64-43e852e8e715" />
 
-[`.pages.yml`](/home/javier/USherbrooke/stage/aosmart.github.io/.pages.yml) configures **Pages CMS**, the visual editor used to manage the site's Markdown content.
+`.pages.yml` configures **Pages CMS**, the visual editor used to manage the site's Markdown content.
 
 It has three main sections:
 
