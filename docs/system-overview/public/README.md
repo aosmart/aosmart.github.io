@@ -1,18 +1,18 @@
-The `public/` folder contains static files used in the website
+The `public/` folder contains the static files used by the website.
 
 | Folder | Purpose |
 |---|---|
-| `fonts/`| Local Inter font files used by the site. |
-| `graphData/` | .json files with sensor data used by the charts. |
-| `images/` | Pictures |
+| `fonts/` | Font files used by the site. |
+| `graphData/` | .json files containing the data displayed by the charts. |
+| `images/` | Images used throughout the site. |
 
-Files retain the same URL structure. For example:
+Files in `public/` retain the same URL structure when served by the website. For example:
 
 ```text
 public/images/foret/tower.jpg
 ```
 
-is referenced by website elements like images or links as:
+is referenced by website elements such as images or links as:
 
 ```text
 /images/foret/tower.jpg
