@@ -11,8 +11,8 @@ This file contains the code for the component responsible for creating the front
 ### Notes
 
 - The component receives `datasets` as a parameter. This string represents the path to the corresponding JSON file containing the graph data.
-- The JSON files are usually located in `public/`.
-- For graphs with multiple datasets (such as dendrometers, sapflows, and particulates), the JSON file also specifies the color of each line.
+- The JSON files are usually located in `public/graphData`.
+- For graphs with multiple datasets (plots) (such as dendrometers, sapflows, and particulate data), the JSON file also specifies the color of each line.
 - If there is only one dataset, the component uses the default color `#3F51B5`:
 
 ```js
@@ -26,7 +26,7 @@ if (datasets.length === 1) {
 
 ## `Tower.astro`
 
-This component is responsible for generating the chart corresponding to the AP200 data.
+This component is responsible for generating the chart corresponding to the AP200 system.
 
 <img width="983" height="883" alt="AP200 chart" src="https://github.com/user-attachments/assets/d63f5230-7e81-4f8c-9b53-367cc44c2b6e" />
 
