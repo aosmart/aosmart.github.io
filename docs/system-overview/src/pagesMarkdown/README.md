@@ -1,5 +1,4 @@
-This directorty contains the actual content of the main pages, but formatted in markdown
-The files in [`src/pagesMarkdown/`](/home/javier/USherbrooke/stage/aosmart.github.io/src/pagesMarkdown) are structured-content files. Although they use the `.md` extension, almost all their content is YAML frontmatter rather than ordinary Markdown.
+The files in [`src/pagesMarkdown/`](/home/javier/USherbrooke/stage/aosmart.github.io/src/pagesMarkdown) are structured-content files. Although they use the `.md` extension, almost all their content is [YAML frontmatter](https://docs.github.com/en/contributing/writing-for-github-docs/using-yaml-frontmatter) rather than ordinary Markdown.
 
 ## Overall structure
 
@@ -27,11 +26,11 @@ The important parts are:
 
 - `Sections` is an ordered list.
 - Every list item is one section.
-- `type` tells the renderer which component to use.
+- `type` tells the `Renderer.astro` component which component to use.
 - The other properties provide the section’s content.
 - Sections appear on the page in the same order as in the file.
 
-Each Astro page imports that list:
+Each Astro page imports that list, for example in `src/pages/meteo.astro`:
 
 ```astro
 import { frontmatter } from "../pagesMarkdown/meteo.md";
@@ -39,7 +38,7 @@ import { frontmatter } from "../pagesMarkdown/meteo.md";
 const { Sections } = frontmatter;
 ```
 
-It then passes the list to [`Renderer.astro`](/home/javier/USherbrooke/stage/aosmart.github.io/src/components/Renderer.astro):
+It then passes the list to `Renderer.astro`:
 
 ```astro
 <Renderer sections={Sections} />
@@ -52,7 +51,7 @@ It then passes the list to [`Renderer.astro`](/home/javier/USherbrooke/stage/aos
 | `titre` | `titre`, `sous-texte` | Main page heading (`h1`) followed by introductory text. |
 | `sous-titre` | `sous-titre` | Second-level heading (`h2`). |
 | `sous-titre-avec-lien` | `sous-titre`, `lien` | Second-level heading containing a clickable link. |
-| `paragraphe` | `paragraphe` | Markdown-formatted prose, including links, lists, emphasis, and inline HTML. |
+| `paragraphe` | `paragraphe` | Markdown-formatted prose |
 | `imageLegende` | `image`, `alt`, `legende` | One image with a caption. |
 | `doubleImageLegende` | `image1`, `alt1`, `legende1`, `image2`, `alt2`, `legende2` | Two captioned images side by side on desktop and stacked on mobile. |
 | `graphiqueTempsReel` | `fichier`, `legende` | One interactive graph loaded from a JSON file. |
@@ -114,14 +113,7 @@ This produces a linked heading with an external-link arrow.
     - étudier les flux de carbone.
 ```
 
-The `paragraphe` value is processed with the `marked` Markdown parser, so it supports:
-
-- Paragraphs
-- Lists
-- Links
-- Bold and italic text
-- Inline HTML
-- Subscripts such as `<sub>2</sub>`
+The `paragraphe` value is processed with the `marked` Markdown parser.`
 
 ## Image sections
 
@@ -174,7 +166,7 @@ The numbered fields belong to the corresponding image:
   fichier: /graphData/air_temperature.json
 ```
 
-Normally, this renders [`Chart.astro`](/home/javier/USherbrooke/stage/aosmart.github.io/src/components/graphiques/Chart.astro).
+Normally, this renders `Chart.astro`.
 
 There is one special case:
 
@@ -182,7 +174,7 @@ There is one special case:
 fichier: /graphData/ap200.json
 ```
 
-That exact path renders [`Tower.astro`](/home/javier/USherbrooke/stage/aosmart.github.io/src/components/graphiques/Tower.astro) instead of a line chart.
+That exact path renders `Tower.astro` instead of a line chart.
 
 ### `doubleGraphiqueTempsReel`
 
@@ -251,23 +243,7 @@ Two images:
     </div>
 ```
 
-This is useful for layouts not covered by existing section types. However, the HTML is inserted directly without sanitization, so this section should only contain trusted content.
-
-## YAML multiline syntax
-
-The files frequently use `|`, `>`, `|+`, or `>-`:
-
-```yaml
-paragraphe: |
-  First paragraph.
-
-  Second paragraph.
-```
-
-- `|` preserves line breaks.
-- `>` folds ordinary line breaks into spaces.
-- `+` preserves trailing blank lines.
-- `-` removes trailing blank lines.
+This is useful for layouts not covered by existing section types.
 
 For Markdown containing multiple paragraphs or lists, `|` is generally the clearest option.
 
