@@ -1,4 +1,4 @@
-To learn more about the `.pages.yml` file, you can read the [Pages CMS configuration documentation](https://pagescms.org/docs/configuration/). The file can also be edited more easily through the **Config** tab in the browser:
+To learn more about the `.pages.yml` file, you can read the [Pages CMS configuration documentation](https://pagescms.org/docs/configuration/). The file can also be edited more easily through the **Configuration** tab in the browser:
 
 <img width="2554" height="1444" alt="image" src="https://github.com/user-attachments/assets/524811a9-0118-42d2-8f64-43e852e8e715" />
 
