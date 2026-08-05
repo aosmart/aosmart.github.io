@@ -28,4 +28,4 @@ case "titre":
 
 When the page is rendered, this frontmatter section is converted into the corresponding HTML elements.
 
-Each supported section type (such as `titre`, `paragraphe`, `row`, `imageLegende`, etc.) has a corresponding `case` in `Renderer.astro`, making it the central component responsible for rendering the website from the Markdown content. Also see other components here and here.
+Each supported section type (such as `titre`, `paragraphe`, `row`, `imageLegende`, etc.) has a corresponding `case` in `Renderer.astro`, making it the central component responsible for rendering the website from the Markdown content. Also see other components [here](https://github.com/aosmart/aosmart.github.io/tree/main/docs/system-overview/src/components/graphiques) and [here](https://github.com/aosmart/aosmart.github.io/tree/main/docs/system-overview/src/components/graphiques).
