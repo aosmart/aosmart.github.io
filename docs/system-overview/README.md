@@ -5,12 +5,12 @@ Here you will find the main directories and files important to this this project
 ## Root folders
 | Folder | Description |
 |---|---|
-| [`.github/`]() | GitHub configuration, primarily the Actions workflow that builds and deploys the site to GitHub Pages. |
-| [`public/`]() | Stores images, documents and JSON files |
-| [`src/`]() | Main application code |
+| [`.github/`](https://github.com/aosmart/aosmart.github.io/tree/main/docs/system-overview/github) | GitHub configuration, primarily the Actions workflow that builds and deploys the site to GitHub Pages. |
+| [`public/`](https://github.com/aosmart/aosmart.github.io/tree/main/docs/system-overview/public) | Stores images, documents and JSON files |
+| [`src/`](https://github.com/aosmart/aosmart.github.io/tree/main/docs/system-overview/src) | Main application code |
 
 ## Root files
 
 | File | Description |
 |---|---|
-| [`.pages.yml`]() | Pages CMS configuration, that defines how content can be edited using the CMS |
+| [`.pages.yml`](https://github.com/aosmart/aosmart.github.io/tree/main/docs/system-overview/pages.md) | Pages CMS configuration, that defines how content can be edited using the CMS |
