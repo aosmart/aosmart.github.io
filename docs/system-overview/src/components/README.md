@@ -1,8 +1,8 @@
 ## `Renderer.astro`
 
-This is probably **the most important** Astro component. It is used by all files in `pages/`. Its purpose is to translate the Markdown components defined in the files under `pagesMarkdown/` into HTML elements or the Astro components found in `src/components/`.
+This is probably **the most important** Astro component. It is used by all files in `pages/`. Its purpose is to translate the [frontmatter](https://www.coding-tech.fr/blog/qu-est-ce-que-front-matter/) found in the files under `pagesMarkdown/` into HTML elements or Astro components from `src/components/`.
 
-For example, the following content in `pagesMarkdown/equipe.md`:
+For example, the following frontmatter in `pagesMarkdown/equipe.md`:
 
 ```yaml
 - type: titre
@@ -26,6 +26,6 @@ case "titre":
   );
 ```
 
-When the page is rendered, this Markdown section is converted into the corresponding HTML elements.
+When the page is rendered, this frontmatter section is converted into the corresponding HTML elements.
 
-Each supported section type (such as `titre`, `texte`, `row`, `imageAndCaption`, etc.) has a corresponding `case` in `Renderer.astro`, making it the central component responsible for rendering the website from the Markdown files.
+Each supported section type (such as `titre`, `paragraphe`, `row`, `imageLegende`, etc.) has a corresponding `case` in `Renderer.astro`, making it the central component responsible for rendering the website from the Markdown content.
