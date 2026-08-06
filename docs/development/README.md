@@ -98,3 +98,10 @@ The general workflow for modifying the application is as follows:
    docker compose up -d --build <service_name>
    ```
 > **Remark:** The `timescaledb` container stores its database in a **host-mounted data directory** (`/mnt/ssd_drive/timescaledb-data`) rather than inside the container itself. As a result, rebuilding or recreating the container does **not** erase the database. To create tables, modify the schema, or insert data, you must connect to the database and execute SQL queries. The development and production environments each use their own data directory, so they are completely isolated. For example, the fake data generated in the development environment cannot contaminate the production database.
+
+## Guides
+
+The following guides walk through common development tasks and explain how to extend the data pipeline:
+
+1. [Adding data from a new dendrometer, sap flow, or soil moisture sensor to the database using the MQTT protocol](https://github.com/aosmart/forestDataPipeline/blob/main/docs/guides/development/CHANGE1.md)
+2. [Adding data from a new FLUX data logger table to the database using the MQTT protocol](https://github.com/aosmart/forestDataPipeline/blob/main/docs/guides/development/CHANGE2.md)
