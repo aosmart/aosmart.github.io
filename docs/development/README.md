@@ -61,16 +61,16 @@ You should see something similar to the following:
 
 ## `fake_publisher_dev` and `fake_http_publisher_dev`
 
-These two services simulate the data loggers by publishing fake data through **MQTT** and **HTTP**. This allows you to test changes locally without requiring access to the physical devices.
+These two services simulate the data loggers by publishing fake data through **MQTT** and **HTTP**.
 
-For example, if you want to create a new table on a data logger and have its data stored in the database, you can modify one of these services to publish the same table (using fake data). You can then verify that your changes correctly process and save the data in the database.
+This useful because, for example, if you want to create a new table on a data logger and have its data stored in the database, you can modify one of these services to publish the same table (using fake/random data). You can then verify that your changes correctly process and save the data in the database.
 
 The source code for these services can be found here:
 
 - **`fake_publisher_dev`**: <https://github.com/aosmart/forestDataPipeline/tree/main/mosquitto-broker/tests>
 - **`fake_http_publisher_dev`**: <https://github.com/aosmart/forestDataPipeline/tree/main/django_api/test>
 
-For example, after installing `mosquitto-clients` on your machine, you can run:
+Also, if you install `mosquitto-clients` on your machine, you can run:
 
 ```bash
 mosquitto_sub -h localhost -t "#" -v
