@@ -22,6 +22,8 @@ By clicking on any page, you can view and edit its content. For example, in the 
 - Delete the element by clicking the **trash can** icon in the top-right corner.
 - Change its position by dragging it using the **six dots** on the left.
 
+<img width="951" height="297" alt="image" src="https://github.com/user-attachments/assets/56650f3f-9fe5-485d-9e0d-94fc88820101" />
+
 At the bottom of each page, you can add new elements.
 
 <img width="972" height="299" alt="image" src="https://github.com/user-attachments/assets/efa2db15-55fe-43a9-acf6-2784343c7b72" />
