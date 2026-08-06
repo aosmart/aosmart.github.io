@@ -1,6 +1,6 @@
 ## Development
 
-About 90% of content changes (text, images, graphs, etc.) can be done easily through PagesCMS. Follow this [guide](www.google.com) to learn how to use it.
+Almost any change to the content of the site (text, images, graphs, etc.) can be done easily through PagesCMS. Follow this [guide](www.google.com) to learn how to use it.
 
 If, for any reason, PagesCMS is not available, you can edit the content directly in the files located here:
 
