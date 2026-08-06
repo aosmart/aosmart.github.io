@@ -78,6 +78,9 @@ mosquitto_sub -h localhost -t "#" -v
 
 This subscribes to every MQTT topic and displays all published messages in real time. You should see the fake data continuously published by `fake_publisher_dev` to the Mosquitto broker.
 
+Also, if you visit the port 8000 of your local machine, you should be able to see the fake data
+<img width="2533" height="1375" alt="image" src="https://github.com/user-attachments/assets/d4e12c11-70f8-49bb-a011-697fd4fa4327" />
+
 ## Sending Changes to Production
 
 The general workflow for modifying the application is as follows:
@@ -94,3 +97,4 @@ The general workflow for modifying the application is as follows:
    ```bash
    docker compose up -d --build <service_name>
    ```
+> **Remark:** The `timescaledb` container stores its database in a **host-mounted data directory** (`/mnt/ssd_drive/timescaledb-data`) rather than inside the container itself. As a result, rebuilding or recreating the container does **not** erase the database. To create tables, modify the schema, or insert data, you must connect to the database and execute SQL queries. The development and production environments each use their own data directory, so they are completely isolated. For example, the fake data generated in the development environment cannot contaminate the production database.
