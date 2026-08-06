@@ -58,3 +58,39 @@ docker ps
 You should see something similar to the following:
 
 <img width="2021" height="167" alt="image" src="https://github.com/user-attachments/assets/0742701b-5c32-4740-a1fb-ab935d042fa5" />
+
+## `fake_publisher_dev` and `fake_http_publisher_dev`
+
+These two services simulate the data loggers by publishing fake data through **MQTT** and **HTTP**. This allows you to test changes locally without requiring access to the physical devices.
+
+For example, if you want to create a new table on a data logger and have its data stored in the database, you can modify one of these services to publish the same table (using fake data). You can then verify that your changes correctly process and save the data in the database.
+
+The source code for these services can be found here:
+
+- **`fake_publisher_dev`**: <https://github.com/aosmart/forestDataPipeline/tree/main/mosquitto-broker/tests>
+- **`fake_http_publisher_dev`**: <https://github.com/aosmart/forestDataPipeline/tree/main/django_api/test>
+
+For example, after installing `mosquitto-clients` on your machine, you can run:
+
+```bash
+mosquitto_sub -h localhost -t "#" -v
+```
+
+This subscribes to every MQTT topic and displays all published messages in real time. You should see the fake data continuously published by `fake_publisher_dev` to the Mosquitto broker.
+
+## Sending Changes to Production
+
+The general workflow for modifying the application is as follows:
+
+1. Modify the files in `forestDataPipeline` corresponding to the container you want to change.
+2. Rebuild and restart the modified service in the development environment:
+   ```bash
+   docker compose -f docker-compose.dev.yml up -d --build <service_name>
+   ```
+3. Verify that the changes work as intended.
+4. Push your changes to GitHub.
+5. On the Raspberry Pi, pull the latest changes from the repository.
+6. Rebuild and restart the corresponding service in the production environment:
+   ```bash
+   docker compose up -d --build <service_name>
+   ```
