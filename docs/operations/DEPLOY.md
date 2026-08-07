@@ -26,6 +26,7 @@ To deploy the site, you need to:
 
 3. Make the repository public.
 
+
 You should then be able to visit the site at [https://aosmart.github.io/](https://aosmart.github.io/). It might take a few minutes for the site to be available. You can check the **Actions** tab of the repository to see if there were any problems.
 
 Later on, you can buy a domain and search online for how to set up a custom domain with GitHub Pages.
