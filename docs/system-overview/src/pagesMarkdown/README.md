@@ -243,8 +243,4 @@ Two images:
     </div>
 ```
 
-This is useful for layouts not covered by existing section types.
-
-For Markdown containing multiple paragraphs or lists, `|` is generally the clearest option.
-
-There is currently no strongly typed schema validating these sections during compilation. A misspelled `type` will not render the intended component; the renderer will instead display the unknown type as plain text.
+You can write raw html in here. You can also define <script> and <style> sections and use them inside the `htmlBlock`.
