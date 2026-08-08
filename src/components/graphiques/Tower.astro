@@ -75,49 +75,61 @@ const rows = [
   document.querySelectorAll(".tower-profile").forEach(async (chart) => {
     const src = chart.dataset.src;
 
-    const response = await fetch(src);
-    const json = await response.json();
+    try {
+      const response = await fetch(src);
 
-    chart.querySelectorAll(".value").forEach((cell) => {
-      const channel = cell.dataset.channel;
-      const variable = cell.dataset.variable;
-      const unit = cell.dataset.unit;
+      if (!response.ok) {
+        throw new Error(`Unable to load AP200 data: ${response.status}`);
+      }
 
-      const value = findLatestValue(json.datasets, channel, variable);
+      const json = await response.json();
 
-      cell.textContent =
-        value == null ? "—" : `${Number(value).toFixed(2)} ${unit}`;
-    });
+      chart.querySelectorAll(".value").forEach((cell) => {
+        const channel = Number(cell.dataset.channel);
+        const variable = cell.dataset.variable;
+        const unit = cell.dataset.unit;
 
-    const lastUpdated = json.datasets?.[0]?.data?.[0]?.x;
-    const lastUpdateElement =
-      chart.parentElement.querySelector("[data-last-update]");
+        const value = findChannelValue(
+          json.datasets,
+          channel,
+          variable,
+        );
 
-    if (lastUpdated && lastUpdateElement) {
-      const date = new Date(lastUpdated);
-
-      lastUpdateElement.textContent = date.toLocaleString("fr-CA", {
-        dateStyle: "medium",
-        timeStyle: "short",
+        cell.textContent =
+          value == null ? "—" : `${Number(value).toFixed(2)} ${unit}`;
       });
+
+      const lastUpdated = json.datasets?.[0]?.data?.[0]?.x;
+      const lastUpdateElement =
+        chart.parentElement?.querySelector("[data-last-update]");
+
+      if (lastUpdated && lastUpdateElement) {
+        const date = new Date(lastUpdated);
+
+        lastUpdateElement.textContent = date.toLocaleString("fr-CA", {
+          dateStyle: "medium",
+          timeStyle: "short",
+        });
+      }
+    } catch (error) {
+      console.error("Failed to load AP200 data:", error);
     }
   });
 
-  function findLatestValue(datasets, channel, variableName) {
-    const dataset = datasets.find((dataset) => {
-      return (
-        dataset.label.includes(`Channel ${channel}`) &&
-        dataset.label.includes(variableName)
-      );
-    });
+  function findChannelValue(datasets, channel, variableName) {
+    const dataset = datasets?.find(
+      (dataset) => dataset.label === variableName,
+    );
 
-    if (!dataset || dataset.data.length === 0) {
+    if (!dataset || channel < 1 || channel > 8) {
       return null;
     }
 
-    return dataset.data[dataset.data.length - 1].y;
+    // data[0] is channel 1, data[7] is channel 8.
+    return dataset.data?.[channel - 1]?.y ?? null;
   }
 </script>
+
 
 <style>
   .tower-profile-card {
