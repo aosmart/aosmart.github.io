@@ -364,7 +364,7 @@ content:
             component: htmlBlock
 
   - name: blogPosts
-    label: Blog
+    label: Nouvelles
     type: collection
     path: src/newsposts
     view:

@@ -12,7 +12,7 @@ This file contains the code for the component responsible for creating the front
 
 - The component receives `datasets` as a parameter. This string represents the path to the corresponding JSON file containing the graph data.
 - The JSON files are usually located in `public/graphData`.
-- For graphs with multiple datasets (plots) (such as dendrometers, sapflows, and particulate data), the JSON file also specifies the color of each line.
+- For graphs with multiple datasets (plots) (such as dendrometers, sapflows, and particulate data), the JSON file also specifies the color of each line. The units that appear on the left side of the graphs are also specified in the JSON file.
 - If there is only one dataset, the component uses the default color `#3F51B5`:
 
 ```js
