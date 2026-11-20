@@ -6,6 +6,7 @@ Sections:
       renseignent sur les conditions dans lesquelles les arbres évoluent. Grâce
       à ces capteurs, vous pouvez aussi connaître la météo à Rapide-Danseur en
       temps réel!
+
   - type: sous-titre
     sous-titre: Données météorologiques au cours de la dernière semaine
   - type: doubleGraphiqueTempsReel
