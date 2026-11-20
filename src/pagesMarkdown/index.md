@@ -5,14 +5,17 @@ Sections:
     sous-texte: Un projet de l'Université du Québec en Abitibi-Témiscamingue en
       collaboration avec la MRC d'Abitibi-Ouest et le Ministère des ressources
       naturelles et des forêts
+
   - type: imageLegende
-    image: /images/tour/DJI_0264.jpg
+    image: /images/tour/drone_tour1.jpg
     legende: Une tour téléscopique sur laquelle sont installés des capteurs
       météorologiques et de mesure des flux écosystémiques constitue un des
       éléments clés de la forêt connectée d'Abitibi-Ouest.
     alt: Vue de la tour à flux prise à partir d'un drone
+
   - type: sous-titre
     sous-titre: Qu'est-ce qu'une forêt connectée?
+
   - type: paragraphe
     paragraphe: "Une forêt connectée (ou forêt intelligente, *smart forest* en
       anglais) est une forêt dans laquelle des capteurs et autres instruments de
@@ -26,13 +29,16 @@ Sections:
       été mis sur pied afin de diffuser en temps réel les données acquises à la
       forêt connecté d'Abitibi-Ouest et les résultats de recherche qui en
       découlent."
+
   - type: imageLegende
     image: /images/foret/capteurs_epinettes.jpg
     legende: Dans une forêt connectée, les éléments naturels s'entremêlent avec les
       instruments de mesure.
     alt: Capteurs de flux de sève installés sur des épinettes
+
   - type: sous-titre
     sous-titre: Aperçu du projet
+
   - type: paragraphe
     paragraphe: >-
       La forêt connectée d'Abitibi-Ouest est située à la [Forêt d'enseignement
@@ -64,17 +70,20 @@ Sections:
       Tous les instruments installés au site d'étude fonctionnent grâce à
       l'énergie solaire, ce qui réduit l'empreinte carbone du projet et permet
       au site de fonctionner en complète autonomie du réseau électrique.
+
   - type: doubleImageLegende
     image1: /images/foret/toit_bouleaux.jpg
     alt1: Toits des bouleaux
     legende1: La moitié des arbres suivis par l'expérience d'exclusion de pluie sont
       des bouleaux à papier.
-    image2: /images/foret/toits_epinettes.jpg
+    image2: /images/foret/toit_epinettes.jpg
     alt2: Toit des épinettes
     legende2: L'autre moitié des arbres suivis par l'expérience d'exclusion de pluie
       sont des épinettes noires.
+
   - type: sous-titre
     sous-titre: La forêt connectée en chiffres
+
   - type: paragraphe
     paragraphe: |+
       La forêt connectée d'Abitibi-Ouest, c'est :
@@ -89,8 +98,9 @@ Sections:
 
   - type: imageLegende
     image: /images/foret/panneaux_arbres.jpg
-    legende: Tous les instruments du site d'étude sont alimentés à l'énergée solaire.
+    legende: Tous les instruments du site d'étude sont alimentés à l'énergie solaire.
     alt: Photos des panneaux solaires au site des arbres
+
   - type: sous-titre
     sous-titre: Remerciements
   - type: paragraphe

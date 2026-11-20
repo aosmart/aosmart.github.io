@@ -4,6 +4,7 @@ Sections:
     titre: Dispositif d'exclusion de pluie
     sous-texte: Une expérience qui évalue l'effet de la sécheresse sur le
       fonctionnement des arbres
+
   - type: paragraphe
     paragraphe: >-
       En raison des changements climatiques, les sécheresses seront de plus en
@@ -17,8 +18,10 @@ Sections:
       l'avenir de l'industrie forestière en Abitibi-Témiscamingue. C'est
       pourquoi nous avons créé une sécheresse artificielle afin d'étudier quels
       seraient les effets du manque d'eau sur les arbres.
+
   - type: sous-titre
     sous-titre: Design expérimental
+
   - type: paragraphe
     paragraphe: "Pour créer une sécheresse de façon expérimentale, nous avons
       installé deux structures de bois recouvertes de panneaux en plastique
@@ -27,6 +30,7 @@ Sections:
       structures est située dans un peuplement de bouleaux à papier (*Betula
       papyrifera*) alors que l'autre se trouve dans une plantation d'épinettes
       noires (*Picea mariana*). "
+
   - type: doubleImageLegende
     image1: /images/foret/bouleaux.jpg
     alt1: Le toit d'exclusion de pluie des bouleaux
@@ -36,14 +40,17 @@ Sections:
     alt2: Le toit d'exclusion de pluie des épinettes
     legende2: Le deuxième dispositif d'exclusion de pluie fait environ 110 m² et
       permet de couper l'approvisionnement en eau à neuf épinettes noires.
+
   - type: paragraphe
     paragraphe: En plus des cinq bouleaux et neuf épinettes soumis au traitement de
       sécheresse, quinze bouleaux et onze épinettes servent de témoins soumis
       aux conditions naturelles de précipitations. Il sera donc possible de
       comparer la réaction des arbres privés d'eau à d'autres arbres situés à
       une dizaine de mètres seulement mais qui ne sont pas limités en eau.
+
   - type: sous-titre
     sous-titre: Mesurer la croissance des arbres à l'aide de dendromètres
+
   - type: paragraphe
     paragraphe: Tous les quarante arbres (vingt bouleaux et vingt épinettes) suivis
       à la forêt connectée sont équipés de dendromètres à pointe. Il s'agit de
@@ -53,6 +60,7 @@ Sections:
       est donc possible de mesurer des variations du diamètre du tronc qui sont
       invisibles à l'oeil nu et impossibles à mesurer avec un instrument
       traditionnel tel qu'un ruban à mesurer forestier.
+
   - type: imageLegende
     image: /images/foret/dendro.jpeg
     legende: Les dendromètres sont fixés aux arbres à l'aide de vis, mais le piston
@@ -61,6 +69,7 @@ Sections:
       longueur du piston à un enregistreur de données qui consigne les valeurs à
       toutes les trente minutes.
     alt: Un exemple de dendromètre
+
   - type: paragraphe
     paragraphe: >-
       En réalité, les dendromètres mesurent non seulement la croissance des
@@ -83,6 +92,7 @@ Sections:
       s'échapper l'eau puisée dans les racines. La nuit, alors que les stomates
       sont fermés, l'arbre peut refaire ses réserves d'eau et le diamètre de son
       tronc augmente à nouveau.
+
   - type: graphiqueTempsReel
     legende: Données enregistrées par les dendromètres installés sur les bouleaux à
       papier au cours de la dernière semaine. Chaque nuit, les arbres se
@@ -93,12 +103,14 @@ Sections:
       diamètre des arbres a tendance à augmenter au fil du temps en raison de
       leur croissance.
     fichier: /graphData/dendrometers_BOP.json
+
   - type: graphiqueTempsReel
     legende: Données enregistrées par les dendromètres installés sur les épinettes
       noires au cours de la dernière semaine. Les patrons observés sont
       généralement similaires à ceux pour le bouleau à papier, mais les
       épinettes ont tendance à croître moins rapidement.
     fichier: /graphData/dendrometers_EPN.json
+
   - type: paragraphe
     paragraphe: >-
       Au-delà du cycle journalier d'augmentation et de diminution du diamètre en
@@ -115,8 +127,10 @@ Sections:
       recueillies par les dendromètres pour quantifier la croissance et le
       statut hydrique des arbres selon le traitement auquel ils sont soumis
       (sécheresse ou conditions naturelles) et l'espèce (bouleau ou épinette).
+
   - type: sous-titre
     sous-titre: Mesurer le flux de sève à l'aide de capteurs de type Granier
+
   - type: paragraphe
     paragraphe: >-
       Bien que les dendromètres nous renseignent sur le statut hydrique de
@@ -139,18 +153,20 @@ Sections:
       contraire, lorsque le flux de sève augmente en plein jour, la chaleur
       produite par l'aiguille chauffée est dissipée par le mouvement de la sève
       et la différence de température entre les deux aiguilles est réduite.
+
   - type: doubleImageLegende
-    image1: /images/foret/sapflow2.jpg
-    alt1: "Un capteur de flux de sève nouvellement installé. "
+    image1: /images/foret/sapflow_nouveau.jpg
+    alt1: "Un capteur de flux de sève nouvellement installé."
     legende1: Un capteur de flux de sève de type Granier nouvellement installé.
       L'aiguille portant un cercle jaune (en haut) est munie d'un élément
       chauffant, et l'autre non.
-    image2: /images/foret/sapflow1 (1).jpg
+    image2: /images/foret/sapflow_protection.jpg
     alt2: Un capteur de flux de sève sous son bouclier de protection
     legende2: Une fois installés, les capteurs de flux de sève sont recouverts d'un
       bouclier de protection contre le rayonnement solaire et l'eau. Cela nous
       assure que nous mesurons seulement des variations reliées au flux de sève
       lui-même, et non pas aux conditions météorologiques extérieures.
+
   - type: paragraphe
     paragraphe: Les données provenant des capteurs de flux de sève sont mesurées par
       les enregistreurs de données selon leur différence de potentiel électrique
@@ -160,6 +176,7 @@ Sections:
       en mV peuvent tout de même être interprétées pour déterminer le flux de
       sève relatif de l'arbre. Une différence de potentiel plus basse indique un
       flux de sève plus élevé, et vice versa.
+
   - type: graphiqueTempsReel
     legende: Données issues des capteurs de flux de sève des bouleaux à papier au
       cours de la dernière semaine. Au cours de la nuit, la transpiration des
@@ -169,12 +186,15 @@ Sections:
       minimale. Lors de journées pluvieuses, les valeurs mesurées sont également
       élevées puisque les arbres transpirent très peu.
     fichier: /graphData/sapflows_BOP.json
+
   - type: graphiqueTempsReel
     legende: Données issues des capteurs de flux de sève des épinettes noires au
       cours de la dernière semaine.
     fichier: /graphData/sapflows_EPN.json
+
   - type: sous-titre
     sous-titre: Suivi du contenu en eau du sol
+
   - type: paragraphe
     paragraphe: "Le contenu en eau du sol dans les parcelles d'étude sous traitement
       d'exclusion de pluie et les parcelles témoins est mesuré à toutes les dix
@@ -186,19 +206,21 @@ Sections:
       mesure relative de contenu en eau du sol en pourcentage. Un milieu
       complètement dépourvu d'eau retournera une valeur de 0%, alors qu'une
       sonde immergée dans de l'eau produira une valeur de 100%."
+
   - type: doubleImageLegende
-    image1: /images/capteurs/cs616_1.jpg
+    image1: /images/capteurs/cs616_neuf.jpg
     alt1: Capteur d'humidité du sol non installé
     legende1: Aperçu d'un capteur d'humidité du sol avant son installation. Les
       tiges métalliques attachées au capteur émettent le signal
       électromagnétique utilisé pour mesurer le contenu en eau du sol.
-    image2: /images/capteurs/cs616_2.jpg
+    image2: /images/capteurs/cs616_installe.jpg
     alt2: Capteur d'humidité du sol installé
     legende2: Aperçu d'un capteur d'humidité du sol installé sur le terrain. Un trou
       est creusé dans le sol pour y insérer le capteur à une profondeur de 20
       cm. Les tiges sont enfoncées dans la paroi transversale du trou afin de
       mesurer un sol non perturbé. La terre retirée est ensuite replacée
       au-dessus du capteur.
+
   - type: graphiqueTempsReel
     legende: Données recueillies par les capteurs d'humidité du sol au site des
       bouleaux à papier sous exclusion de pluie (EXP) et témoin (CTRL) au cours
