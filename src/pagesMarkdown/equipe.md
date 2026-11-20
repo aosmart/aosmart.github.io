@@ -26,7 +26,7 @@ Sections:
       - Modélisation mécaniste des processus écologiques
       - Dendroécologie
       - Dendroclimatologie
-    photo: images/equipe/fabio.jpeg
+    photo: /images/equipe/fabio.jpeg
 
   - type: sous-titre
     sous-titre: Direction scientifique - Écophysiologie des arbres
@@ -57,7 +57,7 @@ Sections:
       - Construction et mise en place de structures
       - Transport et acheminement du matériel nécessaire aux installations 
       - Soutien logistique aux opérations de terrain
-    photo: images/equipe/louisphilippe.jpeg
+    photo: /images/equipe/louisphilippe.jpeg
 
   - type: membreEquipe
     nom: Simon Filiatrault
@@ -77,7 +77,7 @@ Sections:
       - Récolte et nettoyage des données
       - Analyse de données
       - Maintenance du réseau informatique
-    photo: images/equipe/marcandre.jpeg
+    photo: /images/equipe/marcandre.jpeg
 
   - type: sous-titre
     sous-titre: Étudiantes, étudiants et stagiaires postdoctoraux
@@ -98,7 +98,7 @@ Sections:
       - Xylogénèse
       - Physiologie
       - Modélisation
-    photo: images/equipe/lucie.jpeg
+    photo: /images/equipe/lucie.jpeg
 
   - type: membreEquipe
     nom: Elena Barocci
@@ -107,7 +107,7 @@ Sections:
       - Installation et configuration de capteurs
       - Maintenance et suivi du fonctionnement des capteurs
       - Récolte et nettoyage des données
-    photo: images/equipe/elena.jpeg
+    photo: /images/equipe/elena.jpeg
 
   - type: membreEquipe
     nom: Annabelle Gagnon Hanlan
@@ -125,7 +125,7 @@ Sections:
       - Traitement et analyse en laboratoire des échantillons
       - Analyse des sucres produits par les arbres
       - Rédaction d'un mémoire sur l'effet de la sécheresse sur l'allocation des sucres
-    photo: images/equipe/victor.jpeg
+    photo: /images/equipe/victor.jpeg
 
   - type: membreEquipe
     nom: Antoine Harel
@@ -135,7 +135,7 @@ Sections:
       - Flux de carbone
       - Covariance des turbulences
       - Mise en place et entretien des équipements
-    photo: images/equipe/antoine.jpeg
+    photo: /images/equipe/antoine.jpeg
 
   - type: membreEquipe
     nom: Julie-Pascale Labrecque-Foy
@@ -144,7 +144,7 @@ Sections:
       - Analyse dendrochronologique des arbres du dispositif de sécheresse
       - Prise de mesures dendrométriques
       - Soutien à la logistique de terrain
-    photo: images/equipe/juliepascale.jpeg
+    photo: /images/equipe/juliepascale.jpeg
 
   - type: membreEquipe
     nom: Annie-Claude Malenfant
@@ -153,7 +153,7 @@ Sections:
       - Installation et entretien des capteurs
       - Récolte des données
       - Soutien à la logistique de terrain
-    photo: images/equipe/annieclaude.jpeg
+    photo: /images/equipe/annieclaude.jpeg
 
   - type: membreEquipe
     nom: Gideon Olugbadieye
@@ -163,7 +163,7 @@ Sections:
       - Isotopes stables des cernes de croissance et de l'eau
       - Dendroécologie
       - Télédétection par imagerie thermique infrarouge
-    photo: images/equipe/gideon.jpeg
+    photo: /images/equipe/gideon.jpeg
 
   - type: membreEquipe
     nom: Javier Ruiz
@@ -172,7 +172,7 @@ Sections:
       - Conception des interfaces web
       - Automatisation de la récolte de données
       - Mise en place de l'infrastructure technologique
-    photo: images/equipe/javier.jpeg
+    photo: /images/equipe/javier.jpeg
 
 
   - type: membreEquipe
