@@ -1,39 +1,5 @@
 {
-  "datasets": [
-    {
-      "label": "EXP",
-      "borderColor": "green",
-      "backgroundColor": "green",
-      "data": [
-        {
-          "x": "2026-11-13T12:50:00-05:00",
-          "y": 0.437
-        }
-      ]
-    },
-    {
-      "label": "",
-      "borderColor": "green",
-      "backgroundColor": "green",
-      "data": [
-        {
-          "x": "2026-11-13T12:50:00-05:00",
-          "y": 0.408
-        }
-      ]
-    },
-    {
-      "label": "CTRL",
-      "borderColor": "brown",
-      "backgroundColor": "brown",
-      "data": [
-        {
-          "x": "2026-11-13T12:50:00-05:00",
-          "y": 0.413
-        }
-      ]
-    }
-  ],
+  "datasets": [],
   "y": {
     "title": {
       "display": true,
