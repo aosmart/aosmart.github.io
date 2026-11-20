@@ -55,7 +55,7 @@ Sections:
       et de l'humidité de l'air.
     fichier: /graphData/atmospheric_pressure.json
   - type: graphiqueTempsReel
-    legende: J'aime les patates froides, merci.
+    legende: Données du capteur de particules fines
     fichier: /graphData/particules.json
   - type: sous-titre
     sous-titre: Description des capteurs
