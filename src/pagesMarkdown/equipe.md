@@ -39,12 +39,13 @@ Sections:
       - Écophysiologie
 
   - type: membreEquipe
-    nom: Annie DesRochers
-    sous-texte: Professeure, Université du Québec en Abitibi-Témiscamingue
+    nom: Annie DesRochers, ing.f., biol.
+    sous-texte: Professeure titulaire, Université du Québec en Abitibi-Témiscamingue
     description: |+
-      - Sylviculture
-      - Foresterie
-      - Liens racinaires
+      - Sylviculture intensive
+      - Biologie des arbres
+      - Écologie forestière
+    photo: /images/equipe/annie.jpeg
 
   - type: sous-titre
     sous-titre: Personnel technique
