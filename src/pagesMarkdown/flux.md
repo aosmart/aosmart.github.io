@@ -70,7 +70,7 @@ Sections:
       mais inférieure à d'autres moments (par exemple, lors d'une nuit chaude).
 
   - type: imageLegende
-    image: /images/tour/20250613110406.jpg
+    image: /images/tour/tour_base.jpeg
     legende: Une tour téléscopique sert d'ancrage pour installer des instruments
       météorologiques et de mesure des flux écosystémiques en hauteur. Tout en
       haut de la tour trône l'IRGASON, l'instrument de mesure principal des flux
@@ -106,6 +106,7 @@ Sections:
       bien mesurer les flux écosystémiques, l'instrument est installé à une
       hauteur de 21 mètres, soit environ une fois et demie la hauteur des arbres
       les plus grands.
+
   - type: doubleImageLegende
     image1: /images/capteurs/irgason_1.jpg
     alt1: Vue rapprochée de l'IRGASON
@@ -119,6 +120,7 @@ Sections:
       prise alors que la tour téléscopique était en position horizontale pour
       pouvoir y installer les équipements. Lorsqu'il est en fonction, l'IRGASON
       est situé à 21 mètres au-dessus du sol.
+
   - type: sous-titre
     sous-titre: Caractérisation du profil de la colonne d'air
   - type: paragraphe
