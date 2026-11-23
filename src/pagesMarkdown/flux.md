@@ -143,16 +143,16 @@ Sections:
     image1: /images/capteurs/intake_ap200.jpg
     alt1: Entrée d'air du système AP200.
     legende1: "Le système AP200 comprend 8 entrées d'air permettant
-    d'échantillonner l'air à différentes hauteurs le long de la tour. Une pompe
-    située dans un boîtier à la base de la tour amène l'air depuis ces entrées
-    vers les instruments de mesure."
+      d'échantillonner l'air à différentes hauteurs le long de la tour. Une pompe
+      située dans un boîtier à la base de la tour amène l'air depuis ces entrées
+      vers les instruments de mesure."
     image2: /images/capteurs/shield_ap200.jpg
     alt2: Bouclier anti-radiation du système AP200.
     legende2: "Le système AP200 mesure aussi la température de l'air à chaque
-    hauteur à laquelle une entrée d'air est située. Les capteurs de température
-    sont protégés par des boucliers anti-radiation tels que celui sur la photo
-    pour empêcher le rayonnement solaire d'influencer la température qui est
-    mesurée."
+      hauteur à laquelle une entrée d'air est située. Les capteurs de température
+      sont protégés par des boucliers anti-radiation tels que celui sur la photo
+      pour empêcher le rayonnement solaire d'influencer la température qui est
+      mesurée."
 
   - type: paragraphe
     paragraphe: >-
