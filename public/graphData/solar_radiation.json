@@ -1,7 +1,7 @@
 {
   "datasets": [
     {
-      "label": "Radiation solaire",
+      "label": "Rayonnement solaire",
       "data": [
         {
           "x": "2026-11-16T12:30:00-05:00",
@@ -1185,7 +1185,7 @@
   "y": {
     "title": {
       "display": true,
-      "text": "W\u00b7m\u207b\u00b2"
+      "text": "Irradiation solaire (W/m\u00b2)"
     }
   }
 }
