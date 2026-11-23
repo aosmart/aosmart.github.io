@@ -22,7 +22,7 @@ Sections:
       Les arbres et autres plantes prélèvent le CO<sub>2</sub> par leurs
       feuilles et s'en servent, conjointement avec l'eau et la lumière du
       soleil, pour incorporer les atomes de carbone dans des sucres qui servent
-      de base pour tout le reste : bois, racines, fonctionnement énergétique,
+      de base pour tout le reste : bois, racines, métabolisme,
       etc. Les produits qui découlent de ces sucres sont consommés par les
       plantes elles-même et d'autres organismes qui utilisent l'oxygène de l'air
       pour produire de l'énergie et du CO<sub>2</sub>. Ce retour des atomes
@@ -46,7 +46,7 @@ Sections:
       afin d'y installer en hauteur des capteurs météorologiques, mais surtout,
       des instruments de mesure des flux écosystémiques. Derrière le terme «
       flux écosystémique » se cache un concept en réalité assez simple : on veut
-      connaître les échanges nets de carbone et d'eau entre l'écosystème et
+      connaître les échanges de carbone et d'eau entre l'écosystème et
       l'atmosphère. Ces flux nous permettent de répondre, par exemple, aux
       questions suivantes :
 
@@ -56,11 +56,9 @@ Sections:
       - Combien de CO<sub>2</sub> est relâché par respiration par
       l'écosystème?
 
-      - Quelle quantité d'eau est transpirée sous forme de vapeur par
-      l'écosystème?
+      - Quelle quantité d'eau est transpirée sous forme de vapeur?
 
-      - Quelle quantité d'énergie est échangée (sous forme de rayonnement ou de
-      chaleur) entre l'écosystème et l'atmosphère?
+      - Quelle quantité d'énergie est échangée entre l'écosystème et l'atmosphère?
 
 
       Ces flux peuvent être étudiés à une fine échelle temporelle, dans notre
@@ -98,7 +96,7 @@ Sections:
 
 
       Au site d'étude de la forêt connectée, ces mesures sont réalisées par un
-      appareil appelé IRGASON. Cet appareil couple un anémomètre à ultrasons à
+      appareil appelé [IRGASON](https://www.campbellsci.ca/irgason). Cet appareil couple un anémomètre à ultrasons à
       un analyseur de gaz infrarouge. L'anémomètre à ultrasons mesure la vitesse
       du vent en trois dimensions alors que l'analyseur de gaz détermine la
       concentration de CO<sub>2</sub> et de vapeur d'eau selon la quantité
@@ -132,7 +130,7 @@ Sections:
       pourraient ne pas être détectés par l'IRGASON situé au sommet de la tour.
 
 
-      Pour ce faire, un système appelé AP200 est installé sur la tour
+      Pour ce faire, un système appelé [AP200](https://www.campbellsci.ca/ap200) est installé sur la tour
       téléscopique. Ce système comprend huit capteurs de température de l'air et
       huit entrées d'air installées à différentes hauteurs afin de caractériser
       la colonne d'air. L'air est pompé à partir de chacune de ces entrées d'air
@@ -140,6 +138,24 @@ Sections:
       de CO<sub>2</sub> et de vapeur d'eau au moyen d'un analyseur de gaz
       infrarouge.
 
+
+  - type: doubleImageLegende
+    image1: /images/capteurs/intake_ap200.jpg
+    alt1: Entrée d'air du système AP200.
+    legende1: "Le système AP200 comprend 8 entrées d'air permettant
+    d'échantillonner l'air à différentes hauteurs le long de la tour. Une pompe
+    située dans un boîtier à la base de la tour amène l'air depuis ces entrées
+    vers les instruments de mesure."
+    image2: /images/capteurs/shield_ap200.jpg
+    alt2: Bouclier anti-radiation du système AP200.
+    legende2: "Le système AP200 mesure aussi la température de l'air à chaque
+    hauteur à laquelle une entrée d'air est située. Les capteurs de température
+    sont protégés par des boucliers anti-radiation tels que celui sur la photo
+    pour empêcher le rayonnement solaire d'influencer la température qui est
+    mesurée."
+
+  - type: paragraphe
+    paragraphe: >-
 
       Selon l'heure à laquelle vous regardez les données ci-bas, vous pourriez
       voir comment différents phénomènes affectent les propriétés de la colonne
@@ -151,12 +167,15 @@ Sections:
       moindre des vents nocturnes ne mélange pas aussi bien les couches d'air.
       On observe ainsi habituellement un gradient clair avec une concentration
       de CO<sub>2</sub> plus élevée près du sol et décroissante à mesure que
-      l'on monte le long de la colonne d'air.
+      l'on monte le long de la colonne d'air. Pendant l'hiver (de novembre à avril),
+      le système AP200 est éteint et vous ne verrez alors pas les données s'afficher.
+
   - type: graphiqueTempsReel
     legende: Représentation des données les plus récentes acquises par le système
       AP200 à huit hauteurs différentes le long de la tour téléscopique. On y
       voit la température moyenne de l'air au cours des 30 dernières minutes, la
       concentration moyenne en CO<sub>2</sub> (parties par million), et
-      en vapeur d'eau (parties par millier).
+      en vapeur d'eau (parties par millier). Entre novembre et avril, les données
+      ne s'affichent pas car le système est éteint.
     fichier: /graphData/ap200.json
 ---
