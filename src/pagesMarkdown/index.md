@@ -90,9 +90,9 @@ Sections:
 
       - 40 dendromètres mesurant la croissance des arbres
       - 18 capteurs de flux de sève des arbres
-      - 25 capteurs d'humidité du sol
+      - 33 capteurs d'humidité du sol
       - Plus de 20 capteurs météorologiques divers
-      - 250 m2 de superficie soumise à l'expérience d'exclusion de pluie
+      - 250 m² de superficie soumise à l'expérience d'exclusion de pluie
       - 230 m de câble Ethernet
       - Plus de 2000 W de puissance solaire
 
@@ -107,7 +107,7 @@ Sections:
     paragraphe: Ce projet est possible grâce à la collaboration de la [MRC
       d'Abitibi-Ouest](https://www.mrcao.qc.ca) et la [Direction de la recherche
       forestière](https://mffp.gouv.qc.ca/publications/enligne/forets/activites-recherche/recherche/index.asp)
-      du Ministère des ressources naturelles et de la forêt. De plus, ce projet
+      du Ministère des Ressources naturelles et des Forêts. De plus, ce projet
       bénéficie du soutien financier du [Conseil de recherches en sciences
       naturelles et en génie du Canada](https://nserc-crsng.canada.ca/fr).
   - type: htmlBlock
