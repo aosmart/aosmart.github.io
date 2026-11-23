@@ -1185,7 +1185,7 @@
   "y": {
     "title": {
       "display": true,
-      "text": "\u00b0C"
+      "text": "Temp\u00e9rature (\u00b0C)"
     }
   }
 }
