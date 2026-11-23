@@ -132,7 +132,7 @@ Sections:
           <tr>
             <td>Sonde <a href="https://www.campbellsci.ca/tcav-l">TCAV</a></td>
             <td>3</td>
-            <td>Température moyenne de profil de sol</td>
+            <td>Température moyenne du profil de sol</td>
           </tr>
 
           <tr>
