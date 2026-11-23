@@ -37,6 +37,7 @@ Sections:
       - Phénologie
       - Anatomie du bois
       - Écophysiologie
+      - Biostatistiques
 
   - type: membreEquipe
     nom: Annie DesRochers, ing.f., biol.
@@ -69,6 +70,7 @@ Sections:
       - Opération et entretien d'équipement lourds
       - Mise en place de la structure des toits d'exclusion de pluie
       - Logistique de terrain
+      - Planification et opération de vols de drone
 
   - type: membreEquipe
     nom: Marc-André Lemay
@@ -85,11 +87,12 @@ Sections:
 
   - type: membreEquipe
     nom: Margot Arnaud
-    sous-texte: Stagiaire de master
+    sous-texte: Étudiante à la maîtrise, Université de Montpellier
     description: |+
-      - A
-      - B
-      - C
+      - Phénologie de la xylogénèse (production de cellules de bois)
+      - Prises d'échantillons de microcarottes sur les arbres
+      - Traitement et analyse des échantillon en laboratoire
+      - Mise en place du dispositif d'exclusion de pluie
 
   - type: membreEquipe
     nom: Lucie Barbier
@@ -124,7 +127,6 @@ Sections:
     description: |+
       - Collecte d'échantillons de cambium, branches et feuilles d'arbres
       - Traitement et analyse en laboratoire des échantillons
-      - Analyse des sucres produits par les arbres
       - Rédaction d'un mémoire sur l'effet de la sécheresse sur l'allocation des sucres
     photo: /images/equipe/victor.jpeg
 
@@ -180,8 +182,8 @@ Sections:
     nom: Jeanny Thivierge-Lampron
     sous-texte: Étudiante à la maîtrise, Université du Québec en Abitibi-Témiscamingue
     description: |+
-      - A
-      - B
-      - C
+      - Analyse de données de dendromètres
+      - Effets de la sécheresse sur le statut hydrique des arbres
+      - Automatisation de la prise de mesures
 
 ---
