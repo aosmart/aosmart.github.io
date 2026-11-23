@@ -11,7 +11,7 @@ Sections:
       plus fréquentes et intenses dans la forêt boréale. Mais quels seront les
       impacts de ces sécheresses sur la croissance et le fonctionnement des
       arbres? Disposent-ils de mécanismes leur permettant de s'adapter et de
-      croître malgré la sécheresse, où vont-ils dépérir?
+      croître malgré la sécheresse, ou vont-ils dépérir?
 
 
       Ces questions sont cruciales pour les utilisateurs de la forêt et pour
@@ -87,11 +87,14 @@ Sections:
       capteurs de la forêt connectée au fil du temps. Le jour, le diamètre des
       arbres diminue généralement parce que l'eau contenue dans leur tronc se
       déplace vers les feuilles pour être transpirée par de petites ouvertures
-      appelées stomates. Ces ouvertures font entrer dans les feuilles le dioxyde
-      de carbone nécessaire à la phytosynthèse, mais laissent en contrepartie
-      s'échapper l'eau puisée dans les racines. La nuit, alors que les stomates
-      sont fermés, l'arbre peut refaire ses réserves d'eau et le diamètre de son
-      tronc augmente à nouveau.
+      appelées stomates. Ces ouvertures font entrer dans les feuilles le
+      dioxyde de carbone nécessaire à la phytosynthèse, mais laissent en
+      contrepartie s'échapper l'eau puisée dans les racines. La nuit, alors que
+      les stomates sont fermés, l'arbre peut refaire ses réserves d'eau et le
+      diamètre de son tronc augmente à nouveau. Si vous regardez ces graphiques
+      pendant l'hiver, il est probable que vous ne verrez pas cette dynamique
+      quotidienne : les arbres sont alors en dormance et les principaux
+      facteurs influençant leur diamètre sont le gel et le dégel.
 
   - type: graphiqueTempsReel
     legende: Données enregistrées par les dendromètres installés sur les bouleaux à
@@ -101,14 +104,19 @@ Sections:
       qu'ils n'en obtiennent par leurs racines, et leur tronc se contracte.
       Malgré le cycle journalier de contraction et de dilatation du tronc, le
       diamètre des arbres a tendance à augmenter au fil du temps en raison de
-      leur croissance.
+      leur croissance. Dans ce graphique, ce sont les variations à court terme
+      qu'il faut regarder et non pas les valeurs absolues de diamètre. En effet,
+      les dendromètres ne mesurent que la contraction du piston et non pas le
+      diamètre total de l'arbre.
     fichier: /graphData/dendrometers_BOP.json
 
   - type: graphiqueTempsReel
     legende: Données enregistrées par les dendromètres installés sur les épinettes
       noires au cours de la dernière semaine. Les patrons observés sont
       généralement similaires à ceux pour le bouleau à papier, mais les
-      épinettes ont tendance à croître moins rapidement.
+      épinettes ont tendance à croître moins rapidement. Ici aussi, ce sont les
+      variations au fil du temps que l'on doit regarder et non pas les valeurs
+      absolues de diamètre.
     fichier: /graphData/dendrometers_EPN.json
 
   - type: paragraphe
@@ -168,7 +176,7 @@ Sections:
       lui-même, et non pas aux conditions météorologiques extérieures.
 
   - type: paragraphe
-    paragraphe: Les données provenant des capteurs de flux de sève sont mesurées par
+    paragraphe: Les données provenant des capteurs de flux de sève sont mesurées à toutes les dix minutes par
       les enregistreurs de données selon leur différence de potentiel électrique
       en millivolts (mV). Des calculs complexes sont requis pour transformer
       cette différence de potentiel en densité de flux de sève (en quantité
@@ -177,14 +185,26 @@ Sections:
       sève relatif de l'arbre. Une différence de potentiel plus basse indique un
       flux de sève plus élevé, et vice versa.
 
-  - type: graphiqueTempsReel
-    legende: Données issues des capteurs de flux de sève des bouleaux à papier au
-      cours de la dernière semaine. Au cours de la nuit, la transpiration des
+  - type: paragraphe
+    paragraphe: Dans les graphiques ci-bas, vous pourrez peut-être déceler comment
+      le flux de sève des arbres change avec les conditions
+      météorologiques. Par exemple, au cours de la nuit, la transpiration des
       arbres est à son plus bas et la différence de potentiel mesurée par les
       capteurs est maximale. Lors de journées chaudes et sèches, les arbres
       transpirent abondamment et la différence de potentiel mesurée est
       minimale. Lors de journées pluvieuses, les valeurs mesurées sont également
-      élevées puisque les arbres transpirent très peu.
+      élevées puisque les arbres transpirent très peu. Dans le cas des bouleaux, il
+      se peut que les valeurs aient l'air de se comporter de façon aléatoire tôt au printemps
+      et au début de l'automne ; c'est que les arbres n'ont pas leurs feuilles et la
+      sève ne circule alors pas dans le tronc. Pendant l'hiver, les aiguilles chauffantes
+      des capteurs de flux de sève sont éteintes car la quantité de rayonnement
+      reçue par les panneaux solaires ne permet pas de les alimenter. Vous ne verrez
+      alors pas de données dans ces graphiques pendant la saison hivernale.
+
+
+  - type: graphiqueTempsReel
+    legende: Données issues des capteurs de flux de sève des bouleaux à papier au
+      cours de la dernière semaine.
     fichier: /graphData/sapflows_BOP.json
 
   - type: graphiqueTempsReel
@@ -221,15 +241,25 @@ Sections:
       mesurer un sol non perturbé. La terre retirée est ensuite replacée
       au-dessus du capteur.
 
+  - type: paragraphe
+    paragraphe: "Les graphiques ci-bas permettent de voir le contenu en eau du sol
+    dans les parcelles expérimentales (sécheresse) et témoin des bouleaux à papier
+    et des épinettes. De manière générale, on peut voir que les données en provenance
+    des parcelles expérimentales ne présentent pas les pics d'augmentation d'humidité
+    du sol suite à un événement de pluie puisque l'eau est bloquée par les toits.
+    Malgré tout, il peut arriver que l'eau s'infilte dans les parcelles d'exclusion
+    de pluie latéralement par ruissellement lors de fortes pluies. Des
+    tranchées qui ont été creusées le tour des toits limitent toutefois ce phénomène."
+
+
   - type: graphiqueTempsReel
     legende: Données recueillies par les capteurs d'humidité du sol au site des
-      bouleaux à papier sous exclusion de pluie (EXP) et témoin (CTRL) au cours
-      de la dernière semaine. La pluie produit des pics d'humidité du sol dans
-      les parcelles témoins, mais pas dans les parcelles expérimentales.
+      bouleaux à papier sous exclusion de pluie et témoins au cours
+      de la dernière semaine.
     fichier: /graphData/soilmoisture_BOP.json
   - type: graphiqueTempsReel
     legende: Données recueillies par les capteurs d'humidité du sol au site des
-      épinettes noires sous exclusion de pluie (EXP) et témoin (CTRL) au cours
+      épinettes noires sous exclusion de pluie et témoins au cours
       de la dernière semaine.
     fichier: /graphData/soilmoisture_EPN.json
 ---
