@@ -3,9 +3,7 @@ Sections:
 
   - type: titre
     titre: Galerie de photos
-    sous-texte: "Vous trouverez ici des photos qui vous permettront d'en
-    apprendre davantage sur le fonctionnement de la forêt connectée. Cliquez dessus
-    pour agrandir et obtenir davantage d'explications."
+    sous-texte: "Vous trouverez ici des photos qui vous permettront d'en apprendre davantage sur le fonctionnement de la forêt connectée. Cliquez dessus pour agrandir et obtenir davantage d'explications."
 
   - type: gallerie_imageLegende
     image: /images/tour/drone_tour2.jpg
