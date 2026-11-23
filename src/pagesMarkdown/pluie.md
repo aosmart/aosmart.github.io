@@ -242,14 +242,14 @@ Sections:
       au-dessus du capteur.
 
   - type: paragraphe
-    paragraphe: Les graphiques ci-bas permettent de voir le contenu en eau du sol
-    dans les parcelles expérimentales (sécheresse) et témoin des bouleaux à papier
-    et des épinettes. De manière générale, on peut voir que les données en provenance
-    des parcelles expérimentales ne présentent pas les pics d'augmentation d'humidité
-    du sol suite à un événement de pluie puisque l'eau est bloquée par les toits.
-    Malgré tout, il peut arriver que l'eau s'infilte dans les parcelles d'exclusion
-    de pluie latéralement par ruissellement lors de fortes pluies. Des
-    tranchées qui ont été creusées le tour des toits limitent toutefois ce phénomène.
+    paragraphe: "Les graphiques ci-bas permettent de voir le contenu en eau du sol
+      dans les parcelles expérimentales (sécheresse) et témoin des bouleaux à papier
+      et des épinettes. De manière générale, on peut voir que les données en provenance
+      des parcelles expérimentales ne présentent pas les pics d'augmentation d'humidité
+      du sol suite à un événement de pluie puisque l'eau est bloquée par les toits.
+      Malgré tout, il peut arriver que l'eau s'infilte dans les parcelles d'exclusion
+      de pluie latéralement par ruissellement lors de fortes pluies. Des
+      tranchées qui ont été creusées le tour des toits limitent toutefois ce phénomène."
 
 
   - type: graphiqueTempsReel
