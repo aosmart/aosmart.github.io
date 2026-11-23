@@ -6,12 +6,12 @@ Sections:
       collaboration avec la MRC d'Abitibi-Ouest et le Ministère des ressources
       naturelles et des forêts
 
-  - type: imageLegende
-    image: /images/tour/drone_tour1.jpg
+  - type: videoLegende
+    video: "/videos/tour/drone_video.mp4"
     legende: Une tour téléscopique sur laquelle sont installés des capteurs
       météorologiques et de mesure des flux écosystémiques constitue un des
       éléments clés de la forêt connectée d'Abitibi-Ouest.
-    alt: Vue de la tour à flux prise à partir d'un drone
+    alt: Vidéo de la tour à flux prise à partir d'un drone
 
   - type: sous-titre
     sous-titre: Qu'est-ce qu'une forêt connectée?

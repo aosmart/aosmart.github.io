@@ -3,6 +3,7 @@
 import { marked } from "marked";
 import HeaderAndLink from "../components/mise-en-page/HeaderAndLink.astro";
 import ImageAndCaption from "../components/mise-en-page/ImageAndCaption.astro";
+import VideoAndCaption from "../components/mise-en-page/VideoAndCaption.astro";
 import FancyImageAndCaption from "./mise-en-page/FancyImageAndCaption.astro";
 import Row from "../components/mise-en-page/Row.astro";
 import Chart from "../components/graphiques/Chart.astro";
@@ -40,6 +41,14 @@ const { sections } = Astro.props;
             <img src={section["image"]} alt={section["alt"]} />
           </ImageAndCaption>
         );
+
+      case "videoLegende":
+        return (
+          <VideoAndCaption description={section["legende"]}>
+            <video src={section["video"]} alt={section["alt"]} autoplay loop muted playsinline/>
+          </VideoAndCaption>
+        );
+
       case "doubleImageLegende":
         return (
           <Row>
