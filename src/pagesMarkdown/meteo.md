@@ -14,7 +14,7 @@ Sections:
       installé à 7 mètres au-dessus du niveau du sol mesure la température de
       l'air.
     fichier1: /graphData/air_temperature.json
-    legende2: Un pluviomètre [TE525MM](https://www.campbellsci.com/products/te525mm)
+    legende2: Un pluviomètre [TE525MM](https://www.campbellsci.com/te525mm)
       mesure la quantité de pluie tombant au site d'étude. Cet instrument est
       muni d'un entonnoir qui recueille l'eau et la redirige vers un système
       d'auget basculant. À chaque fois qu'une hauteur de pluie de 0,1 mm a été
@@ -40,30 +40,26 @@ Sections:
       au site d'étude. Ce graphique montre le rayonnement solaire entrant dans
       le domaine des longueurs d'onde courtes, soit les rayons UV, la lumière
       visible et le proche infrarouge. Des valeurs autour de 1000 watts par
-      mètre carré correspondent à des conditions ensoleillées.
+      mètre carré correspondent à des conditions ensoleillées en plein été.
     fichier1: /graphData/solar_radiation.json
-    legende2: Un capteur [SnowVUE10](https://www.campbellsci.ca/snowvue10) mesure
-      l'épaisseur du couvert de neige en émettant des ondes sonores et en
-      calculant le temps que prend le signal à revenir au capteur après avoir
-      été réfléchi par la neige. Ce capteur est installé à une hauteur de 2,15
-      mètres et pointe directement vers le sol.
-    fichier2: /graphData/snow_height.json
-  - type: graphiqueTempsReel
-    legende: Un baromètre intégré à l'instrument IRGASON mesure la pression
+    legende2: Un baromètre intégré à l'instrument IRGASON mesure la pression
       atmosphérique. Cette pression correspond à la force exercée par la colonne
       d'air de l'atmosphère et varie entre autres en fonction de la température
       et de l'humidité de l'air.
-    fichier: /graphData/atmospheric_pressure.json
+    fichier2: /graphData/atmospheric_pressure.json
+
   - type: sous-titre
-    sous-titre: Description des capteurs
+    sous-titre: Liste des capteurs
+
   - type: paragraphe
     paragraphe: "Plus d'une dizaine de capteurs ont été installés au site de la
       forêt connectée pour mesurer des données non seulement sur la température
-      et les précipitations, mais aussi sur la vitesse du vent et les radiations
-      solaires :"
+      et les précipitations, mais aussi sur la vitesse du vent, les rayonnement solaire,
+      et les échanges d'énergie au niveau du sol :"
   - type: htmlBlock
     htmlBlock: |-
       <table class="styled-table">
+
         <thead>
           <tr>
             <th>Équipement</th>
@@ -71,42 +67,80 @@ Sections:
             <th>Variable mesurée</th>
           </tr>
         </thead>
+
         <tbody>
           <tr>
-            <td>Capteur HygroVue 10</td>
+            <td>Capteur <a href="https://www.campbellsci.ca/hygrovue10">HygroVue 10</a></td>
             <td>1</td>
             <td>Température et humidité de l'air</td>
           </tr>
+
           <tr>
-            <td>Pluviomètre TE525MM</td>
-            <td>1</td>
-            <td>Précipitations</td>
-          </tr>
-          <tr>
-            <td>Anémomètre à ultrasons (IRGASON)</td>
-            <td>1</td>
-            <td>Vitesse et direction du vent</td>
-          </tr>
-          <tr>
-            <td>Baromètre (IRGASON)</td>
-            <td>1</td>
-            <td>Pression atmosphérique</td>
-          </tr>
-          <tr>
-            <td>Radiomètre NR01</td>
-            <td>1</td>
-            <td>Rayonnement entrant et sortant</td>
-          </tr>
-          <tr>
-            <td>Sonde 109</td>
+            <td><a href="https://www.campbellsci.ca/109-l">Sonde 109</a></td>
             <td>8</td>
             <td>Profil de température de l'air</td>
           </tr>
+
           <tr>
-            <td>Capteur SnowVue 10</td>
+            <td><a href="https://www.campbellsci.ca/te525m-l">Pluviomètre TE525MM</a></td>
             <td>1</td>
-            <td>Hauteur de la neige</td>
+            <td>Précipitations</td>
           </tr>
+
+          <tr>
+            <td>Anémomètre à ultrasons (<a href= "https://www.campbellsci.ca/irgason">IRGASON</a>)</td>
+            <td>1</td>
+            <td>Vitesse et direction du vent</td>
+          </tr>
+
+          <tr>
+            <td>Baromètre (<a href= "https://www.campbellsci.ca/irgason">IRGASON</a>)</td>
+            <td>1</td>
+            <td>Pression atmosphérique</td>
+          </tr>
+
+          <tr>
+            <td><a href="https://www.campbellsci.ca/nr01"> Radiomètre NR01</a></td>
+            <td>1</td>
+            <td>Rayonnement entrant et sortant</td>
+          </tr>
+
+          <tr>
+            <td>Capteur de rayonnement <a href="https://www.campbellsci.ca/cs310">CS310</a></td>
+            <td>1</td>
+            <td>Rayonnement photosynthétiquement actif</td>
+          </tr>
+
+          <tr>
+            <td>Radiomètre infrarouge <a href="https://www.campbellsci.ca/si-111ss">SI-111SS</a></td>
+            <td>1</td>
+            <td>Température du feuillage</td>
+          </tr>
+
+          <tr>
+            <td>Humidimètre <a href="https://www.campbellsci.ca/cs655">CS655</a></td>
+            <td>3</td>
+            <td>Humidité et température du sol (hors expérience d'exclusion de pluie)</td>
+          </tr>
+
+          <tr>
+            <td>Fluxmètre <a href="https://www.campbellsci.ca/hfp01-l">HFP01</a></td>
+            <td>3</td>
+            <td>Flux de chaleur dans le sol</td>
+          </tr>
+
+          <tr>
+            <td>Sonde <a href="https://www.campbellsci.ca/tcav-l">TCAV</a></td>
+            <td>3</td>
+            <td>Température moyenne de profil de sol</td>
+          </tr>
+
+          <tr>
+            <td>Capteur <a href="https://www.campbellsci.ca/snowvue10">SnowVue 10</a></td>
+            <td>1</td>
+            <td>Profondeur du couvert de neige</td>
+          </tr>
+
         </tbody>
       </table>
 ---
