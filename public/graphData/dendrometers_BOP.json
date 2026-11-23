@@ -1,7 +1,7 @@
 {
   "datasets": [
     {
-      "label": "EXP",
+      "label": "S\u00e9cheresse",
       "borderColor": "green",
       "backgroundColor": "green",
       "data": [
@@ -6796,9 +6796,9 @@
       ]
     },
     {
-      "label": "CTRL",
-      "borderColor": "brown",
-      "backgroundColor": "brown",
+      "label": "T\u00e9moin",
+      "borderColor": "blue",
+      "backgroundColor": "blue",
       "data": [
         {
           "x": "2026-11-16T12:30:00-05:00",
@@ -8156,8 +8156,8 @@
     },
     {
       "label": "",
-      "borderColor": "brown",
-      "backgroundColor": "brown",
+      "borderColor": "blue",
+      "backgroundColor": "blue",
       "data": [
         {
           "x": "2026-11-16T12:30:00-05:00",
@@ -9515,8 +9515,8 @@
     },
     {
       "label": "",
-      "borderColor": "brown",
-      "backgroundColor": "brown",
+      "borderColor": "blue",
+      "backgroundColor": "blue",
       "data": [
         {
           "x": "2026-11-16T12:30:00-05:00",
@@ -10874,8 +10874,8 @@
     },
     {
       "label": "",
-      "borderColor": "brown",
-      "backgroundColor": "brown",
+      "borderColor": "blue",
+      "backgroundColor": "blue",
       "data": [
         {
           "x": "2026-11-16T12:30:00-05:00",
@@ -12233,8 +12233,8 @@
     },
     {
       "label": "",
-      "borderColor": "brown",
-      "backgroundColor": "brown",
+      "borderColor": "blue",
+      "backgroundColor": "blue",
       "data": [
         {
           "x": "2026-11-16T12:30:00-05:00",
@@ -13592,8 +13592,8 @@
     },
     {
       "label": "",
-      "borderColor": "brown",
-      "backgroundColor": "brown",
+      "borderColor": "blue",
+      "backgroundColor": "blue",
       "data": [
         {
           "x": "2026-11-16T12:30:00-05:00",
@@ -14951,8 +14951,8 @@
     },
     {
       "label": "",
-      "borderColor": "brown",
-      "backgroundColor": "brown",
+      "borderColor": "blue",
+      "backgroundColor": "blue",
       "data": [
         {
           "x": "2026-11-16T12:30:00-05:00",
@@ -16310,8 +16310,8 @@
     },
     {
       "label": "",
-      "borderColor": "brown",
-      "backgroundColor": "brown",
+      "borderColor": "blue",
+      "backgroundColor": "blue",
       "data": [
         {
           "x": "2026-11-16T12:30:00-05:00",
@@ -17669,8 +17669,8 @@
     },
     {
       "label": "",
-      "borderColor": "brown",
-      "backgroundColor": "brown",
+      "borderColor": "blue",
+      "backgroundColor": "blue",
       "data": [
         {
           "x": "2026-11-16T12:30:00-05:00",
@@ -19028,8 +19028,8 @@
     },
     {
       "label": "",
-      "borderColor": "brown",
-      "backgroundColor": "brown",
+      "borderColor": "blue",
+      "backgroundColor": "blue",
       "data": [
         {
           "x": "2026-11-16T12:30:00-05:00",
@@ -20387,8 +20387,8 @@
     },
     {
       "label": "",
-      "borderColor": "brown",
-      "backgroundColor": "brown",
+      "borderColor": "blue",
+      "backgroundColor": "blue",
       "data": [
         {
           "x": "2026-11-16T12:30:00-05:00",
@@ -21748,7 +21748,7 @@
   "y": {
     "title": {
       "display": true,
-      "text": "diam\u00e8tre relatif (mm)"
+      "text": "Diam\u00e8tre relatif (mm)"
     }
   }
 }
