@@ -1185,7 +1185,7 @@
   "y": {
     "title": {
       "display": true,
-      "text": "cm"
+      "text": "Profondeur du couvert de neige (m)"
     }
   }
 }
