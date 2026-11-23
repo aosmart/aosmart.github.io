@@ -1185,7 +1185,7 @@
   "y": {
     "title": {
       "display": true,
-      "text": "\u00b0"
+      "text": "Provenance du vent (degr\u00e9s, 0 = nord, 90 = est)"
     }
   }
 }
