@@ -5,7 +5,7 @@ Sections:
     sous-texte:
       L'installation du dispositif de la forêt connectée et l'analyse des
       données sont rendues possibles par la collaboration d'une équipe
-      professionnelle et technique aux expertise complémentaires. Vous trouverez
+      professionnelle et technique aux expertises complémentaires. Vous trouverez
       ici la liste des personnes ayant contribué au projet.
   - type: sous-titre
     sous-titre: Direction scientifique - Flux de carbone et forêt connectée
@@ -90,8 +90,8 @@ Sections:
     sous-texte: Étudiante à la maîtrise, Université de Montpellier
     description: |+
       - Phénologie de la xylogénèse (production de cellules de bois)
-      - Prises d'échantillons de microcarottes sur les arbres
-      - Traitement et analyse des échantillon en laboratoire
+      - Prise d'échantillons de microcarottes sur les arbres
+      - Traitement et analyse des échantillons en laboratoire
       - Mise en place du dispositif d'exclusion de pluie
 
   - type: membreEquipe
