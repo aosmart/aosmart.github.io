@@ -48,11 +48,59 @@ Sections:
 
   - type: gallerie_doubleImageLegende
     image1: /images/tour/phenocam_ete.jpg
-    alt1: Vue de la base de la tour téléscopique et des panneaux solaires
+    alt1: Vue de la phénocam en été.
     legende1: "Une caméra installée au sommet de la tour sert à suivre l'état
     de la végétation au fil de l'année."
     image2: /images/tour/phenocam_automne.jpg
-    alt2: Vue des panneaux solaires en hiver
+    alt2: Vue de de la phénocam en hiver.
     legende2: "La caméra au sommet de la tour nous renseigne également sur le
     conditions météorologiques, notamment sur le couvert de neige."
+
+  - type: gallerie_doubleImageLegende
+    image1: /images/capteurs/capteur_particules.jpg
+    alt1: Capteur de particules fines
+    legende1: "Un capteur de particules fines mesure la concentration en particules
+    de différentes tailles afin de déterminer la qualité de l'air."
+    image2: /images/capteurs/dendrometre.jpg
+    alt2: Un dendromètre
+    legende2: "Les dendromètres sont bien fixés sur les arbres au moyen de vis.
+    Seul le piston à ressort est libre de bouger avec les variations de diamètre
+    de l'arbre."
+
+  - type: gallerie_imageLegende
+    image: /images/foret/tranchee.jpg
+    legende: "Des tranchées ont été creusées autour des toits d'exclusion de pluie
+    pour empêcher l'eau d'atteindre les arbres par ruissellement."
+    alt: Tranchée autour d'un toit d'exclusion de pluie.
+
+  - type: gallerie_doubleImageLegende
+    image1: /images/orthophoto/ortho_16sept.jpg
+    alt1: Orthomosaïque du 16 septembre
+    legende1: "Un vol de drone effectué le 16 septembre 2026 a servi à créer
+    une orthophotographie du site d'étude. Ce genre d'analyse permet aussi de
+    modéliser la hauteur des arbres et la topographie du site."
+    image2: /images/orthophoto/ortho_27oct.jpg
+    alt2: Orthomosaïque du 27 octobre
+    legende2: "Un autre vol de drone a été effectué le 27 octobre 2026. La perte
+    des feuilles par les arbres feuillus depuis le 16 septembre est évidente."
+
+  - type: gallerie_imageLegende
+    image: /images/foret/structure_toit.jpg
+    legende: "Des structures en bois ont été mises en place pour construire
+    les toits du dispositif d'exclusion de pluie."
+    alt: Structure d'un toit d'exclusion de pluie.
+
+  - type: gallerie_doubleImageLegende
+    image1: /images/capteurs/boitier_ap200.jpg
+    alt1: Branchements dans le boîtier de l'AP200
+    legende1: "Le boîtier du système AP200 comprend un système de pompe et de
+    tuyauterie servant à mesurer la concentration en dioxyde de carbone et en
+    vapeur d'eau à différentes hauteurs le long de la colonne d'air, en plus de
+    la température de l'air. Ces données sont enregistrés par un enregistreur
+    de données connecté au réseau internet du site."
+    image2: /images/capteurs/boitier_ferld07.jpg
+    alt2: Branchements dans le boîtier de la station FERLD07
+    legende2: "Tous les capteurs retrouvés sur la site de la forêt connectée
+    sont branchés dans des enregistreurs de données qui se chargent de prendre
+    les mesures, les stocker, et les transmettre à une base de données."
 ---
