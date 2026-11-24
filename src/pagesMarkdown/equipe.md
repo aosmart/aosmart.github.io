@@ -71,6 +71,7 @@ Sections:
       - Mise en place de la structure des toits d'exclusion de pluie
       - Logistique de terrain
       - Planification et opération de vols de drone
+    photo: /images/equipe/simon.jpg
 
   - type: membreEquipe
     nom: Marc-André Lemay
