@@ -204,12 +204,15 @@ Sections:
 
   - type: graphiqueTempsReel
     legende: Données issues des capteurs de flux de sève des bouleaux à papier au
-      cours de la dernière semaine.
+      cours de la dernière semaine. Entre novembre et avril, les données ne sont
+      pas enregistrées car les aiguilles chauffantes des capteurs sont éteintes.
     fichier: /graphData/sapflows_BOP.json
 
   - type: graphiqueTempsReel
     legende: Données issues des capteurs de flux de sève des épinettes noires au
-      cours de la dernière semaine.
+      cours de la dernière semaine. Entre novembre et avril, les données ne sont
+      pas enregistrées car les aiguilles chauffantes des capteurs sont éteintes.
+
     fichier: /graphData/sapflows_EPN.json
 
   - type: sous-titre
