@@ -27,7 +27,7 @@ Sections:
       utilisateurs de la forêt, qu'il s'agisse des citoyens habitant la région
       ou de l'industrie forestière. C'est dans cette optique que ce site web a
       été mis sur pied afin de diffuser en temps réel les données acquises à la
-      forêt connecté d'Abitibi-Ouest et les résultats de recherche qui en
+      forêt connectée d'Abitibi-Ouest et les résultats de recherche qui en
       découlent."
 
   - type: imageLegende

@@ -73,7 +73,7 @@ Sections:
   - type: gallerie_doubleImageLegende
     image1: /images/capteurs/boitier_ap200.jpg
     alt1: Branchements dans le boîtier de l'AP200
-    legende1: "Le boîtier du système AP200 comprend un système de pompe et de tuyauterie servant à mesurer la concentration en dioxyde de carbone et en vapeur d'eau à différentes hauteurs le long de la colonne d'air, en plus de la température de l'air. Ces données sont enregistrés par un enregistreur de données connecté au réseau internet du site."
+    legende1: "Le boîtier du système AP200 comprend un système de pompe et de tuyauterie servant à mesurer la concentration en dioxyde de carbone et en vapeur d'eau à différentes hauteurs le long de la colonne d'air, en plus de la température de l'air. Ces données sont enregistrées par un enregistreur de données connecté au réseau internet du site."
     image2: /images/capteurs/boitier_ferld07.jpg
     alt2: Branchements dans le boîtier de la station FERLD07
     legende2: "Tous les capteurs retrouvés sur la site de la forêt connectée sont branchés dans des enregistreurs de données qui se chargent de prendre les mesures, les stocker, et les transmettre à une base de données."
